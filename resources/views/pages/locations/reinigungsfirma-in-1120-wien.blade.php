@@ -43,6 +43,15 @@
         background: #ffffff !important;
         border-color: #d7dce3 !important;
     }
+
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-heading-title,
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-widget-text-editor,
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-widget-text-editor p,
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-widget-text-editor span,
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-widget-text-editor b,
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-widget-text-editor strong {
+        color: #ffffff !important;
+    }
 </style>
 <div data-rocket-location-hash="d69a8e6b9272bf16e4d9e3d35da7a996" data-elementor-type="wp-page" data-elementor-id="1917" class="elementor elementor-1917" data-elementor-post-type="page">
 				<div class="elementor-element elementor-element-fc58b73 e-flex e-con-boxed e-con e-parent" data-id="fc58b73" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_bottom&quot;:&quot;tilt&quot;}">
