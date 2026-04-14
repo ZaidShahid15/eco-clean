@@ -428,13 +428,25 @@
         transform: translateY(-1px);
     }
 
-    .elementor-element-fa04447 {
+    body .elementor[class*="elementor-"] .elementor-element.elementor-element-fa04447,
+    body .elementor[class*="elementor-"] .elementor-element.elementor-element-fa04447:not(.elementor-motion-effects-element-type-background),
+    body .elementor[class*="elementor-"] .elementor-element.elementor-element-fa04447 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
         padding: 28px 22px 24px !important;
         border-radius: 28px !important;
-        background: rgba(255, 255, 255, 0.9) !important;
+        background: #ffffff !important;
+        background-color: #ffffff !important;
         box-shadow: 0 24px 60px rgba(15, 39, 77, 0.22) !important;
         backdrop-filter: blur(18px);
         -webkit-backdrop-filter: blur(18px);
+    }
+
+    body .elementor[class*="elementor-"] .elementor-element.elementor-element-fa04447 .elementor-widget-container,
+    body .elementor[class*="elementor-"] .elementor-element.elementor-element-fa04447 .elementor-shortcode,
+    body .elementor[class*="elementor-"] .elementor-element.elementor-element-fa04447 .fluentform_wrapper_4,
+    body .elementor[class*="elementor-"] .elementor-element.elementor-element-fa04447 form,
+    body .elementor[class*="elementor-"] .elementor-element.elementor-element-fa04447 fieldset {
+        background: transparent !important;
+        background-color: transparent !important;
     }
 
     .elementor-element-fa04447 > .elementor-widget-heading {
@@ -967,7 +979,9 @@
             padding: 20px 22px !important;
         }
 
-        .elementor-element-fa04447 {
+        body .elementor[class*="elementor-"] .elementor-element.elementor-element-fa04447,
+        body .elementor[class*="elementor-"] .elementor-element.elementor-element-fa04447:not(.elementor-motion-effects-element-type-background),
+        body .elementor[class*="elementor-"] .elementor-element.elementor-element-fa04447 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
             padding: 24px 16px 20px !important;
             border-radius: 24px !important;
         }

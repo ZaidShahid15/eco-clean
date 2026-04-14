@@ -6,7 +6,7 @@
 @section('robots', 'index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large')
 @section('og_title', 'Sonderreinigung in Wien und Umgebung – Ihr zuverlässiger Service')
 @section('og_description', 'Entdecken Sie professionellen Sonderreinigungsservice in Wien und Umgebung. Effizient, zuverlässig und auf Ihre Bedürfnisse abgestimmt. Lesen Sie mehr!')
-@section('og_image', '/assets/mirror/eco-clean.at/wp-content/uploads/2023/10/contact-v1-img1.png')
+@section('og_image', '/assets/mirror/eco-clean.at/wp-content/uploads/2023/10/contact-v1-img1-600x562.png')
 
 @section('twitter_title', 'Sonderreinigung in Wien und Umgebung – Ihr zuverlässiger Service')
 @section('twitter_description', 'Entdecken Sie professionellen Sonderreinigungsservice in Wien und Umgebung. Effizient, zuverlässig und auf Ihre Bedürfnisse abgestimmt. Lesen Sie mehr!')
@@ -35,7 +35,7 @@
 		<div class="elementor-element elementor-element-a682707 e-con-full e-flex e-con e-child" data-id="a682707" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-3414e2c elementor-widget elementor-widget-image" data-id="3414e2c" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="137" height="136" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/bewertungssiegel-e1612882888574-1.png') }}" class="attachment-full size-full wp-image-1116" alt="" srcset="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/bewertungssiegel-e1612882888574-1.png') }} 137w, {{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/bewertungssiegel-e1612882888574-1-120x120.png') }} 120w" sizes="(max-width: 137px) 100vw, 137px" />															</div>
+															<img decoding="async" width="137" height="136" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2025/11/6256c15ccd258e35c0314eff_meisterbetrieb.png') }}" class="attachment-full size-full wp-image-1116" alt="" srcset="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2025/11/6256c15ccd258e35c0314eff_meisterbetrieb.png') }} 137w, {{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2025/11/6256c15ccd258e35c0314eff_meisterbetrieb-120x120.png') }} 120w" sizes="(max-width: 137px) 100vw, 137px" />															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-fd1f78d e-con-full e-flex e-con e-child" data-id="fd1f78d" data-element_type="container" data-e-type="container">

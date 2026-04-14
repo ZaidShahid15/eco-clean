@@ -16,6 +16,20 @@
         }
     }
 @endphp
+<style>
+  .elementor-element.elementor-element-28a5c95:not(.elementor-motion-effects-element-type-background), .elementor-1179 .elementor-element.elementor-element-28a5c95 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #ffffff !important;
+    border: 1px solid #808080;
+}
+
+.elementor-element:not(.elementor-element-fc58b73):not(.elementor-element-7604e8f):not(.elementor-element-d89969f) .elementor-heading-title {
+    color: white !important;
+}
+
+.elementor-element:not(.elementor-element-fc58b73):not(.elementor-element-7604e8f):not(.elementor-element-d89969f) .elementor-widget-text-editor b {
+    color: white !important;
+}
+</style>
 <body class="{{ trim($bodyClass) }}">
     <div id="page" class="hfeed site">
         @include('partials.header')
