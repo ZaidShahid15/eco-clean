@@ -92,16 +92,23 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.querySelectorAll('form').forEach((form) => {
-        if (!form.querySelector('.eco-clone-form-note')) {
+        const isSearchForm =
+            form.matches('[role="search"]') ||
+            form.classList.contains('sidebar__search-form') ||
+            form.querySelector('input[type="search"]');
+
+        if (!isSearchForm && !form.querySelector('.eco-clone-form-note')) {
             const note = document.createElement('p');
             note.className = 'eco-clone-form-note';
             note.textContent = 'Frontend-Demoformular. Die Verarbeitung ist in dieser Laravel-Clone-Version noch nicht verbunden.';
             form.appendChild(note);
         }
 
-        form.addEventListener('submit', (event) => {
-            event.preventDefault();
-        });
+        if (!isSearchForm) {
+            form.addEventListener('submit', (event) => {
+                event.preventDefault();
+            });
+        }
     });
 
     const flyoutWidgets = document.querySelectorAll('.elementor-widget-navigation-menu');
