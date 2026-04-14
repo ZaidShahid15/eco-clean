@@ -40,7 +40,7 @@
                 <h3>Top tips for kitchen cleaning</h3>
 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptat velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat none proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut is a perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis equasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni doloreeos qui ratione voluptatem sequi nesciunt.</p>
 <p>Excepteur sint occaecat cupidatat none proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut is a perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis</p>
-<p><img decoding="async" src="https://twinkletheme.com/themeforest/wp/elementor/washup/wp-content/uploads/2023/09/blog-details-img-2-300x136.jpg" alt="" width="1090" height="494" /></p>
+<p><img decoding="async" src="{{ asset('assets/mirror/twinkletheme.com/themeforest/wp/elementor/washup/wp-content/uploads/2023/09/blog-details-img-2-300x136.jpg') }}" alt="" width="1090" height="494" /></p>
 <h3>Top tips for house cleaning</h3>
 <p>Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nexercitatiullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint</p>
 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
@@ -153,7 +153,7 @@
 
 		<div id="twinkle_sidebar_support_query-1" class="sidebar__single widget_twinkle_sidebar_support_query">
 				<div class="sidebar__support">
-					<div class="sidebar__support-bg" style="background-image: url(https://twinkletheme.com/themeforest/wp/elementor/washup/wp-content/uploads/2023/09/sidebar-support-bg.jpg);"></div>
+					<div class="sidebar__support-bg" style="background-image: url({{ asset('assets/mirror/twinkletheme.com/themeforest/wp/elementor/washup/wp-content/uploads/2023/09/sidebar-support-bg.jpg') }});"></div>
 					<h3 class="sidebar__suppot-title">
 						<div class="sidebar__widget-head mb-35"><h3 class="sidebar__title">Have Any Query?</h3></div>					</h3>
 										<p class="sidebar__suppot-text">Great fruit grass their are first over spirit good whose very subdue</p>

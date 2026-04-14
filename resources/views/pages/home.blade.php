@@ -716,7 +716,7 @@
 		<div class="elementor-element elementor-element-ab65016 e-con-full e-flex e-con e-child" data-id="ab65016" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-e53d516 elementor-widget elementor-widget-image" data-id="e53d516" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="1920" height="1280" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/footer-v1-bg.jpg') }}" class="attachment-full size-full wp-image-578" alt="" srcset="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/footer-v1-bg.jpg') }} 1920w, {{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/footer-v1-bg-1536x1024.jpg') }} 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />															</div>
+															<img loading="lazy" decoding="async" width="1920" height="1280" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/09/footer-v1-bg.jpg') }}" class="attachment-full size-full wp-image-578" alt="" srcset="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/09/footer-v1-bg.jpg') }} 1920w, {{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/09/footer-v1-bg-1536x1024.jpg') }} 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />															</div>
 				</div>
 				</div>
 					</div>
@@ -2012,7 +2012,7 @@
 						<div class="elementor-element elementor-element-8dc9af5 elementor-widget elementor-widget-twinkle_cta" data-id="8dc9af5" data-element_type="widget" data-e-type="widget" data-widget_type="twinkle_cta.default">
 				<div class="elementor-widget-container">
 					            <section class="cta-one cta-one--gallery">
-                <div class="image-layer" style="background-image: url(https://twinkletheme.com/themeforest/wp/elementor/washup/wp-content/uploads/2023/10/cta-v1-bg.jpg"></div>
+                <div class="image-layer" style="background-image: url({{ asset('assets/mirror/twinkletheme.com/themeforest/wp/elementor/washup/wp-content/uploads/2023/10/cta-v1-bg.jpg') }});"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">

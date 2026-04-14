@@ -1124,3 +1124,150 @@ html body.home.elementor-page-532 section.eco-home-areas-row .elementor-button:h
     margin-bottom: 0 !important;
     width: 100% !important;
 }
+
+html body.home.elementor-page-532 .fluentform_wrapper_1,
+html body.home.elementor-page-532 #fluentform_1 {
+    color: #13355e !important;
+}
+
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff-t-container {
+    gap: 18px;
+}
+
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff-el-input--label label,
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff-el-input--label label *,
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff-el-is-required.asterisk-right label::after {
+    color: #24476f !important;
+}
+
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff-el-group {
+    margin-bottom: 20px !important;
+}
+
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff-el-form-control {
+    width: 100% !important;
+    min-height: 58px !important;
+    padding: 16px 18px !important;
+    color: #13355e !important;
+    background: #ffffff !important;
+    border: 1px solid #c8d7eb !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+}
+
+html body.home.elementor-page-532 .fluentform_wrapper_1 textarea.ff-el-form-control {
+    min-height: 132px !important;
+    resize: vertical;
+}
+
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff-el-form-control::placeholder {
+    color: #7c8fa8 !important;
+    opacity: 1 !important;
+}
+
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff-el-form-control:focus {
+    border-color: #004991 !important;
+    box-shadow: 0 0 0 3px rgba(0, 73, 145, 0.12) !important;
+    outline: none !important;
+}
+
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff-btn-submit {
+    min-width: 138px !important;
+    min-height: 50px !important;
+    padding: 13px 24px !important;
+    color: #ffffff !important;
+    background: #004991 !important;
+    border: 1px solid #004991 !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+}
+
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff-btn-submit:hover,
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff-btn-submit:focus {
+    color: #ffffff !important;
+    background: #003b76 !important;
+    border-color: #003b76 !important;
+}
+
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff-message-success,
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff-el-help-message,
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff-errors-in-stack,
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff-errors-in-stack *,
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff_form_instance_1_1_errors,
+html body.home.elementor-page-532 .fluentform_wrapper_1 .ff_form_instance_1_1_errors * {
+    color: #5f6f84 !important;
+}
+
+body.elementor-page-926 .elementor-element.elementor-element-28a5c95:not(.elementor-motion-effects-element-type-background),
+body.elementor-page-926 .elementor-element.elementor-element-28a5c95 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background: #ffffff !important;
+}
+
+body.elementor-page-926 .fluentform_wrapper_3,
+body.elementor-page-926 #fluentform_3 {
+    color: #16375f !important;
+}
+
+body.elementor-page-926 .fluentform_wrapper_3 .ff-el-group {
+    margin-bottom: 18px !important;
+}
+
+body.elementor-page-926 .fluentform_wrapper_3 .ff-el-input--label label,
+body.elementor-page-926 .fluentform_wrapper_3 .ff-el-input--label label *,
+body.elementor-page-926 .fluentform_wrapper_3 .ff-el-is-required.asterisk-right label::after,
+body.elementor-page-926 .fluentform_wrapper_3 .ff-el-form-check-label,
+body.elementor-page-926 .fluentform_wrapper_3 .ff-el-form-check-label span {
+    color: #24476f !important;
+}
+
+body.elementor-page-926 .fluentform_wrapper_3 .ff-el-form-control {
+    width: 100% !important;
+    min-height: 54px !important;
+    padding: 14px 16px !important;
+    color: #16375f !important;
+    background: #ffffff !important;
+    border: 1px solid #c7d8eb !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+}
+
+body.elementor-page-926 .fluentform_wrapper_3 .ff-el-form-control::placeholder {
+    color: #7f90a5 !important;
+    opacity: 1 !important;
+}
+
+body.elementor-page-926 .fluentform_wrapper_3 .ff-el-form-control:focus {
+    border-color: #004991 !important;
+    box-shadow: 0 0 0 3px rgba(0, 73, 145, 0.12) !important;
+    outline: none !important;
+}
+
+body.elementor-page-926 .fluentform_wrapper_3 .ff-el-form-check-input {
+    accent-color: #004991;
+}
+
+body.elementor-page-926 .fluentform_wrapper_3 .ff-btn-submit {
+    min-width: 150px !important;
+    min-height: 50px !important;
+    padding: 13px 22px !important;
+    color: #ffffff !important;
+    background: #004991 !important;
+    border: 1px solid #004991 !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+}
+
+body.elementor-page-926 .fluentform_wrapper_3 .ff-btn-submit:hover,
+body.elementor-page-926 .fluentform_wrapper_3 .ff-btn-submit:focus {
+    color: #ffffff !important;
+    background: #003b76 !important;
+    border-color: #003b76 !important;
+}
+
+body.elementor-page-926 .fluentform_wrapper_3 .ff-errors-in-stack,
+body.elementor-page-926 .fluentform_wrapper_3 .ff-errors-in-stack *,
+body.elementor-page-926 .fluentform_wrapper_3 .ff_form_instance_3_1_errors,
+body.elementor-page-926 .fluentform_wrapper_3 .ff_form_instance_3_1_errors * {
+    color: #5d6f84 !important;
+}

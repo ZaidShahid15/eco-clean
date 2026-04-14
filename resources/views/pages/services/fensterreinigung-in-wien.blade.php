@@ -6,7 +6,7 @@
 @section('robots', 'index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large')
 @section('og_title', 'Die beste Fensterreinigung in Wien – Zuverlässig und professionell')
 @section('og_description', 'Erfahren Sie, wie Sie in Wien professionelle Fensterreinigung finden. Verlässliche Dienstleistungen für strahlend saubere Fenster. Lesen Sie mehr!')
-@section('og_image', '/assets/mirror/eco-clean.at/wp-content/uploads/2024/11/Untitled-design-6.png')
+@section('og_image', '/assets/mirror/eco-clean.at/wp-content/uploads/2023/10/contact-v1-img1-600x562.png')
 
 @section('twitter_title', 'Die beste Fensterreinigung in Wien – Zuverlässig und professionell')
 @section('twitter_description', 'Erfahren Sie, wie Sie in Wien professionelle Fensterreinigung finden. Verlässliche Dienstleistungen für strahlend saubere Fenster. Lesen Sie mehr!')
@@ -39,7 +39,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-a86d0c4 elementor-widget elementor-widget-image" data-id="a86d0c4" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="137" height="136" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/bewertungssiegel-e1612882888574-1.png') }}" class="attachment-full size-full wp-image-1116" alt="" srcset="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/bewertungssiegel-e1612882888574-1.png') }} 137w, {{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/bewertungssiegel-e1612882888574-1-120x120.png') }} 120w" sizes="(max-width: 137px) 100vw, 137px" />															</div>
+															<img decoding="async" width="137" height="136" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2025/11/6256c15ccd258e35c0314eff_meisterbetrieb.png') }}" class="attachment-full size-full wp-image-1116" alt="" srcset="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2025/11/6256c15ccd258e35c0314eff_meisterbetrieb.png') }} 137w, {{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2025/11/6256c15ccd258e35c0314eff_meisterbetrieb-120x120.png') }} 120w" sizes="(max-width: 137px) 100vw, 137px" />															</div>
 				</div>
 					</div>
 		</div>
@@ -173,7 +173,7 @@
 		<div class="elementor-element elementor-element-dba1895 e-con-full e-flex e-con e-child" data-id="dba1895" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-73c6464 elementor-widget elementor-widget-image" data-id="73c6464" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="400" height="440" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/Untitled-design-6.png') }}" class="attachment-full size-full wp-image-1222" alt="" />															</div>
+															<img decoding="async" width="400" height="440" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/contact-v1-img1-600x562.png') }}" class="attachment-full size-full wp-image-1222" alt="" />															</div>
 				</div>
 				</div>
 					</div>
@@ -222,7 +222,7 @@
 		<div class="elementor-element elementor-element-078e2aa e-con-full e-flex e-con e-child" data-id="078e2aa" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-face19e elementor-widget elementor-widget-image" data-id="face19e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/Window-530x562.png') }}" class="attachment-large size-large wp-image-1365" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/about-v1-img2.png') }}" class="attachment-large size-large wp-image-1365" alt="" />															</div>
 				</div>
 				</div>
 				</div>
@@ -246,7 +246,7 @@
 		<div class="elementor-element elementor-element-bfd0397 e-con-full e-flex e-con e-child" data-id="bfd0397" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-5c85af6 elementor-widget elementor-widget-image" data-id="5c85af6" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/WINDOW-2-1-530x562.png') }}" class="attachment-large size-large wp-image-1369" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/main-slider-v2-img3.png') }}" class="attachment-large size-large wp-image-1369" alt="" />															</div>
 				</div>
 				</div>
 				</div>
@@ -254,7 +254,7 @@
 		<div class="elementor-element elementor-element-e2caaee e-con-full e-flex e-con e-child" data-id="e2caaee" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-c08a539 elementor-widget elementor-widget-image" data-id="c08a539" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="640" height="450" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/window-cleaning-800x562.webp') }}" class="attachment-large size-large wp-image-1367" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="640" height="450" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/about-v1-img1-530x562.jpg') }}" class="attachment-large size-large wp-image-1367" alt="" />															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-e0c9bf8 e-con-full e-flex e-con e-child" data-id="e0c9bf8" data-element_type="container" data-e-type="container">

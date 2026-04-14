@@ -20,9 +20,9 @@
 					<div class="e-con-inner">
 				<div class="elementor-shape elementor-shape-bottom" aria-hidden="true" data-negative="false">
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-	<path class="elementor-shape-fill" d="M0,6V0h1000v100L0,6z"{{ url('/>
+	<path class="elementor-shape-fill" d="M0,6V0h1000v100L0,6z"/>
 </svg>		</div>
-		<div class=/') }}"elementor-element elementor-element-383b77b e-con-full e-flex e-con e-child" data-id="383b77b" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-383b77b e-con-full e-flex e-con e-child" data-id="383b77b" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-b144da1 elementor-widget elementor-widget-heading" data-id="b144da1" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h1 class="elementor-heading-title elementor-size-default">EcoClean – Ihre professionelle Reinigungsfirma in 1020 Wien</h1>				</div>

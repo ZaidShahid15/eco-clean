@@ -134,7 +134,7 @@
 
 		<div id="twinkle_sidebar_support_query-1" class="sidebar__single widget_twinkle_sidebar_support_query">
 				<div class="sidebar__support">
-					<div class="sidebar__support-bg" style="background-image: url(https://twinkletheme.com/themeforest/wp/elementor/washup/wp-content/uploads/2023/09/sidebar-support-bg.jpg);"></div>
+					<div class="sidebar__support-bg" style="background-image: url({{ asset('assets/mirror/twinkletheme.com/themeforest/wp/elementor/washup/wp-content/uploads/2023/09/sidebar-support-bg.jpg') }});"></div>
 					<h3 class="sidebar__suppot-title">
 						<div class="sidebar__widget-head mb-35"><h3 class="sidebar__title">Have Any Query?</h3></div>					</h3>
 										<p class="sidebar__suppot-text">Great fruit grass their are first over spirit good whose very subdue</p>
