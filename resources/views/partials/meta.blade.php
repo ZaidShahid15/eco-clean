@@ -342,6 +342,92 @@
 <link rel="stylesheet" href="{{ asset('assets/mirror/eco-clean.at/wp-content/themes/washup/assets/css/washup-responsive.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/clone-overrides.css') }}">
 <style>
+    .elementor-element-fc58b73 > .e-con-inner {
+        align-items: center !important;
+        gap: 34px !important;
+    }
+
+    .elementor-element-fc58b73 .elementor-element-383b77b {
+        max-width: 560px;
+        padding: 6px 0 !important;
+    }
+
+    .elementor-element-fc58b73 .elementor-element-383b77b > .elementor-widget-heading:first-child {
+        margin-bottom: 18px !important;
+    }
+
+    .elementor-element-fc58b73 .elementor-element-383b77b > .elementor-widget-heading:first-child .elementor-heading-title {
+        margin: 0 !important;
+        /* max-width: 11ch; */
+        color: #ffffff !important;
+        font-size: 45px !important;
+        font-weight: 900 !important;
+        line-height: 1 !important;
+        letter-spacing: 0 !important;
+        text-wrap: balance;
+        text-shadow: 0 4px 0 rgba(249, 146, 92, 0.95);
+    }
+
+    .elementor-1671 > .elementor-element:nth-of-type(n+4) .elementor-heading-title{
+        color: #ffffff !important;
+    }
+
+    .elementor-1671 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor, .elementor-1671 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor p, .elementor-1671 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor span, .elementor-1671 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor li, .elementor-1671 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor strong, .elementor-1671 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor b{
+        color: #ffffff !important;
+    }
+
+    .elementor-element-fc58b73 .elementor-element-383b77b > .elementor-widget-heading:nth-child(2) {
+        margin-bottom: 28px !important;
+    }
+
+    .elementor-element-fc58b73 .elementor-element-383b77b > .elementor-widget-heading:nth-child(2) .elementor-heading-title {
+        margin: 0 !important;
+        /* max-width: 19ch; */
+        color: #ffffff !important;
+        font-size: clamp(16px, 1.2vw, 20px) !important;
+        font-weight: 500 !important;
+        line-height: 1.42 !important;
+        text-shadow: 0 2px 14px rgba(4, 17, 39, 0.32);
+    }
+
+    .elementor-element-fc58b73 .elementor-element-48ff1c5,
+    .elementor-element-fc58b73 .elementor-element-85c8c01 {
+        width: auto !important;
+    }
+
+    .elementor-element-fc58b73 .elementor-element-48ff1c5 .elementor-widget-container,
+    .elementor-element-fc58b73 .elementor-element-85c8c01 .elementor-widget-container,
+    .elementor-element-fc58b73 .elementor-element-70fb267 .elementor-widget-container {
+        width: fit-content;
+    }
+
+    .elementor-element-fc58b73 .service-details__btn,
+    .elementor-element-fc58b73 .thm-btn.service-details__btn {
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        min-width: 134px !important;
+        min-height: 75px !important;
+        padding: 24px 26px !important;
+        border: 1px solid rgba(140, 181, 235, 0.38) !important;
+        border-radius: 6px !important;
+        background: linear-gradient(180deg, #2869bd 0%, #1c529a 100%) !important;
+        box-shadow: 0 18px 36px rgba(12, 40, 79, 0.24) !important;
+        color: #9ebef0 !important;
+        font-size: 16px !important;
+        font-weight: 700 !important;
+        letter-spacing: 0 !important;
+        line-height: 1 !important;
+        text-transform: uppercase !important;
+    }
+
+    .elementor-element-fc58b73 .service-details__btn:hover,
+    .elementor-element-fc58b73 .service-details__btn:focus {
+        color: #d9e7ff !important;
+        background: linear-gradient(180deg, #2f73cb 0%, #205ba8 100%) !important;
+        transform: translateY(-1px);
+    }
+
     .elementor-element-fa04447 {
         padding: 28px 22px 24px !important;
         border-radius: 28px !important;
@@ -393,7 +479,7 @@
     .elementor-element-fa04447 .fluentform_wrapper_4 .ff_columns_total_2 .ff-t-column-1,
     .elementor-element-fa04447 .fluentform_wrapper_4 .ff_columns_total_2 .ff-t-column-2 {
         flex: 1 1 calc(50% - 8px) !important;
-        width: calc(50% - 8px) !important;
+        /* width: calc(50% - 8px) !important; */
     }
 
     .elementor-element-fa04447 .fluentform_wrapper_4 .ff-el-input--label,
@@ -474,6 +560,27 @@
     }
 
     @media (max-width: 767px) {
+        .elementor-element-fc58b73 > .e-con-inner {
+            gap: 24px !important;
+        }
+
+        .elementor-element-fc58b73 .elementor-element-383b77b > .elementor-widget-heading:first-child .elementor-heading-title {
+            max-width: none;
+            font-size: clamp(34px, 10vw, 48px) !important;
+        }
+
+        .elementor-element-fc58b73 .elementor-element-383b77b > .elementor-widget-heading:nth-child(2) .elementor-heading-title {
+            max-width: none;
+            font-size: 16px !important;
+        }
+
+        .elementor-element-fc58b73 .service-details__btn,
+        .elementor-element-fc58b73 .thm-btn.service-details__btn {
+            min-width: 122px !important;
+            min-height: 96px !important;
+            padding: 20px 22px !important;
+        }
+
         .elementor-element-fa04447 {
             padding: 24px 16px 20px !important;
             border-radius: 24px !important;
@@ -494,6 +601,14 @@
         .elementor-element-fa04447 .fluentform_wrapper_4 textarea.ff-el-form-control {
             min-height: 56px !important;
             padding: 14px 16px !important;
+        }
+
+        .elementor-element.elementor-element-383b77b.e-con-full.e-flex.e-con.e-child{
+            padding: 0 10px !important;
+        }
+
+        .e-con-inner{
+            padding: 35px 15px !important;
         }
     }
 </style>

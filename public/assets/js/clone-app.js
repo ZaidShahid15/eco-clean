@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     document.querySelectorAll('.elementor-widget-table-of-contents').forEach((widget, widgetIndex) => {
+        const header = widget.querySelector('.elementor-toc__header');
         const body = widget.querySelector('.elementor-toc__body');
         if (!body) {
             return;
@@ -66,6 +67,28 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         body.appendChild(list);
+
+        if (header) {
+            widget.classList.remove('is-collapsed');
+            header.setAttribute('role', 'button');
+            header.setAttribute('tabindex', '0');
+            header.setAttribute('aria-expanded', 'true');
+            body.style.display = '';
+
+            const toggleToc = () => {
+                const isCollapsed = widget.classList.toggle('is-collapsed');
+                body.style.display = isCollapsed ? 'none' : '';
+                header.setAttribute('aria-expanded', isCollapsed ? 'false' : 'true');
+            };
+
+            header.addEventListener('click', toggleToc);
+            header.addEventListener('keyup', (event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault();
+                    toggleToc();
+                }
+            });
+        }
     });
 
     document.querySelectorAll('form').forEach((form) => {
@@ -81,14 +104,108 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    const menuButton = document.querySelector('.menu-toggle, .hfe-nav-menu__toggle');
-    const menuPanel = document.querySelector('.hfe-nav-menu, .main-menu__wrapper');
+    const flyoutWidgets = document.querySelectorAll('.elementor-widget-navigation-menu');
 
-    if (menuButton && menuPanel) {
-        menuButton.addEventListener('click', () => {
-            menuPanel.classList.toggle('is-open');
+    flyoutWidgets.forEach((widget) => {
+        const trigger = widget.querySelector('.hfe-flyout-trigger, .hfe-nav-menu__toggle');
+        const flyoutWrapper = widget.querySelector('.hfe-flyout-wrapper');
+        const overlay = widget.querySelector('.hfe-flyout-overlay');
+        const closeButton = widget.querySelector('.hfe-flyout-close');
+        const flyoutSide = widget.querySelector('.hfe-flyout-container .hfe-side');
+
+        if (!trigger || !flyoutWrapper || !flyoutSide) {
+            return;
+        }
+
+        const layout =
+            flyoutSide.dataset.layout ||
+            (flyoutSide.classList.contains('hfe-flyout-right') ? 'right' :
+                flyoutSide.classList.contains('bottom') ? 'bottom' :
+                    flyoutSide.classList.contains('top') ? 'top' : 'left');
+
+        const setExpanded = (expanded) => {
+            trigger.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+        };
+
+        const openFlyout = () => {
+            flyoutSide.classList.add('hfe-flyout-show');
+            flyoutWrapper.classList.add('is-open');
+
+            if (overlay) {
+                overlay.style.display = 'block';
+            }
+
+            if (layout === 'right') {
+                flyoutSide.style.right = '0';
+            } else if (layout === 'top') {
+                flyoutSide.style.top = '0';
+            } else if (layout === 'bottom') {
+                flyoutSide.style.bottom = '0';
+            } else {
+                flyoutSide.style.left = '0';
+            }
+
+            document.body.classList.add('hfe-flyout-active');
+            setExpanded(true);
+        };
+
+        const closeFlyout = () => {
+            flyoutWrapper.classList.remove('is-open');
+
+            if (overlay) {
+                overlay.style.display = 'none';
+            }
+
+            if (layout === 'right') {
+                flyoutSide.style.right = '-100%';
+            } else if (layout === 'top') {
+                flyoutSide.style.top = '-100%';
+            } else if (layout === 'bottom') {
+                flyoutSide.style.bottom = '-100%';
+            } else {
+                flyoutSide.style.left = '-100%';
+            }
+
+            window.setTimeout(() => {
+                if (!flyoutWrapper.classList.contains('is-open')) {
+                    flyoutSide.classList.remove('hfe-flyout-show');
+                }
+            }, 200);
+
+            document.body.classList.remove('hfe-flyout-active');
+            setExpanded(false);
+        };
+
+        const handleTrigger = (event) => {
+            if (event.type === 'keyup' && event.key !== 'Enter' && event.key !== ' ') {
+                return;
+            }
+
+            event.preventDefault();
+
+            if (flyoutWrapper.classList.contains('is-open')) {
+                closeFlyout();
+            } else {
+                openFlyout();
+            }
+        };
+
+        trigger.addEventListener('click', handleTrigger);
+        trigger.addEventListener('keyup', handleTrigger);
+
+        overlay?.addEventListener('click', closeFlyout);
+        closeButton?.addEventListener('click', closeFlyout);
+        closeButton?.addEventListener('keyup', (event) => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                closeFlyout();
+            }
         });
-    }
+
+        widget.querySelectorAll('.hfe-flyout-wrapper a.hfe-menu-item').forEach((link) => {
+            link.addEventListener('click', closeFlyout);
+        });
+    });
 
     const sliders = document.querySelectorAll('.elementor-main-swiper');
     sliders.forEach((slider) => {
