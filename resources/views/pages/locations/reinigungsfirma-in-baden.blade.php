@@ -6,7 +6,7 @@
 @section('robots', 'index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large')
 @section('og_title', 'Reinigungsfirma in Baden - Professionelle Sauberkeit für Ihr Zuhause')
 @section('og_description', 'Entdecken Sie professionelle Reinigungsdienste in Baden. Sorgen Sie für Sauberkeit in Ihrem Zuhause und genießen Sie mehr Freizeit. Lesen Sie jetzt weiter!')
-@section('og_image', '/assets/mirror/eco-clean.at/wp-content/uploads/2024/11/2-1.png')
+@section('og_image', '/assets/mirror/eco-clean.at/wp-content/uploads/2023/10/contact-v1-img1-600x562.png')
 
 @section('twitter_title', 'Reinigungsfirma in Baden - Professionelle Sauberkeit für Ihr Zuhause')
 @section('twitter_description', 'Entdecken Sie professionelle Reinigungsdienste in Baden. Sorgen Sie für Sauberkeit in Ihrem Zuhause und genießen Sie mehr Freizeit. Lesen Sie jetzt weiter!')
@@ -15,6 +15,23 @@
 @endsection
 
 @section('content')
+<style>
+    .elementor-1858 > .elementor-element:nth-of-type(n+4) .elementor-heading-title { color: #5f5f5f !important; }
+    .elementor-1858 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor,
+    .elementor-1858 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor p,
+    .elementor-1858 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor span,
+    .elementor-1858 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor li,
+    .elementor-1858 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor strong,
+    .elementor-1858 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor b { color: #6b6b6b !important; }
+    .elementor-1858 .fluentform_wrapper_4 .ff-el-input--label label,
+    .elementor-1858 .fluentform_wrapper_4 .ff-el-input--label,
+    .elementor-1858 .fluentform_wrapper_4 .ff-el-form-control,
+    .elementor-1858 .fluentform_wrapper_4 .ff-el-form-control::placeholder,
+    .elementor-1858 .fluentform_wrapper_4 .ff-errors-in-stack { color: #5f5f5f !important; }
+    .elementor-1858 .fluentform_wrapper_4 .ff-el-form-control,
+    .elementor-1858 .fluentform_wrapper_4 select.ff-el-form-control,
+    .elementor-1858 .fluentform_wrapper_4 textarea.ff-el-form-control { background: #ffffff !important; border-color: #d7dce3 !important; }
+</style>
 <div data-rocket-location-hash="8eb660e8c60a874dcbadc55bd6a9fbdc" data-elementor-type="wp-page" data-elementor-id="1858" class="elementor elementor-1858" data-elementor-post-type="page">
 				<div class="elementor-element elementor-element-fc58b73 e-flex e-con-boxed e-con e-parent" data-id="fc58b73" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_bottom&quot;:&quot;tilt&quot;}">
 					<div class="e-con-inner">
@@ -75,7 +92,7 @@
 		<div class="elementor-element elementor-element-804a604 e-con-full e-flex e-con e-child" data-id="804a604" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-eae1dde elementor-widget elementor-widget-image" data-id="eae1dde" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="137" height="136" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/bewertungssiegel-e1612882888574-1.png') }}" class="attachment-full size-full wp-image-1116" alt="" srcset="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/bewertungssiegel-e1612882888574-1.png') }} 137w, {{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/bewertungssiegel-e1612882888574-1-120x120.png') }} 120w" sizes="(max-width: 137px) 100vw, 137px" />															</div>
+															<img decoding="async" width="137" height="136" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2025/11/6256c15ccd258e35c0314eff_meisterbetrieb.png') }}" class="attachment-full size-full wp-image-1116" alt="" srcset="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2025/11/6256c15ccd258e35c0314eff_meisterbetrieb.png') }} 137w, {{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2025/11/6256c15ccd258e35c0314eff_meisterbetrieb-120x120.png') }} 120w" sizes="(max-width: 137px) 100vw, 137px" />															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-ce58bf4 e-con-full e-flex e-con e-child" data-id="ce58bf4" data-element_type="container" data-e-type="container">
@@ -254,7 +271,7 @@
 		<div class="elementor-element elementor-element-3069296 e-con-full e-flex e-con e-child" data-id="3069296" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-df79e67 elementor-widget elementor-widget-image" data-id="df79e67" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="530" height="370" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/2-1-530x370.png') }}" class="attachment-medium_large size-medium_large wp-image-1406" alt="" />															</div>
+															<img decoding="async" width="530" height="370" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/contact-v1-img1-600x562.png') }}" class="attachment-medium_large size-medium_large wp-image-1406" alt="" />															</div>
 				</div>
 				</div>
 				</div>
@@ -266,7 +283,7 @@
 		<div class="elementor-element elementor-element-db75afa e-con-full e-flex e-con e-child" data-id="db75afa" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-77d3595 elementor-widget elementor-widget-image" data-id="77d3595" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="530" height="570" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/14-1.png') }}" class="attachment-full size-full wp-image-1727" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="530" height="570" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/about-v1-img1-530x562.jpg') }}" class="attachment-full size-full wp-image-1727" alt="" />															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-cb6916c e-con-full e-flex e-con e-child" data-id="cb6916c" data-element_type="container" data-e-type="container">
@@ -403,7 +420,7 @@
 				</div>
 				<div class="elementor-element elementor-element-9d0174e elementor-widget elementor-widget-image" data-id="9d0174e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/9-1-530x562.png') }}" class="attachment-large size-large wp-image-1722" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/about-v1-img1-530x562.jpg') }}" class="attachment-large size-large wp-image-1722" alt="" />															</div>
 				</div>
 				</div>
 					</div>
@@ -482,7 +499,7 @@
 		<div class="elementor-element elementor-element-8bfa5c9 e-con-full e-flex e-con e-child" data-id="8bfa5c9" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-229bd3b elementor-widget elementor-widget-image" data-id="229bd3b" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="530" height="570" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/7.png') }}" class="attachment-full size-full wp-image-1636" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="530" height="570" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/about-v1-img2.png') }}" class="attachment-full size-full wp-image-1636" alt="" />															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-be3fb22 e-con-full e-flex e-con e-child" data-id="be3fb22" data-element_type="container" data-e-type="container">
@@ -535,4 +552,3 @@
 				</div>
 				</div>
 @endsection
-
