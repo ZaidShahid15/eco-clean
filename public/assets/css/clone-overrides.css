@@ -20,7 +20,7 @@ html body.home.elementor-page-532 section.eco-home-areas-row .elementor-button {
     --thm-gray: #606060;
     --thm-gray-rgb: 96, 96, 96;
     --washup-black: #03041d;
-    --washup-white: #004991;
+    --washup-white: #ffffff;
 }
 
 body {
@@ -53,6 +53,23 @@ form {
 
 .footer-widget__title {
     color: #004991 !important;
+}
+
+/* Keep text readable on the blue blog hero/review strip and shared footer. */
+.elementor-854 .elementor-element.elementor-element-4a58f70 .elementor-heading-title,
+.elementor-854 .elementor-element.elementor-element-4b8644a .elementor-heading-title,
+.elementor-854 .elementor-element.elementor-element-ea5b39e .elementor-heading-title,
+.elementor-854 .elementor-element.elementor-element-439f551 .elementor-heading-title,
+.elementor-854 .elementor-element.elementor-element-34e463f .elementor-icon-list-text,
+.elementor-854 .elementor-element.elementor-element-04c0517 .elementor-icon-list-text,
+.elementor-854 .elementor-element.elementor-element-34e463f .elementor-icon-list-icon svg,
+.elementor-854 .elementor-element.elementor-element-04c0517 .elementor-icon-list-icon svg,
+.elementor-713 .elementor-element.elementor-element-e47344e .elementor-heading-title,
+.elementor-713 .elementor-element.elementor-element-e47344e .elementor-heading-title a,
+.elementor-713 .elementor-element.elementor-element-e47344e .elementor-widget-heading,
+.elementor-713 .elementor-element.elementor-element-e47344e .elementor-widget-heading a {
+    color: #ffffff !important;
+    fill: #ffffff !important;
 }
 
 .fluentform_wrapper_3.ffs_modern_b_wrap .ff_submit_btn_wrapper .ff-btn-submit:not(.ff_btn_no_style),
