@@ -200,6 +200,67 @@
             grid-template-columns: 1fr !important;
         }
     }
+
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-heading-title,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor p,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor span,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor strong,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor b,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor li,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-icon-list-text {
+        color: #5f5f5f !important;
+        -webkit-text-fill-color: #5f5f5f !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-64f058b .elementor-heading-title,
+    body.elementor-page-1139 .elementor-element.elementor-element-64f058b .elementor-icon-list-text,
+    body.elementor-page-1139 .elementor-element.elementor-element-64f058b .elementor-icon-list-icon i,
+    body.elementor-page-1139 .elementor-element.elementor-element-64f058b .elementor-icon-list-icon svg {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-heading-title,
+    body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-widget-text-editor,
+    body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-widget-text-editor p,
+    body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-widget-text-editor span,
+    body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-widget-text-editor strong,
+    body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-widget-text-editor b,
+    body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-widget-text-editor li,
+    body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-icon-list-text,
+    body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-icon-list-icon i,
+    body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-icon-list-icon svg,
+    body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-heading-title,
+    body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-widget-text-editor,
+    body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-widget-text-editor p,
+    body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-widget-text-editor span,
+    body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-widget-text-editor strong,
+    body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-widget-text-editor b,
+    body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-widget-text-editor li,
+    body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-icon-list-text,
+    body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-icon-list-icon i,
+    body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-icon-list-icon svg {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-28a5c95 .elementor-heading-title,
+    body.elementor-page-1139 .elementor-element.elementor-element-28a5c95 .elementor-widget-text-editor,
+    body.elementor-page-1139 .elementor-element.elementor-element-28a5c95 .elementor-widget-text-editor p,
+    body.elementor-page-1139 .elementor-element.elementor-element-28a5c95 .elementor-widget-text-editor span,
+    body.elementor-page-1139 .elementor-element.elementor-element-28a5c95 .elementor-widget-text-editor strong,
+    body.elementor-page-1139 .elementor-element.elementor-element-28a5c95 .elementor-widget-text-editor b,
+    body.elementor-page-1139 .elementor-element.elementor-element-28a5c95 .elementor-widget-text-editor li,
+    body.elementor-page-1139 .elementor-element.elementor-element-28a5c95 label,
+    body.elementor-page-1139 .elementor-element.elementor-element-28a5c95 .ff-el-input--label,
+    body.elementor-page-1139 .elementor-element.elementor-element-28a5c95 .ff-el-form-check label,
+    body.elementor-page-1139 .elementor-element.elementor-element-28a5c95 .ff-el-form-check span {
+        color: #5d6c82 !important;
+        -webkit-text-fill-color: #5d6c82 !important;
+    }
 </style>
 <div data-rocket-location-hash="44f11bb36beec1aee66d889974aeb8cd" class="tp-page-area page-padding">
     <div data-rocket-location-hash="0841f15ebf099eeaba6f2c7f735d0671" class="container">

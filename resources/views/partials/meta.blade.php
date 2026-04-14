@@ -456,6 +456,7 @@
     .elementor-element-fa04447 > .elementor-widget-heading .elementor-heading-title {
         margin: 0 !important;
         color: #1f4f95 !important;
+        -webkit-text-fill-color: #1f4f95 !important;
         font-size: 28px !important;
         font-weight: 800 !important;
         line-height: 1.15 !important;
@@ -498,6 +499,7 @@
     .elementor-element-fa04447 .fluentform_wrapper_4 .ff-el-is-error .text-danger,
     .elementor-element-fa04447 .fluentform_wrapper_4 .ff-errors-in-stack {
         color: #5d6c82 !important;
+        -webkit-text-fill-color: #5d6c82 !important;
     }
 
     .elementor-element-fa04447 .fluentform_wrapper_4 .ff-el-form-control,
@@ -510,6 +512,7 @@
         background: rgba(255, 255, 255, 0.98) !important;
         box-shadow: inset 0 1px 2px rgba(17, 38, 69, 0.04) !important;
         color: #5d6c82 !important;
+        -webkit-text-fill-color: #5d6c82 !important;
         font-size: 15px !important;
         font-weight: 500 !important;
         line-height: 1.4 !important;
@@ -528,6 +531,7 @@
     .elementor-element-fa04447 .fluentform_wrapper_4 .ff-el-form-control::placeholder {
         color: #5d6c82 !important;
         opacity: 1;
+        -webkit-text-fill-color: #5d6c82 !important;
     }
 
     .elementor-element-fa04447 .fluentform_wrapper_4 .ff-el-form-control:focus,
@@ -681,6 +685,22 @@
     .elementor-element-d4896b0 .elementor-icon-list-icon svg {
         color: #ffffff !important;
         fill: #ffffff !important;
+    }
+
+    .elementor-element-d21ad8c > .e-con-inner > .elementor-widget-heading .elementor-heading-title,
+    .elementor-element-d21ad8c > .e-con-inner > .elementor-widget-text-editor,
+    .elementor-element-d21ad8c > .e-con-inner > .elementor-widget-text-editor p,
+    .elementor-element-d21ad8c > .e-con-inner > .elementor-widget-text-editor span,
+    .elementor-element-d21ad8c > .e-con-inner > .elementor-widget-text-editor em,
+    .elementor-element-d21ad8c > .e-con-inner > .elementor-widget-text-editor small,
+    .elementor-element-d21ad8c > .e-con-inner > .elementor-widget-text-editor a,
+    .elementor-element-d21ad8c > .e-con-inner > .elementor-widget-text-editor li,
+    .elementor-element-d21ad8c > .e-con-inner > .elementor-widget-icon-list .elementor-icon-list-text,
+    .elementor-element-d21ad8c > .e-con-inner > .elementor-widget-icon-list .elementor-icon-list-icon i,
+    .elementor-element-d21ad8c > .e-con-inner > .elementor-widget-icon-list .elementor-icon-list-icon svg {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
     }
 
     .elementor-element-b67ad0f,

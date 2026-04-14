@@ -23,6 +23,24 @@
     .elementor-1897 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor li,
     .elementor-1897 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor strong,
     .elementor-1897 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor b { color: #6b6b6b !important; }
+    .elementor-1897 > .elementor-element:nth-of-type(n+4):not(.elementor-element-d21ad8c) .elementor-heading-title { color: #5f5f5f !important; -webkit-text-fill-color: #5f5f5f !important; }
+    .elementor-1897 > .elementor-element:nth-of-type(n+4):not(.elementor-element-d21ad8c) .elementor-widget-text-editor,
+    .elementor-1897 > .elementor-element:nth-of-type(n+4):not(.elementor-element-d21ad8c) .elementor-widget-text-editor p,
+    .elementor-1897 > .elementor-element:nth-of-type(n+4):not(.elementor-element-d21ad8c) .elementor-widget-text-editor span,
+    .elementor-1897 > .elementor-element:nth-of-type(n+4):not(.elementor-element-d21ad8c) .elementor-widget-text-editor li,
+    .elementor-1897 > .elementor-element:nth-of-type(n+4):not(.elementor-element-d21ad8c) .elementor-widget-text-editor strong,
+    .elementor-1897 > .elementor-element:nth-of-type(n+4):not(.elementor-element-d21ad8c) .elementor-widget-text-editor b,
+    .elementor-1897 > .elementor-element:nth-of-type(n+4):not(.elementor-element-d21ad8c) .elementor-icon-list-text { color: #6b6b6b !important; -webkit-text-fill-color: #6b6b6b !important; }
+    .elementor-1897 .elementor-element-d21ad8c .elementor-heading-title,
+    .elementor-1897 .elementor-element-d21ad8c .elementor-widget-text-editor,
+    .elementor-1897 .elementor-element-d21ad8c .elementor-widget-text-editor p,
+    .elementor-1897 .elementor-element-d21ad8c .elementor-widget-text-editor span,
+    .elementor-1897 .elementor-element-d21ad8c .elementor-widget-text-editor strong,
+    .elementor-1897 .elementor-element-d21ad8c .elementor-widget-text-editor b,
+    .elementor-1897 .elementor-element-d21ad8c .elementor-widget-text-editor li,
+    .elementor-1897 .elementor-element-d21ad8c .elementor-icon-list-text,
+    .elementor-1897 .elementor-element-d21ad8c .elementor-icon-list-icon i,
+    .elementor-1897 .elementor-element-d21ad8c .elementor-icon-list-icon svg { color: #ffffff !important; fill: #ffffff !important; -webkit-text-fill-color: #ffffff !important; }
     .elementor-1897 .fluentform_wrapper_4 .ff-el-input--label label,
     .elementor-1897 .fluentform_wrapper_4 .ff-el-input--label,
     .elementor-1897 .fluentform_wrapper_4 .ff-el-form-control,
