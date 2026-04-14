@@ -1,0 +1,95 @@
+# ECO Clean Blade Clone
+
+## Pages cloned
+- / -> `pages.home`
+- /impressum/ -> `pages.legal.impressum`
+- /uber-uns/ -> `pages.about`
+- /hausbetreuung/ -> `pages.services.hausbetreuung`
+- /reinigungsfirma-in-1190-wien/ -> `pages.locations.reinigungsfirma-in-1190-wien`
+- /blogs/ -> `pages.blog.index`
+- /gallery/ -> `pages.gallery.index`
+- /gallery/gallery-6/ -> `pages.gallery.gallery-6`
+- /gallery/gallery-5/ -> `pages.gallery.gallery-5`
+- /gallery/gallery-4/ -> `pages.gallery.gallery-4`
+- /gallery/gallery-3/ -> `pages.gallery.gallery-3`
+- /gallery/gallery-2/ -> `pages.gallery.gallery-2`
+- /gallery/gallery-1/ -> `pages.gallery.gallery-1`
+- /category/uncategorized/ -> `pages.categories.uncategorized`
+- /category/apartment-cleaning/ -> `pages.categories.apartment-cleaning`
+- /category/carpet-cleaning/ -> `pages.categories.carpet-cleaning`
+- /category/commercial-cleaning/ -> `pages.categories.commercial-cleaning`
+- /category/house-cleaning/ -> `pages.categories.house-cleaning`
+- /kontakt/ -> `pages.contact`
+- /fensterreinigung-in-wien/ -> `pages.services.fensterreinigung-in-wien`
+- /reinigungsfirma-im-burgenland/ -> `pages.locations.reinigungsfirma-im-burgenland`
+- /gebaudereinigung/ -> `pages.services.gebaudereinigung`
+- /reinigungsfirma-niederosterreich/ -> `pages.locations.reinigungsfirma-niederosterreich`
+- /reinigungsfirma-vosendorf/ -> `pages.locations.reinigungsfirma-vosendorf`
+- /reinigungsfirma-in-gerasdorf-bei-wien/ -> `pages.locations.reinigungsfirma-in-gerasdorf-bei-wien`
+- /reinigungsfirma-in-wiener-neustadt/ -> `pages.locations.reinigungsfirma-in-wiener-neustadt`
+- /reinigungsfirma-in-1230-wien/ -> `pages.locations.reinigungsfirma-in-1230-wien`
+- /reinigungsfirma-in-1220-wien/ -> `pages.locations.reinigungsfirma-in-1220-wien`
+- /reinigungsfirma-in-1210-wien/ -> `pages.locations.reinigungsfirma-in-1210-wien`
+- /reinigungsfirma-in-1200-wien/ -> `pages.locations.reinigungsfirma-in-1200-wien`
+- /reinigungsfirma-in-1180-wien/ -> `pages.locations.reinigungsfirma-in-1180-wien`
+- /reinigungsfirma-in-1170-wien/ -> `pages.locations.reinigungsfirma-in-1170-wien`
+- /reinigungsfirma-in-1160-wien/ -> `pages.locations.reinigungsfirma-in-1160-wien`
+- /reinigungsfirma-in-1150-wien/ -> `pages.locations.reinigungsfirma-in-1150-wien`
+- /reinigungsfirma-in-1140-wien/ -> `pages.locations.reinigungsfirma-in-1140-wien`
+- /reinigungsfirma-in-1130-wien/ -> `pages.locations.reinigungsfirma-in-1130-wien`
+- /reinigungsfirma-in-1120-wien/ -> `pages.locations.reinigungsfirma-in-1120-wien`
+- /reinigungsfirma-in-1110-wien/ -> `pages.locations.reinigungsfirma-in-1110-wien`
+- /reinigungsfirma-in-1100-wien/ -> `pages.locations.reinigungsfirma-in-1100-wien`
+- /reinigungsfirma-in-1090-wien/ -> `pages.locations.reinigungsfirma-in-1090-wien`
+- /reinigungsfirma-in-1080-wien/ -> `pages.locations.reinigungsfirma-in-1080-wien`
+- /reinigungsfirma-in-1070-wien/ -> `pages.locations.reinigungsfirma-in-1070-wien`
+- /reinigungsfirma-in-1060-wien/ -> `pages.locations.reinigungsfirma-in-1060-wien`
+- /reinigungsfirma-in-1050-wien/ -> `pages.locations.reinigungsfirma-in-1050-wien`
+- /reinigungsfirma-in-1040-wien/ -> `pages.locations.reinigungsfirma-in-1040-wien`
+- /reinigungsfirma-in-1010-wien/ -> `pages.locations.reinigungsfirma-in-1010-wien`
+- /winterdienst-in-wien/ -> `pages.services.winterdienst-in-wien`
+- /gartenpflege-in-wien/ -> `pages.services.gartenpflege-in-wien`
+- /industriereinigung-in-wien/ -> `pages.services.industriereinigung-in-wien`
+- /professionelle-stiegenhausreinigung-in-wien/ -> `pages.services.professionelle-stiegenhausreinigung-in-wien`
+- /sonderreinigung-in-wien/ -> `pages.services.sonderreinigung-in-wien`
+- /bauendreinigung/ -> `pages.services.bauendreinigung`
+- /teppichreinigung-in-wien/ -> `pages.services.teppichreinigung-in-wien`
+- /professionelle-buroreinigung-in-wien/ -> `pages.services.professionelle-buroreinigung-in-wien`
+- /professionelle-bodenreinigung-in-wien/ -> `pages.services.professionelle-bodenreinigung-in-wien`
+- /professionelle-fassadenreinigung/ -> `pages.services.professionelle-fassadenreinigung`
+- /reinigungsfirma-in-stockerau/ -> `pages.locations.reinigungsfirma-in-stockerau`
+- /reinigungsfirma-in-baden/ -> `pages.locations.reinigungsfirma-in-baden`
+- /reinigungsfirma-in-modling/ -> `pages.locations.reinigungsfirma-in-modling`
+- /reinigungsfirma-in-schwechat/ -> `pages.locations.reinigungsfirma-in-schwechat`
+- /reinigungsfirma-in-wels/ -> `pages.locations.reinigungsfirma-in-wels`
+- /reinigungsfirma-in-linz/ -> `pages.locations.reinigungsfirma-in-linz`
+- /reinigungsfirma-in-graz/ -> `pages.locations.reinigungsfirma-in-graz`
+- /reinigungsfirma-in-vorarlberg/ -> `pages.locations.reinigungsfirma-in-vorarlberg`
+- /reinigungsfirma-in-ganserndorf/ -> `pages.locations.reinigungsfirma-in-ganserndorf`
+- /reinigungsfirma-klagenfurt/ -> `pages.locations.reinigungsfirma-klagenfurt`
+- /reinigungsfirma-salzburg/ -> `pages.locations.reinigungsfirma-salzburg`
+- /reinigungsfirma-innsbruck/ -> `pages.locations.reinigungsfirma-innsbruck`
+- /reinigungsfirma-parndorf/ -> `pages.locations.reinigungsfirma-parndorf`
+- /reinigungsfirma-in-1020-wien/ -> `pages.locations.reinigungsfirma-in-1020-wien`
+- /professionelle-garagenreinigung-in-wien/ -> `pages.services.professionelle-garagenreinigung-in-wien`
+- /hello-world/ -> `pages.blog.hello-world`
+- /simple-cleaning-tips-you-can-use-everyday/ -> `pages.blog.simple-cleaning-tips-you-can-use-everyday`
+- /it-is-a-long-established-fact-that/ -> `pages.blog.it-is-a-long-established-fact-that`
+- /there-are-many-variations-of-passages/ -> `pages.blog.there-are-many-variations-of-passages`
+- /contrary-to-popular-belief-lorem-ipsum/ -> `pages.blog.contrary-to-popular-belief-lorem-ipsum`
+- /the-standard-chunk-of-lorem-ipsum/ -> `pages.blog.the-standard-chunk-of-lorem-ipsum`
+
+## Assets downloaded
+- Mirrored public CSS, JS, image, font, and icon assets under `public/assets/mirror/eco-clean.at/...`.
+- Added local override CSS in `public/assets/css/clone-overrides.css`.
+- Added local interaction script in `public/assets/js/clone-app.js`.
+
+## Placeholders detected
+- All contact forms are preserved visually but behave as frontend-only demo forms.
+- Public blog content includes likely placeholder/demo posts and should be reviewed before production.
+
+## Manual review
+- Verify German umlaut encoding on any copied content that was originally served with mixed encoding.
+- Review the public blog list for placeholder or spam content.
+- One URL present in the live post sitemap currently returns `404` on the live site and was intentionally not cloned: `/fenikss-lv-online-k-das-akcijas-pieejamas-ilgtermi-a-sp-l-t-jiem/`.
+- Compare high-value landing pages against the live site in-browser and tighten any remaining spacing differences.
