@@ -53,6 +53,7 @@ Route::view('/reinigungsfirma-in-1070-wien/', 'pages.locations.reinigungsfirma-i
 Route::view('/reinigungsfirma-in-1060-wien/', 'pages.locations.reinigungsfirma-in-1060-wien')->name('locations.reinigungsfirma-in-1060-wien');
 Route::view('/reinigungsfirma-in-1050-wien/', 'pages.locations.reinigungsfirma-in-1050-wien')->name('locations.reinigungsfirma-in-1050-wien');
 Route::view('/reinigungsfirma-in-1040-wien/', 'pages.locations.reinigungsfirma-in-1040-wien')->name('locations.reinigungsfirma-in-1040-wien');
+Route::view('/reinigungsfirma-in-1030-wien/', 'pages.locations.reinigungsfirma-in-1030-wien')->name('locations.reinigungsfirma-in-1030-wien');
 Route::view('/reinigungsfirma-in-1010-wien/', 'pages.locations.reinigungsfirma-in-1010-wien')->name('locations.reinigungsfirma-in-1010-wien');
 Route::view('/winterdienst-in-wien/', 'pages.services.winterdienst-in-wien')->name('services.winterdienst-in-wien');
 Route::view('/gartenpflege-in-wien/', 'pages.services.gartenpflege-in-wien')->name('services.gartenpflege-in-wien');
