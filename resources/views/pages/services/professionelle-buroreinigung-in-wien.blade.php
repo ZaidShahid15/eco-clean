@@ -15,6 +15,155 @@
 @endsection
 
 @section('content')
+<style>
+    body.elementor-page-1139 .tp-page-area,
+    body.elementor-page-1139 .tp-page-area.page-padding,
+    body.elementor-page-1139 .tp-page-area .container,
+    body.elementor-page-1139 .tp-page-area .row,
+    body.elementor-page-1139 .tp-page-area [class*="col-"],
+    body.elementor-page-1139 .tp-page-content,
+    body.elementor-page-1139 .tp-page-post,
+    body.elementor-page-1139 .elementor.elementor-1139,
+    body.elementor-page-1139 .elementor-1139 .elementor-section-wrap,
+    body.elementor-page-1139 .elementor-1139 .elementor-section,
+    body.elementor-page-1139 .elementor-1139 .elementor-container,
+    body.elementor-page-1139 .elementor-1139 .e-con-boxed,
+    body.elementor-page-1139 .elementor-1139 .e-con-inner,
+    body.elementor-page-1139 .elementor-1139 .elementor-element.e-con-boxed,
+    body.elementor-page-1139 .elementor-1139 .elementor-element.e-con-boxed > .e-con-inner {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    body.elementor-page-1139 .tp-page-area .row {
+        --bs-gutter-x: 0 !important;
+        --bs-gutter-y: 0 !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-6910057 > .e-con-inner {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 52px !important;
+        padding: 14px 22px !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-f52619a {
+        display: flex !important;
+        align-items: center !important;
+        gap: 14px !important;
+        flex: 0 0 auto !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-a682707 {
+        min-height: auto !important;
+        width: auto !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-a86d0c4 img,
+    body.elementor-page-1139 .elementor-element.elementor-element-a86d0c4 .attachment-full,
+    body.elementor-page-1139 .elementor-element.elementor-element-a86d0c4 .size-full {
+        width: 86px !important;
+        max-width: 86px !important;
+        height: auto !important;
+        margin: 0 !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-fd1f78d,
+    body.elementor-page-1139 .elementor-element.elementor-element-fd1f78d > .e-con-inner,
+    body.elementor-page-1139 .elementor-element.elementor-element-7f81fa5,
+    body.elementor-page-1139 .elementor-element.elementor-element-dbbad41 {
+        display: flex !important;
+        align-items: center !important;
+        gap: 12px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-6eabc63,
+    body.elementor-page-1139 .elementor-element.elementor-element-f3739c0,
+    body.elementor-page-1139 .elementor-element.elementor-element-99510bd {
+        width: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-fd1f78d .elementor-widget-heading,
+    body.elementor-page-1139 .elementor-element.elementor-element-fd1f78d .elementor-widget-rating,
+    body.elementor-page-1139 .elementor-element.elementor-element-fd1f78d .elementor-widget {
+        margin-bottom: 0 !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-c7dc180 .elementor-heading-title,
+    body.elementor-page-1139 .elementor-element.elementor-element-f39c02b .elementor-heading-title,
+    body.elementor-page-1139 .elementor-element.elementor-element-58215a0 .elementor-heading-title {
+        margin: 0 !important;
+        line-height: 1.08 !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-a9eed33 .e-rating-wrapper {
+        gap: 2px !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-a9eed33 .e-icon {
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-1a573c6 {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(260px, 1fr)) !important;
+        gap: 8px 34px !important;
+        align-items: center !important;
+        flex: 0 0 auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-815a4e5,
+    body.elementor-page-1139 .elementor-element.elementor-element-ee417de {
+        margin: 0 !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-815a4e5 .elementor-icon-list-items,
+    body.elementor-page-1139 .elementor-element.elementor-element-ee417de .elementor-icon-list-items {
+        display: grid !important;
+        gap: 8px !important;
+        margin: 0 !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-815a4e5 .elementor-icon-list-item,
+    body.elementor-page-1139 .elementor-element.elementor-element-ee417de .elementor-icon-list-item {
+        margin: 0 !important;
+        padding: 0 !important;
+        align-items: center !important;
+    }
+
+    body.elementor-page-1139 .elementor-element.elementor-element-815a4e5 .elementor-icon-list-text,
+    body.elementor-page-1139 .elementor-element.elementor-element-ee417de .elementor-icon-list-text {
+        white-space: nowrap !important;
+        line-height: 1.12 !important;
+    }
+
+    @media (max-width: 1024px) {
+        body.elementor-page-1139 .elementor-element.elementor-element-6910057 > .e-con-inner {
+            gap: 24px !important;
+        }
+
+        body.elementor-page-1139 .elementor-element.elementor-element-1a573c6 {
+            grid-template-columns: 1fr !important;
+            gap: 8px !important;
+        }
+    }
+</style>
 <div data-rocket-location-hash="44f11bb36beec1aee66d889974aeb8cd" class="tp-page-area page-padding">
     <div data-rocket-location-hash="0841f15ebf099eeaba6f2c7f735d0671" class="container">
 		<div class="row">
@@ -41,7 +190,7 @@
 		<div class="elementor-element elementor-element-a682707 e-con-full e-flex e-con e-child" data-id="a682707" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-3414e2c elementor-widget elementor-widget-image" data-id="3414e2c" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="137" height="136" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/bewertungssiegel-e1612882888574-1.png') }}" class="attachment-full size-full wp-image-1116" alt="" srcset="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/bewertungssiegel-e1612882888574-1.png') }} 137w, {{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/bewertungssiegel-e1612882888574-1-120x120.png') }} 120w" sizes="(max-width: 137px) 100vw, 137px" />															</div>
+															<img decoding="async" width="137" height="136" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2025/11/6256c15ccd258e35c0314eff_meisterbetrieb.png') }}" class="attachment-full size-full wp-image-1116" alt="" srcset="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2025/11/6256c15ccd258e35c0314eff_meisterbetrieb.png') }} 137w, {{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2025/11/6256c15ccd258e35c0314eff_meisterbetrieb-120x120.png') }} 120w" sizes="(max-width: 137px) 100vw, 137px" />															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-fd1f78d e-con-full e-flex e-con e-child" data-id="fd1f78d" data-element_type="container" data-e-type="container">
@@ -153,7 +302,7 @@
 		<div class="elementor-element elementor-element-dba1895 e-con-full e-flex e-con e-child" data-id="dba1895" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-73c6464 elementor-widget elementor-widget-image" data-id="73c6464" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="530" height="370" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/1-530x370.png') }}" class="attachment-medium_large size-medium_large wp-image-1382" alt="" />															</div>
+															<img decoding="async" width="530" height="370" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/tab-v1-img-585x370.jpg') }}" class="attachment-medium_large size-medium_large wp-image-1382" alt="" />															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-31b1753 e-con-full e-flex e-con e-child" data-id="31b1753" data-element_type="container" data-e-type="container">
@@ -264,7 +413,7 @@
 		<div class="elementor-element elementor-element-078e2aa e-con-full e-flex e-con e-child" data-id="078e2aa" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-face19e elementor-widget elementor-widget-image" data-id="face19e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/2-530x562.png') }}" class="attachment-large size-large wp-image-1386" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/about-v1-img2.png') }}" class="attachment-large size-large wp-image-1386" alt="" />															</div>
 				</div>
 				</div>
 				</div>
@@ -308,7 +457,7 @@
 		<div class="elementor-element elementor-element-bfd0397 e-con-full e-flex e-con e-child" data-id="bfd0397" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-5c85af6 elementor-widget elementor-widget-image" data-id="5c85af6" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="530" height="370" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/4-530x370.png') }}" class="attachment-medium_large size-medium_large wp-image-1388" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="530" height="370" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/team-detalis-img1-470x370.jpg') }}" class="attachment-medium_large size-medium_large wp-image-1388" alt="" />															</div>
 				</div>
 				</div>
 				</div>
@@ -316,7 +465,7 @@
 		<div class="elementor-element elementor-element-e2caaee e-con-full e-flex e-con e-child" data-id="e2caaee" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-c08a539 elementor-widget elementor-widget-image" data-id="c08a539" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="530" height="570" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/3.png') }}" class="attachment-medium size-medium wp-image-1387" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="530" height="570" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/contact-v1-img1-600x562.png') }}" class="attachment-medium size-medium wp-image-1387" alt="" />															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-e0c9bf8 e-con-full e-flex e-con e-child" data-id="e0c9bf8" data-element_type="container" data-e-type="container">

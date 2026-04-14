@@ -6,7 +6,7 @@
 @section('robots', 'index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large')
 @section('og_title', 'Effizienter Winterdienst in Wien: Ihre Lösung für Schnee und Eis')
 @section('og_description', 'Erfahren Sie, wie Sie in Wien effizient mit Schnee und Eis umgehen können. Optimieren Sie Ihren Winterdienst und bleiben Sie sicher. Lesen Sie mehr!')
-@section('og_image', '/assets/mirror/eco-clean.at/wp-content/uploads/2024/11/2-9.png')
+@section('og_image', '/assets/mirror/eco-clean.at/wp-content/uploads/2023/10/contact-v1-img1-600x562.png')
 
 @section('twitter_title', 'Effizienter Winterdienst in Wien: Ihre Lösung für Schnee und Eis')
 @section('twitter_description', 'Erfahren Sie, wie Sie in Wien effizient mit Schnee und Eis umgehen können. Optimieren Sie Ihren Winterdienst und bleiben Sie sicher. Lesen Sie mehr!')
@@ -35,7 +35,7 @@
 		<div class="elementor-element elementor-element-b4ceb61 e-con-full e-flex e-con e-child" data-id="b4ceb61" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-7b1d6b5 elementor-widget elementor-widget-image" data-id="7b1d6b5" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="137" height="136" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/bewertungssiegel-e1612882888574-1.png') }}" class="attachment-full size-full wp-image-1116" alt="" srcset="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/bewertungssiegel-e1612882888574-1.png') }} 137w, {{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/bewertungssiegel-e1612882888574-1-120x120.png') }} 120w" sizes="(max-width: 137px) 100vw, 137px" />															</div>
+															<img decoding="async" width="137" height="136" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2025/11/6256c15ccd258e35c0314eff_meisterbetrieb.png') }}" class="attachment-full size-full wp-image-1116" alt="" srcset="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2025/11/6256c15ccd258e35c0314eff_meisterbetrieb.png') }} 137w, {{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2025/11/6256c15ccd258e35c0314eff_meisterbetrieb-120x120.png') }} 120w" sizes="(max-width: 137px) 100vw, 137px" />															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-3fa7d5e e-con-full e-flex e-con e-child" data-id="3fa7d5e" data-element_type="container" data-e-type="container">
@@ -180,7 +180,7 @@
 		<div class="elementor-element elementor-element-c22d4c2 e-con-full e-flex e-con e-child" data-id="c22d4c2" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-2fb8982 elementor-widget elementor-widget-image" data-id="2fb8982" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/2-9-530x562.png') }}" class="attachment-large size-large wp-image-1490" alt="" />															</div>
+															<img decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/about-v1-img2.png') }}" class="attachment-large size-large wp-image-1490" alt="" />															</div>
 				</div>
 				</div>
 				</div>
@@ -217,7 +217,7 @@
 		<div class="elementor-element elementor-element-b170a31 e-con-full e-flex e-con e-child" data-id="b170a31" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-e1eb809 elementor-widget elementor-widget-image" data-id="e1eb809" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/5-2-530x562.png') }}" class="attachment-large size-large wp-image-1493" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/contact-v1-img1-600x562.png') }}" class="attachment-large size-large wp-image-1493" alt="" />															</div>
 				</div>
 				</div>
 				</div>
@@ -225,7 +225,7 @@
 		<div class="elementor-element elementor-element-9bdf647 e-con-full e-flex e-con e-child" data-id="9bdf647" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-be86fa9 elementor-widget elementor-widget-image" data-id="be86fa9" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/3-8-530x562.png') }}" class="attachment-large size-large wp-image-1491" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/main-slider-v2-img3.png') }}" class="attachment-large size-large wp-image-1491" alt="" />															</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-bf2c059 e-con-full e-flex e-con e-child" data-id="bf2c059" data-element_type="container" data-e-type="container">
@@ -291,14 +291,14 @@
 		<div class="elementor-element elementor-element-d37a740 e-con-full e-flex e-con e-child" data-id="d37a740" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-af27411 elementor-widget elementor-widget-image" data-id="af27411" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/4-5-530x562.png') }}" class="attachment-large size-large wp-image-1492" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/about-v1-img1-530x562.jpg') }}" class="attachment-large size-large wp-image-1492" alt="" />															</div>
 				</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-f0a279d e-con-full e-flex e-con e-child" data-id="f0a279d" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-49d36ff elementor-widget__width-inherit elementor-widget elementor-widget-image" data-id="49d36ff" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2024/11/1-9-530x562.png') }}" class="attachment-large size-large wp-image-1489" alt="" />															</div>
+															<img loading="lazy" decoding="async" width="530" height="562" src="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/2023/10/contact-v1-img1-600x562.png') }}" class="attachment-large size-large wp-image-1489" alt="" />															</div>
 				</div>
 		<div class="elementor-element elementor-element-f592385 e-con-full e-flex e-con e-child" data-id="f592385" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-09d4101 elementor-widget elementor-widget-heading" data-id="09d4101" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
