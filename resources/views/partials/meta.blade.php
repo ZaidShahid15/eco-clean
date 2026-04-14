@@ -341,5 +341,161 @@
 <link rel="stylesheet" href="{{ asset('assets/mirror/eco-clean.at/wp-content/themes/washup/assets/css/washup-unit.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/mirror/eco-clean.at/wp-content/themes/washup/assets/css/washup-responsive.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/clone-overrides.css') }}">
+<style>
+    .elementor-element-fa04447 {
+        padding: 28px 22px 24px !important;
+        border-radius: 28px !important;
+        background: rgba(255, 255, 255, 0.9) !important;
+        box-shadow: 0 24px 60px rgba(15, 39, 77, 0.22) !important;
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
+    }
+
+    .elementor-element-fa04447 > .elementor-widget-heading {
+        margin-bottom: 18px !important;
+    }
+
+    .elementor-element-fa04447 > .elementor-widget-heading .elementor-heading-title {
+        margin: 0 !important;
+        color: #1f4f95 !important;
+        font-size: 28px !important;
+        font-weight: 800 !important;
+        line-height: 1.15 !important;
+        text-align: center !important;
+        letter-spacing: -0.02em;
+    }
+
+    .elementor-element-fa04447 .elementor-widget-shortcode,
+    .elementor-element-fa04447 .elementor-widget-container,
+    .elementor-element-fa04447 .elementor-shortcode,
+    .elementor-element-fa04447 .fluentform_wrapper_4,
+    .elementor-element-fa04447 .fluentform_wrapper_4 form,
+    .elementor-element-fa04447 .fluentform_wrapper_4 fieldset {
+        width: 100%;
+    }
+
+    .elementor-element-fa04447 .fluentform_wrapper_4.ffs_default_wrap {
+        margin: 0 !important;
+    }
+
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff-el-group {
+        margin-bottom: 18px !important;
+    }
+
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff-t-container {
+        gap: 16px;
+    }
+
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff-t-cell {
+        min-width: 0;
+    }
+
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff_columns_total_2 .ff-t-column-1,
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff_columns_total_2 .ff-t-column-2 {
+        flex: 1 1 calc(50% - 8px) !important;
+        width: calc(50% - 8px) !important;
+    }
+
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff-el-input--label,
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff-el-is-error .text-danger,
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff-errors-in-stack {
+        color: #5d6c82 !important;
+    }
+
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff-el-form-control,
+    .elementor-element-fa04447 .fluentform_wrapper_4 select.ff-el-form-control,
+    .elementor-element-fa04447 .fluentform_wrapper_4 textarea.ff-el-form-control {
+        min-height: 60px !important;
+        padding: 16px 18px !important;
+        border: 1px solid #ced7e5 !important;
+        border-radius: 10px !important;
+        background: rgba(255, 255, 255, 0.98) !important;
+        box-shadow: inset 0 1px 2px rgba(17, 38, 69, 0.04) !important;
+        color: #5d6c82 !important;
+        font-size: 15px !important;
+        font-weight: 500 !important;
+        line-height: 1.4 !important;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .elementor-element-fa04447 .fluentform_wrapper_4 select.ff-el-form-control {
+        padding-right: 42px !important;
+    }
+
+    .elementor-element-fa04447 .fluentform_wrapper_4 textarea.ff-el-form-control {
+        min-height: 114px !important;
+        resize: vertical;
+    }
+
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff-el-form-control::placeholder {
+        color: #5d6c82 !important;
+        opacity: 1;
+    }
+
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff-el-form-control:focus,
+    .elementor-element-fa04447 .fluentform_wrapper_4 select.ff-el-form-control:focus,
+    .elementor-element-fa04447 .fluentform_wrapper_4 textarea.ff-el-form-control:focus {
+        border-color: #2a61ad !important;
+        box-shadow: 0 0 0 3px rgba(42, 97, 173, 0.12) !important;
+    }
+
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff_submit_btn_wrapper {
+        margin: 2px 0 10px !important;
+        text-align: center !important;
+    }
+
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff-btn.ff-btn-submit {
+        min-width: 194px !important;
+        height: 42px !important;
+        padding: 0 28px !important;
+        border: 0 !important;
+        border-radius: 10px !important;
+        background: linear-gradient(180deg, #2465b8 0%, #1953a0 100%) !important;
+        box-shadow: 0 10px 22px rgba(28, 86, 163, 0.28) !important;
+        color: #ffffff !important;
+        font-size: 16px !important;
+        font-weight: 700 !important;
+        line-height: 42px !important;
+    }
+
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff-btn.ff-btn-submit:hover,
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff-btn.ff-btn-submit:focus {
+        transform: translateY(-1px);
+        background: linear-gradient(180deg, #2b6fc6 0%, #1d5aab 100%) !important;
+        color: #ffffff !important;
+    }
+
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff-message-success,
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff-errors-in-stack,
+    .elementor-element-fa04447 .fluentform_wrapper_4 .ff-form-success {
+        margin-top: 8px !important;
+        text-align: center;
+        font-size: 12px !important;
+    }
+
+    @media (max-width: 767px) {
+        .elementor-element-fa04447 {
+            padding: 24px 16px 20px !important;
+            border-radius: 24px !important;
+        }
+
+        .elementor-element-fa04447 > .elementor-widget-heading .elementor-heading-title {
+            font-size: 24px !important;
+        }
+
+        .elementor-element-fa04447 .fluentform_wrapper_4 .ff_columns_total_2 .ff-t-column-1,
+        .elementor-element-fa04447 .fluentform_wrapper_4 .ff_columns_total_2 .ff-t-column-2 {
+            flex-basis: 100% !important;
+            width: 100% !important;
+        }
+
+        .elementor-element-fa04447 .fluentform_wrapper_4 .ff-el-form-control,
+        .elementor-element-fa04447 .fluentform_wrapper_4 select.ff-el-form-control,
+        .elementor-element-fa04447 .fluentform_wrapper_4 textarea.ff-el-form-control {
+            min-height: 56px !important;
+            padding: 14px 16px !important;
+        }
+    }
+</style>
 @yield('page_styles')
 @yield('schema')
