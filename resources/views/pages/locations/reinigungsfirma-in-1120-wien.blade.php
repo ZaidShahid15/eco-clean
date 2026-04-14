@@ -69,10 +69,10 @@
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-70fb267 elementor-widget elementor-widget-twinkle_btn" data-id="70fb267" data-element_type="widget" data-e-type="widget" data-widget_type="twinkle_btn.default">
 				<div class="elementor-widget-container">
-					
+
                             <a href="{{ route('contact') }}" target="_blank" rel="nofollow" class="thm-btn service-details__btn">
                     KONTAKT                </a>
-            
+
         				</div>
 				</div>
 					</div>
@@ -271,10 +271,10 @@
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-70fb267 elementor-widget elementor-widget-twinkle_btn" data-id="70fb267" data-element_type="widget" data-e-type="widget" data-widget_type="twinkle_btn.default">
 				<div class="elementor-widget-container">
-					
+
                             <a href="{{ route('contact') }}" target="_blank" rel="nofollow" class="thm-btn service-details__btn">
                     KONTAKT                </a>
-            
+
         				</div>
 				</div>
 					</div>

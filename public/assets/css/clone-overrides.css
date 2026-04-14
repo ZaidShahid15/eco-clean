@@ -567,6 +567,11 @@ form {
 }
 
 @media (max-width: 767px) {
+    .elementor-926 .elementor-element.elementor-element-0d6748a {
+        padding: 100px 0px 100px 0px !important;
+    }
+}
+@media (max-width: 767px) {
     .home.elementor-page-532 .elementor-element.elementor-element-39e451b {
         margin: 0 8px !important;
         padding-top: 28px !important;
@@ -1504,3 +1509,16 @@ body.elementor-page-1139 .elementor-1139 .elementor-element.e-con-boxed > .e-con
         gap: 34px !important;
     }
 }
+
+
+body.elementor-page-1139 .elementor-1139 .elementor-section > .elementor-container, body.elementor-page-1139 .elementor-1139 .e-con-boxed > .e-con-inner, body.elementor-page-1139 .elementor-1139 .elementor-element.e-con-boxed > .e-con-inner {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    margin: auto !important;
+}
+
+

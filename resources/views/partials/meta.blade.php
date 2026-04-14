@@ -901,10 +901,14 @@
         margin-bottom: 50px !important;
     }
 
+    /* .elementor-926 .elementor-element.elementor-element-d6748a0 {
+        padding: 12px 0 !important;
+    }
+
     .elementor-926 .elementor-element.elementor-element-d6748a0:not(.elementor-motion-effects-element-type-background),
     .elementor-926 .elementor-element.elementor-element-d6748a0 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
         padding: 12px 0 !important;
-    }
+    } */
 
     .elementor-page-56 .elementor-element.elementor-element-3f4f4985,
     .elementor-page-56 .elementor-element.elementor-element-6d74d430,
@@ -938,6 +942,10 @@
     }
 
     @media (max-width: 767px) {
+        .elementor-926 .elementor-element.elementor-element-d6748a0 {
+            padding: 0 !important;
+        }
+
         .elementor-element-fc58b73 > .e-con-inner {
             gap: 24px !important;
         }
