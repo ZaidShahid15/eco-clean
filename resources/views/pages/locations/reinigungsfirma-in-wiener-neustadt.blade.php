@@ -22,6 +22,35 @@
 @endsection
 
 @section('content')
+<style>
+    .elementor-1671 > .elementor-element:nth-of-type(n+4) .elementor-heading-title {
+        color: #5f5f5f !important;
+    }
+
+    .elementor-1671 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor,
+    .elementor-1671 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor p,
+    .elementor-1671 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor span,
+    .elementor-1671 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor li,
+    .elementor-1671 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor strong,
+    .elementor-1671 > .elementor-element:nth-of-type(n+4) .elementor-widget-text-editor b {
+        color: #6b6b6b !important;
+    }
+
+    .elementor-1671 .fluentform_wrapper_4 .ff-el-input--label label,
+    .elementor-1671 .fluentform_wrapper_4 .ff-el-input--label,
+    .elementor-1671 .fluentform_wrapper_4 .ff-el-form-control,
+    .elementor-1671 .fluentform_wrapper_4 .ff-el-form-control::placeholder,
+    .elementor-1671 .fluentform_wrapper_4 .ff-errors-in-stack {
+        color: #5f5f5f !important;
+    }
+
+    .elementor-1671 .fluentform_wrapper_4 .ff-el-form-control,
+    .elementor-1671 .fluentform_wrapper_4 select.ff-el-form-control,
+    .elementor-1671 .fluentform_wrapper_4 textarea.ff-el-form-control {
+        background: #ffffff !important;
+        border-color: #d7dce3 !important;
+    }
+</style>
 <div data-rocket-location-hash="449cc9a1d69aa5c05d275d0753484005" data-elementor-type="wp-page" data-elementor-id="1671" class="elementor elementor-1671" data-elementor-post-type="page">
 				<div class="elementor-element elementor-element-fc58b73 e-flex e-con-boxed e-con e-parent" data-id="fc58b73" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_bottom&quot;:&quot;tilt&quot;}">
 					<div class="e-con-inner">
@@ -558,4 +587,3 @@
 				</div>
 				</div>
 @endsection
-
