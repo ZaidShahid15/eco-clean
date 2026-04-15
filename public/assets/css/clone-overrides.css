@@ -1544,3 +1544,14 @@ body.elementor-page-1139 .elementor-1139 .elementor-section > .elementor-contain
     margin-top: 20px !important;
     padding-top: 0 !important;
 }
+
+/* Location hero heading: remove shadow/filter styling so the title stays plain. */
+body .elementor-element.elementor-element-fc58b73 .elementor-element.elementor-element-b144da1 .elementor-heading-title {
+    text-shadow: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    -webkit-text-stroke: 0 !important;
+    -webkit-text-fill-color: #ffffff !important;
+    background: none !important;
+    box-shadow: none !important;
+}
