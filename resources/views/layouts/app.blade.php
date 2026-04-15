@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="eco-contact-submit-url" content="{{ route('contact.submit') }}">
+    @if (session('status'))
+        <meta name="eco-form-status" content="{{ session('status') }}">
+    @endif
+    @if ($errors->any())
+        <meta name="eco-form-error" content="{{ $errors->first('contact_form') ?? $errors->first() }}">
+    @endif
     @include('partials.meta')
 </head>
 @php
@@ -17,6 +25,27 @@
     }
 @endphp
 <style>
+  .eco-flash__item {
+    border-radius: 14px;
+    padding: 14px 18px;
+    font-size: 15px;
+    line-height: 1.6;
+    box-shadow: 0 10px 30px rgba(23, 49, 32, 0.08);
+    margin-bottom: 18px;
+  }
+
+  .eco-flash__item--success {
+    background: #e7f6ec;
+    border: 1px solid #b8dfc2;
+    color: #174b28;
+  }
+
+  .eco-flash__item--error {
+    background: #fff1f1;
+    border: 1px solid #efc3c3;
+    color: #8f2020;
+  }
+
   .elementor-element.elementor-element-28a5c95:not(.elementor-motion-effects-element-type-background), .elementor-1179 .elementor-element.elementor-element-28a5c95 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
     background-color: #ffffff !important;
     border: 1px solid #808080;

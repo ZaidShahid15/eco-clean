@@ -1,11 +1,9 @@
 <?php
 
-use Illuminate\Http\Request;
+use App\Http\Controllers\ContactFormController;
 use Illuminate\Support\Facades\Route;
 
-Route::post('/contact-submit', function (Request $request) {
-    return back()->with('status', 'Frontend-only placeholder form.');
-})->name('contact.submit');
+Route::post('/contact-submit', ContactFormController::class)->name('contact.submit');
 
 Route::view('/', 'pages.home')->name('home');
 Route::view('/leistungen/', 'pages.services.index')->name('services.index');

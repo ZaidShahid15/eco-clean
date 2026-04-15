@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const csrfToken = document.querySelector('meta[name="csrf-token"]')?.getAttribute('content');
+    const contactSubmitUrl = document.querySelector('meta[name="eco-contact-submit-url"]')?.getAttribute('content');
+    const formStatusMessage = document.querySelector('meta[name="eco-form-status"]')?.getAttribute('content');
+    const formErrorMessage = document.querySelector('meta[name="eco-form-error"]')?.getAttribute('content');
+
     const slugifyHeading = (text, fallback) => {
         const slug = (text || '')
             .toLowerCase()
@@ -92,19 +97,56 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.querySelectorAll('form').forEach((form) => {
+        const isLiveContactForm = form.classList.contains('frm-fluent-form');
         const isSearchForm =
             form.matches('[role="search"]') ||
             form.classList.contains('sidebar__search-form') ||
             form.querySelector('input[type="search"]');
 
-        if (!isSearchForm && !form.querySelector('.eco-clone-form-note')) {
+        if (isLiveContactForm && contactSubmitUrl) {
+            form.setAttribute('action', contactSubmitUrl);
+            form.setAttribute('method', 'POST');
+
+            if (!form.querySelector('.eco-flash__item') && (formStatusMessage || formErrorMessage)) {
+                const flash = document.createElement('div');
+                flash.className = `eco-flash__item ${formErrorMessage ? 'eco-flash__item--error' : 'eco-flash__item--success'}`;
+                flash.textContent = formErrorMessage || formStatusMessage;
+                form.prepend(flash);
+            }
+
+            if (csrfToken && !form.querySelector('input[name="_token"]')) {
+                const tokenInput = document.createElement('input');
+                tokenInput.type = 'hidden';
+                tokenInput.name = '_token';
+                tokenInput.value = csrfToken;
+                form.prepend(tokenInput);
+            }
+
+            if (!form.querySelector('input[name="eco_form_source"]')) {
+                const sourceInput = document.createElement('input');
+                sourceInput.type = 'hidden';
+                sourceInput.name = 'eco_form_source';
+                sourceInput.value = window.location.href;
+                form.appendChild(sourceInput);
+            }
+
+            if (!form.querySelector('input[name="eco_requires_privacy"]') && form.querySelector('input[type="checkbox"][required]')) {
+                const privacyInput = document.createElement('input');
+                privacyInput.type = 'hidden';
+                privacyInput.name = 'eco_requires_privacy';
+                privacyInput.value = '1';
+                form.appendChild(privacyInput);
+            }
+        }
+
+        if (!isSearchForm && !isLiveContactForm && !form.querySelector('.eco-clone-form-note')) {
             const note = document.createElement('p');
             note.className = 'eco-clone-form-note';
             note.textContent = 'Frontend-Demoformular. Die Verarbeitung ist in dieser Laravel-Clone-Version noch nicht verbunden.';
             form.appendChild(note);
         }
 
-        if (!isSearchForm) {
+        if (!isSearchForm && !isLiveContactForm) {
             form.addEventListener('submit', (event) => {
                 event.preventDefault();
             });
