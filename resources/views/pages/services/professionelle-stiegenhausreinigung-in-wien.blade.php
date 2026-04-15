@@ -71,7 +71,7 @@
         fill: #ffffff !important;
         -webkit-text-fill-color: #ffffff !important;
     }
-    .elementor-1192 .elementor-element-d8059cb .elementor-element-7bc6dd9.zaid-black-heading .elementor-heading-title {
+    .elementor-1192 .elementor-element.elementor-element-d8059cb .elementor-element.elementor-element-7bc6dd9.zaid-black-heading.elementor-widget-heading .elementor-heading-title {
         color: #000000 !important;
         -webkit-text-fill-color: #000000 !important;
     }
