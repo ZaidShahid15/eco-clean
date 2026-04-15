@@ -178,7 +178,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-894eb01 elementor-widget elementor-widget-heading" data-id="894eb01" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Our Location
+					<h2 class="elementor-heading-title elementor-size-default">Unser Standort
 </h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-1fcc6f22 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="1fcc6f22" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
@@ -187,14 +187,14 @@
 							<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">P.O. Box - 115037, Dubai U.A.E</span>
+										<span class="elementor-icon-list-text">Postfach - 115037, Dubai, V.A.E.</span>
 									</li>
 						</ul>
 						</div>
 				</div>
 				<div class="elementor-element elementor-element-2f6cc402 elementor-widget elementor-widget-heading" data-id="2f6cc402" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Quick Contact
+					<h2 class="elementor-heading-title elementor-size-default">Schnellkontakt
 </h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-3524c967 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3524c967" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
