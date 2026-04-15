@@ -1035,12 +1035,8 @@ html body.home.elementor-page-532 section.eco-home-areas-row .elementor-button .
 }
 
 html body.home.elementor-page-532 section.eco-home-areas-row .elementor-button .elementor-button-content-wrapper::after {
-    content: "\2192" !important;
-    color: #2d67c6 !important;
-    font-size: 21px !important;
-    font-weight: 400 !important;
-    line-height: 1 !important;
-    flex: 0 0 auto;
+    content: none !important;
+    display: none !important;
 }
 
 html body.home.elementor-page-532 section.eco-home-areas-row .elementor-button:hover {
@@ -1120,7 +1116,8 @@ html body.home.elementor-page-532 section.eco-home-areas-row .elementor-button:h
     }
 
     html body.home.elementor-page-532 section.eco-home-areas-row .elementor-button .elementor-button-content-wrapper::after {
-        font-size: 18px !important;
+        content: none !important;
+        display: none !important;
     }
 }
 
