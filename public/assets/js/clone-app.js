@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const contactSubmitUrl = document.querySelector('meta[name="eco-contact-submit-url"]')?.getAttribute('content');
     const formStatusMessage = document.querySelector('meta[name="eco-form-status"]')?.getAttribute('content');
     const formErrorMessage = document.querySelector('meta[name="eco-form-error"]')?.getAttribute('content');
+    const mobileMediaQuery = window.matchMedia('(max-width: 767px)');
 
     const slugifyHeading = (text, fallback) => {
         const slug = (text || '')
@@ -51,8 +52,41 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        const list = document.createElement('ul');
+        const list = document.createElement('ol');
         list.className = 'elementor-toc__list-wrapper';
+
+        const headingLevels = headingSelector
+            .split(',')
+            .map((tag) => tag.trim().toUpperCase())
+            .filter(Boolean);
+
+        const headingCounters = new Map();
+        headingLevels.forEach((tag) => headingCounters.set(tag, 0));
+
+        const buildHeadingNumber = (tagName) => {
+            const currentIndex = headingLevels.indexOf(tagName);
+            if (currentIndex === -1) {
+                return '';
+            }
+
+            headingCounters.set(tagName, (headingCounters.get(tagName) || 0) + 1);
+
+            for (let index = currentIndex + 1; index < headingLevels.length; index += 1) {
+                headingCounters.set(headingLevels[index], 0);
+            }
+
+            const parts = [];
+
+            for (let index = 0; index <= currentIndex; index += 1) {
+                const value = headingCounters.get(headingLevels[index]) || 0;
+                if (value === 0) {
+                    continue;
+                }
+                parts.push(String(value));
+            }
+
+            return parts.join('.');
+        };
 
         headings.forEach((heading, headingIndex) => {
             if (!heading.id) {
@@ -65,7 +99,18 @@ document.addEventListener('DOMContentLoaded', () => {
             const link = document.createElement('a');
             link.className = 'elementor-toc__list-item-text';
             link.href = `#${heading.id}`;
-            link.textContent = heading.textContent.trim();
+
+            const number = buildHeadingNumber(heading.tagName);
+            const numberSpan = document.createElement('span');
+            numberSpan.className = 'elementor-toc__list-item-number';
+            numberSpan.textContent = number;
+
+            const labelSpan = document.createElement('span');
+            labelSpan.className = 'elementor-toc__list-item-label';
+            labelSpan.textContent = heading.textContent.trim();
+
+            link.appendChild(numberSpan);
+            link.appendChild(labelSpan);
 
             item.appendChild(link);
             list.appendChild(item);
@@ -95,6 +140,45 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     });
+
+    const homeAreasHead = document.querySelector('body.home.elementor-page-532 section.eco-home-areas-head');
+    const homeAreaRows = Array.from(document.querySelectorAll('body.home.elementor-page-532 section.eco-home-areas-row'));
+
+    const syncHomeAreasMobileGrid = () => {
+        if (!homeAreasHead || !homeAreaRows.length) {
+            return;
+        }
+
+        let mobileGrid = document.querySelector('.eco-home-areas-mobile-grid');
+
+        if (!mobileMediaQuery.matches) {
+            if (mobileGrid) {
+                mobileGrid.remove();
+            }
+            return;
+        }
+
+        if (!mobileGrid) {
+            mobileGrid = document.createElement('section');
+            mobileGrid.className = 'eco-home-areas-mobile-grid';
+            homeAreasHead.insertAdjacentElement('afterend', mobileGrid);
+        }
+
+        mobileGrid.innerHTML = '';
+
+        homeAreaRows.forEach((row) => {
+            row.querySelectorAll('.elementor-button-wrapper').forEach((buttonWrapper) => {
+                mobileGrid.appendChild(buttonWrapper.cloneNode(true));
+            });
+        });
+    };
+
+    syncHomeAreasMobileGrid();
+    if (typeof mobileMediaQuery.addEventListener === 'function') {
+        mobileMediaQuery.addEventListener('change', syncHomeAreasMobileGrid);
+    } else if (typeof mobileMediaQuery.addListener === 'function') {
+        mobileMediaQuery.addListener(syncHomeAreasMobileGrid);
+    }
 
     document.querySelectorAll('form').forEach((form) => {
         const isLiveContactForm = form.classList.contains('frm-fluent-form');
