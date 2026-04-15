@@ -201,19 +201,35 @@
         }
     }
 
-    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-heading-title,
-    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor,
-    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor p,
-    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor span,
-    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor strong,
-    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor b,
-    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor li,
-    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor i,
-    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-icon-list-text {
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-c4cfd25):not(.elementor-element-7be8d90):not(.elementor-element-d8059cb) .elementor-heading-title,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-c4cfd25):not(.elementor-element-7be8d90):not(.elementor-element-d8059cb) .elementor-widget-text-editor,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-c4cfd25):not(.elementor-element-7be8d90):not(.elementor-element-d8059cb) .elementor-widget-text-editor p,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-c4cfd25):not(.elementor-element-7be8d90):not(.elementor-element-d8059cb) .elementor-widget-text-editor span,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-c4cfd25):not(.elementor-element-7be8d90):not(.elementor-element-d8059cb) .elementor-widget-text-editor strong,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-c4cfd25):not(.elementor-element-7be8d90):not(.elementor-element-d8059cb) .elementor-widget-text-editor b,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-c4cfd25):not(.elementor-element-7be8d90):not(.elementor-element-d8059cb) .elementor-widget-text-editor li,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-c4cfd25):not(.elementor-element-7be8d90):not(.elementor-element-d8059cb) .elementor-widget-text-editor i,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-c4cfd25):not(.elementor-element-7be8d90):not(.elementor-element-d8059cb) .elementor-icon-list-text {
         color: #5f5f5f !important;
         -webkit-text-fill-color: #5f5f5f !important;
     }
 
+    body.elementor-page-1139 .elementor-element.elementor-element-6910057 .elementor-heading-title,
+    body.elementor-page-1139 .elementor-element.elementor-element-6910057 .elementor-widget-text-editor,
+    body.elementor-page-1139 .elementor-element.elementor-element-6910057 .elementor-widget-text-editor p,
+    body.elementor-page-1139 .elementor-element.elementor-element-6910057 .elementor-widget-text-editor span,
+    body.elementor-page-1139 .elementor-element.elementor-element-6910057 .elementor-widget-text-editor strong,
+    body.elementor-page-1139 .elementor-element.elementor-element-6910057 .elementor-widget-text-editor b,
+    body.elementor-page-1139 .elementor-element.elementor-element-6910057 .elementor-widget-text-editor li,
+    body.elementor-page-1139 .elementor-element.elementor-element-6910057 .elementor-icon-list-text,
+    body.elementor-page-1139 .elementor-element.elementor-element-6910057 .elementor-icon-list-icon i,
+    body.elementor-page-1139 .elementor-element.elementor-element-6910057 .elementor-icon-list-icon svg,
+    body.elementor-page-1139 .elementor-element.elementor-element-ac24fac .elementor-heading-title,
+    body.elementor-page-1139 .elementor-element.elementor-element-cf0cd2d .elementor-heading-title,
+    body.elementor-page-1139 .elementor-element.elementor-element-6d4c65c .elementor-heading-title,
+    body.elementor-page-1139 .elementor-element.elementor-element-41286ea,
+    body.elementor-page-1139 .elementor-element.elementor-element-41286ea .e-rating,
+    body.elementor-page-1139 .elementor-element.elementor-element-41286ea .e-rating-wrapper,
     body.elementor-page-1139 .elementor-element.elementor-element-64f058b .elementor-heading-title,
     body.elementor-page-1139 .elementor-element.elementor-element-64f058b .elementor-icon-list-text,
     body.elementor-page-1139 .elementor-element.elementor-element-64f058b .elementor-icon-list-icon i,
@@ -230,6 +246,8 @@
     body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-widget-text-editor strong,
     body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-widget-text-editor b,
     body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-widget-text-editor li,
+    body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-element-51a6401 .elementor-heading-title,
+    body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-element-ec8af24 .elementor-heading-title,
     body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-icon-list-text,
     body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-icon-list-icon i,
     body.elementor-page-1139 .elementor-element.elementor-element-c4cfd25 .elementor-icon-list-icon svg,
@@ -240,6 +258,8 @@
     body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-widget-text-editor strong,
     body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-widget-text-editor b,
     body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-widget-text-editor li,
+    body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-element-4514faf .elementor-heading-title,
+    body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-element-ea7cca2 .elementor-heading-title,
     body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-icon-list-text,
     body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-icon-list-icon i,
     body.elementor-page-1139 .elementor-element.elementor-element-7be8d90 .elementor-icon-list-icon svg {
