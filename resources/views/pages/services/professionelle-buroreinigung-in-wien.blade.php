@@ -323,6 +323,10 @@
         -webkit-text-fill-color: #ffffff !important;
         opacity: 1 !important;
     }
+    body.elementor-page-1139 .elementor-element-d8059cb .elementor-element-7bc6dd9.zaid-black-heading .elementor-heading-title {
+        color: #000000 !important;
+        -webkit-text-fill-color: #000000 !important;
+    }
 </style>
 <div data-rocket-location-hash="44f11bb36beec1aee66d889974aeb8cd" class="tp-page-area page-padding">
     <div data-rocket-location-hash="0841f15ebf099eeaba6f2c7f735d0671" class="container">
@@ -950,7 +954,7 @@ Closed</p>				</div>
 		<div class="elementor-element elementor-element-d8059cb e-flex e-con-boxed e-con e-parent" data-id="d8059cb" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-6cb7b86 e-con-full e-flex e-con e-child" data-id="6cb7b86" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-7bc6dd9 elementor-widget elementor-widget-heading" data-id="7bc6dd9" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-7bc6dd9 zaid-black-heading elementor-widget elementor-widget-heading" data-id="7bc6dd9" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">Kontaktdaten</h2>				</div>
 				</div>
