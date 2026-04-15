@@ -16,22 +16,22 @@
 
 @section('content')
 <style>
-    .elementor-1205 > .elementor-element:not(.elementor-element-0d6748a) .elementor-widget-heading .elementor-heading-title,
-    .elementor-1205 .elementor-widget-text-editor,
-    .elementor-1205 .elementor-widget-text-editor p,
-    .elementor-1205 .elementor-widget-text-editor span,
-    .elementor-1205 .elementor-widget-text-editor li,
-    .elementor-1205 .elementor-widget-text-editor b,
-    .elementor-1205 .elementor-widget-text-editor strong,
-    .elementor-1205 .elementor-widget-text-editor i,
-    .elementor-1205 .elementor-widget-text-editor h1,
-    .elementor-1205 .elementor-widget-text-editor h2,
-    .elementor-1205 .elementor-widget-text-editor h3,
-    .elementor-1205 .elementor-widget-text-editor h4,
-    .elementor-1205 .elementor-widget-text-editor h5,
-    .elementor-1205 .elementor-widget-text-editor h6 {
-        color: #6b6b6b !important;
-        -webkit-text-fill-color: #6b6b6b !important;
+    .elementor-1205 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-heading .elementor-heading-title,
+    .elementor-1205 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor,
+    .elementor-1205 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor p,
+    .elementor-1205 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor span,
+    .elementor-1205 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor li,
+    .elementor-1205 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor b,
+    .elementor-1205 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor strong,
+    .elementor-1205 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor i,
+    .elementor-1205 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor h1,
+    .elementor-1205 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor h2,
+    .elementor-1205 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor h3,
+    .elementor-1205 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor h4,
+    .elementor-1205 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor h5,
+    .elementor-1205 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor h6 {
+        /* color: #6b6b6b !important; */
+        /* -webkit-text-fill-color: #6b6b6b !important; */
     }
     .elementor-1205 .elementor-element-6910057 .elementor-heading-title,
     .elementor-1205 .elementor-element-6910057 .elementor-widget-text-editor,
@@ -43,7 +43,44 @@
     .elementor-1205 .elementor-element-6910057 .elementor-icon-list-text,
     .elementor-1205 .elementor-element-6910057 .elementor-icon-list-icon i,
     .elementor-1205 .elementor-element-6910057 .elementor-icon-list-icon svg,
+    .elementor-1205 .elementor-element-6910057 .elementor-element-ac24fac .elementor-heading-title,
+    .elementor-1205 .elementor-element-6910057 .elementor-element-cf0cd2d .elementor-heading-title,
+    .elementor-1205 .elementor-element-6910057 .elementor-element-6d4c65c .elementor-heading-title,
+    .elementor-1205 .elementor-element-6910057 .elementor-element-41286ea,
+    .elementor-1205 .elementor-element-6910057 .elementor-element-41286ea .e-rating,
+    .elementor-1205 .elementor-element-6910057 .elementor-element-41286ea .e-rating-wrapper,
+    .elementor-1205 .elementor-element-6910057 .elementor-element-5bd1725 .elementor-icon-list-text,
+    .elementor-1205 .elementor-element-6910057 .elementor-element-5bd1725 .elementor-icon-list-icon i,
+    .elementor-1205 .elementor-element-6910057 .elementor-element-5bd1725 .elementor-icon-list-icon svg,
+    .elementor-1205 .elementor-element-6910057 .elementor-element-ba4689f .elementor-icon-list-text,
+    .elementor-1205 .elementor-element-6910057 .elementor-element-ba4689f .elementor-icon-list-icon i,
+    .elementor-1205 .elementor-element-6910057 .elementor-element-ba4689f .elementor-icon-list-icon svg,
+    .elementor-1205 .elementor-element-2ad2bf8,
+    .elementor-1205 .elementor-element-2ad2bf8 p,
+    .elementor-1205 .elementor-element-2ad2bf8 span,
+    .elementor-1205 .elementor-element-2ad2bf8 li,
+    .elementor-1205 .elementor-element-2ad2bf8 b,
+    .elementor-1205 .elementor-element-2ad2bf8 strong,
+    .elementor-1205 .elementor-element-2ad2bf8 i,
+    .elementor-1205 .elementor-element-2ad2bf8 h1,
+    .elementor-1205 .elementor-element-2ad2bf8 h2,
+    .elementor-1205 .elementor-element-2ad2bf8 h3,
+    .elementor-1205 .elementor-element-2ad2bf8 h4,
+    .elementor-1205 .elementor-element-2ad2bf8 h5,
+    .elementor-1205 .elementor-element-2ad2bf8 h6,
+    .elementor-1205 .elementor-element-2ad2bf8 .elementor-widget-container,
+    .elementor-1205 .elementor-element-2ad2bf8 .elementor-widget-container p,
+    .elementor-1205 .elementor-element-2ad2bf8 .elementor-widget-container span,
+    .elementor-1205 .elementor-element-2ad2bf8 .elementor-widget-container b,
+    .elementor-1205 .elementor-element-2ad2bf8 .elementor-widget-container strong,
+    .elementor-1205 .elementor-element-2ad2bf8 .elementor-widget-container i,
+    .elementor-1205 .elementor-element-2ad2bf8 .elementor-widget-container h4,
+    .elementor-1205 .elementor-element-2ad2bf8 .elementor-widget-container h4 span,
+    .elementor-1205 .elementor-element-2ad2bf8 .elementor-widget-container h4 b,
     .elementor-1205 .elementor-element-d8059cb .elementor-heading-title,
+    .elementor-1205 .elementor-element-d8059cb .elementor-element-7bc6dd9 .elementor-heading-title,
+    .elementor-1205 .elementor-element-d8059cb .elementor-element-6ca7c69 .elementor-heading-title,
+    .elementor-1205 .elementor-element-d8059cb .elementor-element-fe47d6e .elementor-heading-title,
     .elementor-1205 .elementor-element-d8059cb .elementor-widget-text-editor,
     .elementor-1205 .elementor-element-d8059cb .elementor-widget-text-editor p,
     .elementor-1205 .elementor-element-d8059cb .elementor-widget-text-editor span,
@@ -52,10 +89,60 @@
     .elementor-1205 .elementor-element-d8059cb .elementor-widget-text-editor strong,
     .elementor-1205 .elementor-element-d8059cb .elementor-icon-list-text,
     .elementor-1205 .elementor-element-d8059cb .elementor-icon-list-icon i,
-    .elementor-1205 .elementor-element-d8059cb .elementor-icon-list-icon svg {
+    .elementor-1205 .elementor-element-d8059cb .elementor-icon-list-icon svg,
+    .elementor-1205 .elementor-element-d8059cb .elementor-element-e573b1d .elementor-icon-list-text,
+    .elementor-1205 .elementor-element-d8059cb .elementor-element-e573b1d .elementor-icon-list-icon i,
+    .elementor-1205 .elementor-element-d8059cb .elementor-element-e573b1d .elementor-icon-list-icon svg,
+    .elementor-1205 .elementor-element-d8059cb .elementor-element-7c4afac .elementor-icon-list-text,
+    .elementor-1205 .elementor-element-d8059cb .elementor-element-7c4afac .elementor-icon-list-icon i,
+    .elementor-1205 .elementor-element-d8059cb .elementor-element-7c4afac .elementor-icon-list-icon svg {
         color: #ffffff !important;
         fill: #ffffff !important;
         -webkit-text-fill-color: #ffffff !important;
+    }
+
+    .elementor-1205 .zaid-blue-white-text,
+    .elementor-1205 .zaid-blue-white-text .elementor-widget-container,
+    .elementor-1205 .zaid-blue-white-text .elementor-heading-title,
+    .elementor-1205 .zaid-blue-white-text p,
+    .elementor-1205 .zaid-blue-white-text span,
+    .elementor-1205 .zaid-blue-white-text li,
+    .elementor-1205 .zaid-blue-white-text b,
+    .elementor-1205 .zaid-blue-white-text strong,
+    .elementor-1205 .zaid-blue-white-text i,
+    .elementor-1205 .zaid-blue-white-text h1,
+    .elementor-1205 .zaid-blue-white-text h2,
+    .elementor-1205 .zaid-blue-white-text h3,
+    .elementor-1205 .zaid-blue-white-text h4,
+    .elementor-1205 .zaid-blue-white-text h5,
+    .elementor-1205 .zaid-blue-white-text h6 {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    .elementor-1205 .elementor-element-2ad2bf8 span[style*="font-weight: 400"],
+    .elementor-1205 .elementor-element-2ad2bf8 p span[style*="font-weight: 400"],
+    .elementor-1205 .elementor-element-2ad2bf8 h4 span,
+    .elementor-1205 .elementor-element-2ad2bf8 p,
+    .elementor-1205 .elementor-element-2ad2bf8 p span,
+    .elementor-1205 .elementor-element-2ad2bf8 p b,
+    .elementor-1205 .elementor-element-2ad2bf8 p strong {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    .elementor-1205 .elementor-element-2ad2bf8,
+    .elementor-1205 .elementor-element-2ad2bf8 * {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+        opacity: 1 !important;
+    }
+
+    .elementor-1205 .elementor-element-d8059cb .elementor-element-7bc6dd9.zaid-grey-heading .elementor-heading-title {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
     }
 </style>
 <div data-rocket-location-hash="da3f53dfcbb3c143a40b866e0cde99ca" data-elementor-type="wp-page" data-elementor-id="1205" class="elementor elementor-1205" data-elementor-post-type="page">
@@ -207,10 +294,10 @@
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-70fb267 elementor-widget elementor-widget-twinkle_btn" data-id="70fb267" data-element_type="widget" data-e-type="widget" data-widget_type="twinkle_btn.default">
 				<div class="elementor-widget-container">
-					
+
                             <a href="{{ route('contact') }}" target="_blank" rel="nofollow" class="thm-btn service-details__btn">
                     KONTAKT                </a>
-            
+
         				</div>
 				</div>
 					</div>
@@ -259,9 +346,9 @@
 						</div>
 				</div>
 		<div class="elementor-element elementor-element-e7563b2 e-con-full e-flex e-con e-child" data-id="e7563b2" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-2ad2bf8 elementor-widget elementor-widget-text-editor" data-id="2ad2bf8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-2ad2bf8 zaid-blue-white-text elementor-widget elementor-widget-text-editor" data-id="2ad2bf8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<h4><span style="color: #ffffff;"><b>Gartengestaltung nach Ihren Vorstellungen</b></span></h4><p><span style="color: #ffffff;"><span style="font-weight: 400;">Ihre persönliche grüne </span><b>Oase</b><span style="font-weight: 400;"> beginnt mit einer professionellen </span><b>Gartengestaltung</b><span style="font-weight: 400;">. Unser </span><b>Team</b><span style="font-weight: 400;"> hilft Ihnen, Ihre </span><b>Grünflächen</b><span style="font-weight: 400;"> in ein Refugium der </span><b>Freude</b><span style="font-weight: 400;"> und Entspannung zu verwandeln. Vom Anlegen von </span><b>Wegen</b><span style="font-weight: 400;"> und </span><b>Terrassen</b><span style="font-weight: 400;"> bis zur Auswahl und </span><b>Bepflanzung</b><span style="font-weight: 400;"> mit den passenden </span><b>Pflanzen</b><span style="font-weight: 400;"> – unsere </span><b>Gärtnerei</b><span style="font-weight: 400;"> verwandelt Ihre Ideen in ein prachtvolles, grünes Paradies. Auch bei der Auswahl robuster </span><b>Blumen</b><span style="font-weight: 400;"> und langlebiger </span><b>Sträucher</b><span style="font-weight: 400;"> sowie der Gestaltung von </span><b>Gemüsebeeten</b><span style="font-weight: 400;"> stehen wir Ihnen zur Seite.</span></span></p><h4><span style="color: #ffffff;"><b>Gartenpflege während der Gartensaison</b></span></h4><p><span style="color: #ffffff;"><span style="font-weight: 400;">Die intensive </span><b>Gartensaison</b><span style="font-weight: 400;"> ist der ideale Zeitpunkt, um Ihren </span><b>Garten</b><span style="font-weight: 400;"> auf Vordermann zu bringen. Wir bieten Ihnen alle nötigen </span><b>Gartenarbeiten</b><span style="font-weight: 400;">, um die Schönheit und Gesundheit Ihrer </span><b>Pflanzen</b><span style="font-weight: 400;"> zu erhalten. Unser </span><b>Gartenservice</b><span style="font-weight: 400;"> in </span><b>Wien und Umgebung</b><span style="font-weight: 400;"> umfasst das saisonale </span><b>Rasenmähen</b><span style="font-weight: 400;">, den </span><b>Heckenschnitt</b><span style="font-weight: 400;">, und die gezielte </span><b>Pflege</b><span style="font-weight: 400;"> Ihrer </span><b>Pflanzen</b><span style="font-weight: 400;"> durch </span><b>Düngen</b><span style="font-weight: 400;"> und Bewässerung. So bleibt Ihr </span><b>Garten</b><span style="font-weight: 400;"> in allen </span><b>Jahreszeiten</b><span style="font-weight: 400;"> einladend und lebendig.</span></span></p><h4><span style="color: #ffffff;"><b>Unsere Gärtnerei in Wien – Ihr Profi für alle Gartenarbeiten</b></span></h4><p><span style="color: #ffffff;"><span style="font-weight: 400;">Unser erfahrenes </span><b>Team</b><span style="font-weight: 400;"> von </span><b>Gärtnern</b><span style="font-weight: 400;"> und </span><b>Experten</b><span style="font-weight: 400;"> ist in </span><b>Wien</b><span style="font-weight: 400;"> und </span><b>Niederösterreich</b><span style="font-weight: 400;"> für Sie da. Ob Sie umfassende </span><b>Pflege</b><span style="font-weight: 400;">-Leistungen, gezielte </span><b>Gartengestaltung</b><span style="font-weight: 400;"> oder die </span><b>Ausführung</b><span style="font-weight: 400;"> von speziellen </span><b>Gartenarbeiten</b><span style="font-weight: 400;"> wünschen – wir stehen Ihnen für alle </span><b>Fragen</b><span style="font-weight: 400;"> zur Seite. Unsere </span><b>Gärtnerei</b><span style="font-weight: 400;"> bietet Ihnen alles, was Sie für die Pflege und Gestaltung Ihres </span><b>Gartens</b><span style="font-weight: 400;"> benötigen.</span></span></p><h4><span style="color: #ffffff;"><b>Kontaktieren Sie uns für ein persönliches Gartenangebot!</b></span></h4><p><span style="color: #ffffff;"><span style="font-weight: 400;">Möchten Sie die volle Schönheit Ihres </span><b>Gartens</b><span style="font-weight: 400;"> entdecken? Rufen Sie uns an oder schreiben Sie uns eine E-Mail, und unser </span><b>Team</b><span style="font-weight: 400;"> erstellt Ihnen ein maßgeschneidertes </span><b>Angebot</b><span style="font-weight: 400;"> für Ihren </span><b>Garten</b><span style="font-weight: 400;"> in </span><b>Wien</b><span style="font-weight: 400;"> und </span><b>Umgebung</b><span style="font-weight: 400;">. Wir freuen uns darauf, Ihnen als verlässlicher Partner für die </span><b>Gartenpflege</b><span style="font-weight: 400;"> zur Seite zu stehen.</span></span></p>								</div>
+									<h4><span style="color: #ffffff !important;"><b style="color: #ffffff !important;">Gartengestaltung nach Ihren Vorstellungen</b></span></h4><p><span style="color: #ffffff !important;"><span style="font-weight: 400; color: #ffffff !important;">Ihre persönliche grüne </span><b style="color: #ffffff !important;">Oase</b><span style="font-weight: 400; color: #ffffff !important;"> beginnt mit einer professionellen </span><b style="color: #ffffff !important;">Gartengestaltung</b><span style="font-weight: 400; color: #ffffff !important;">. Unser </span><b style="color: #ffffff !important;">Team</b><span style="font-weight: 400; color: #ffffff !important;"> hilft Ihnen, Ihre </span><b style="color: #ffffff !important;">Grünflächen</b><span style="font-weight: 400; color: #ffffff !important;"> in ein Refugium der </span><b style="color: #ffffff !important;">Freude</b><span style="font-weight: 400; color: #ffffff !important;"> und Entspannung zu verwandeln. Vom Anlegen von </span><b style="color: #ffffff !important;">Wegen</b><span style="font-weight: 400; color: #ffffff !important;"> und </span><b style="color: #ffffff !important;">Terrassen</b><span style="font-weight: 400; color: #ffffff !important;"> bis zur Auswahl und </span><b style="color: #ffffff !important;">Bepflanzung</b><span style="font-weight: 400; color: #ffffff !important;"> mit den passenden </span><b style="color: #ffffff !important;">Pflanzen</b><span style="font-weight: 400; color: #ffffff !important;"> – unsere </span><b style="color: #ffffff !important;">Gärtnerei</b><span style="font-weight: 400; color: #ffffff !important;"> verwandelt Ihre Ideen in ein prachtvolles, grünes Paradies. Auch bei der Auswahl robuster </span><b style="color: #ffffff !important;">Blumen</b><span style="font-weight: 400; color: #ffffff !important;"> und langlebiger </span><b style="color: #ffffff !important;">Sträucher</b><span style="font-weight: 400; color: #ffffff !important;"> sowie der Gestaltung von </span><b style="color: #ffffff !important;">Gemüsebeeten</b><span style="font-weight: 400; color: #ffffff !important;"> stehen wir Ihnen zur Seite.</span></span></p><h4><span style="color: #ffffff !important;"><b style="color: #ffffff !important;">Gartenpflege während der Gartensaison</b></span></h4><p><span style="color: #ffffff !important;"><span style="font-weight: 400; color: #ffffff !important;">Die intensive </span><b style="color: #ffffff !important;">Gartensaison</b><span style="font-weight: 400; color: #ffffff !important;"> ist der ideale Zeitpunkt, um Ihren </span><b style="color: #ffffff !important;">Garten</b><span style="font-weight: 400; color: #ffffff !important;"> auf Vordermann zu bringen. Wir bieten Ihnen alle nötigen </span><b style="color: #ffffff !important;">Gartenarbeiten</b><span style="font-weight: 400; color: #ffffff !important;">, um die Schönheit und Gesundheit Ihrer </span><b style="color: #ffffff !important;">Pflanzen</b><span style="font-weight: 400; color: #ffffff !important;"> zu erhalten. Unser </span><b style="color: #ffffff !important;">Gartenservice</b><span style="font-weight: 400; color: #ffffff !important;"> in </span><b style="color: #ffffff !important;">Wien und Umgebung</b><span style="font-weight: 400; color: #ffffff !important;"> umfasst das saisonale </span><b style="color: #ffffff !important;">Rasenmähen</b><span style="font-weight: 400; color: #ffffff !important;">, den </span><b style="color: #ffffff !important;">Heckenschnitt</b><span style="font-weight: 400; color: #ffffff !important;">, und die gezielte </span><b style="color: #ffffff !important;">Pflege</b><span style="font-weight: 400; color: #ffffff !important;"> Ihrer </span><b style="color: #ffffff !important;">Pflanzen</b><span style="font-weight: 400; color: #ffffff !important;"> durch </span><b style="color: #ffffff !important;">Düngen</b><span style="font-weight: 400; color: #ffffff !important;"> und Bewässerung. So bleibt Ihr </span><b style="color: #ffffff !important;">Garten</b><span style="font-weight: 400; color: #ffffff !important;"> in allen </span><b style="color: #ffffff !important;">Jahreszeiten</b><span style="font-weight: 400; color: #ffffff !important;"> einladend und lebendig.</span></span></p><h4><span style="color: #ffffff !important;"><b style="color: #ffffff !important;">Unsere Gärtnerei in Wien – Ihr Profi für alle Gartenarbeiten</b></span></h4><p><span style="color: #ffffff !important;"><span style="font-weight: 400; color: #ffffff !important;">Unser erfahrenes </span><b style="color: #ffffff !important;">Team</b><span style="font-weight: 400; color: #ffffff !important;"> von </span><b style="color: #ffffff !important;">Gärtnern</b><span style="font-weight: 400; color: #ffffff !important;"> und </span><b style="color: #ffffff !important;">Experten</b><span style="font-weight: 400; color: #ffffff !important;"> ist in </span><b style="color: #ffffff !important;">Wien</b><span style="font-weight: 400; color: #ffffff !important;"> und </span><b style="color: #ffffff !important;">Niederösterreich</b><span style="font-weight: 400; color: #ffffff !important;"> für Sie da. Ob Sie umfassende </span><b style="color: #ffffff !important;">Pflege</b><span style="font-weight: 400; color: #ffffff !important;">-Leistungen, gezielte </span><b style="color: #ffffff !important;">Gartengestaltung</b><span style="font-weight: 400; color: #ffffff !important;"> oder die </span><b style="color: #ffffff !important;">Ausführung</b><span style="font-weight: 400; color: #ffffff !important;"> von speziellen </span><b style="color: #ffffff !important;">Gartenarbeiten</b><span style="font-weight: 400; color: #ffffff !important;"> wünschen – wir stehen Ihnen für alle </span><b style="color: #ffffff !important;">Fragen</b><span style="font-weight: 400; color: #ffffff !important;"> zur Seite. Unsere </span><b style="color: #ffffff !important;">Gärtnerei</b><span style="font-weight: 400; color: #ffffff !important;"> bietet Ihnen alles, was Sie für die Pflege und Gestaltung Ihres </span><b style="color: #ffffff !important;">Gartens</b><span style="font-weight: 400; color: #ffffff !important;"> benötigen.</span></span></p><h4><span style="color: #ffffff !important;"><b style="color: #ffffff !important;">Kontaktieren Sie uns für ein persönliches Gartenangebot!</b></span></h4><p><span style="color: #ffffff !important;"><span style="font-weight: 400; color: #ffffff !important;">Möchten Sie die volle Schönheit Ihres </span><b style="color: #ffffff !important;">Gartens</b><span style="font-weight: 400; color: #ffffff !important;"> entdecken? Rufen Sie uns an oder schreiben Sie uns eine E-Mail, und unser </span><b style="color: #ffffff !important;">Team</b><span style="font-weight: 400; color: #ffffff !important;"> erstellt Ihnen ein maßgeschneidertes </span><b style="color: #ffffff !important;">Angebot</b><span style="font-weight: 400; color: #ffffff !important;"> für Ihren </span><b style="color: #ffffff !important;">Garten</b><span style="font-weight: 400; color: #ffffff !important;"> in </span><b style="color: #ffffff !important;">Wien</b><span style="font-weight: 400; color: #ffffff !important;"> und </span><b style="color: #ffffff !important;">Umgebung</b><span style="font-weight: 400; color: #ffffff !important;">. Wir freuen uns darauf, Ihnen als verlässlicher Partner für die </span><b style="color: #ffffff !important;">Gartenpflege</b><span style="font-weight: 400; color: #ffffff !important;"> zur Seite zu stehen.</span></span></p>								</div>
 				</div>
 				</div>
 				</div>
@@ -283,10 +370,10 @@
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-70fb267 elementor-widget elementor-widget-twinkle_btn" data-id="70fb267" data-element_type="widget" data-e-type="widget" data-widget_type="twinkle_btn.default">
 				<div class="elementor-widget-container">
-					
+
                             <a href="{{ route('contact') }}" target="_blank" rel="nofollow" class="thm-btn service-details__btn">
                     KONTAKT                </a>
-            
+
         				</div>
 				</div>
 					</div>
@@ -483,7 +570,7 @@ Closed</p>				</div>
 		<div class="elementor-element elementor-element-d8059cb e-flex e-con-boxed e-con e-parent" data-id="d8059cb" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-6cb7b86 e-con-full e-flex e-con e-child" data-id="6cb7b86" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-7bc6dd9 elementor-widget elementor-widget-heading" data-id="7bc6dd9" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-7bc6dd9 zaid-grey-heading elementor-widget elementor-widget-heading" data-id="7bc6dd9" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">Kontaktdaten</h2>				</div>
 				</div>

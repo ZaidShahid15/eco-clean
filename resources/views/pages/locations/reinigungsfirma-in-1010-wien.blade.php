@@ -113,6 +113,28 @@
         fill: #ffffff !important;
         -webkit-text-fill-color: #ffffff !important;
     }
+
+    .elementor-872 .elementor-element-b47cd99 .elementor-element-43f68f4.zaid-grey-contact-copy .elementor-heading-title,
+    .elementor-872 .elementor-element-b47cd99 .elementor-element-d70ace8.zaid-grey-contact-copy,
+    .elementor-872 .elementor-element-b47cd99 .elementor-element-d70ace8.zaid-grey-contact-copy p,
+    .elementor-872 .elementor-element-b47cd99 .elementor-element-d70ace8.zaid-grey-contact-copy span,
+    .elementor-872 .elementor-element-b47cd99 .elementor-element-d70ace8.zaid-grey-contact-copy b,
+    .elementor-872 .elementor-element-b47cd99 .elementor-element-d70ace8.zaid-grey-contact-copy strong,
+    .elementor-872 .elementor-element-b47cd99 .elementor-element-d70ace8.zaid-grey-contact-copy li {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
+
+    .elementor-872 .elementor-element-c2fcb3c .elementor-element-12d8676.zaid-grey-content-block .elementor-heading-title,
+    .elementor-872 .elementor-element-c2fcb3c .elementor-element-465ae93.zaid-grey-content-block,
+    .elementor-872 .elementor-element-c2fcb3c .elementor-element-465ae93.zaid-grey-content-block p,
+    .elementor-872 .elementor-element-c2fcb3c .elementor-element-465ae93.zaid-grey-content-block span,
+    .elementor-872 .elementor-element-c2fcb3c .elementor-element-465ae93.zaid-grey-content-block b,
+    .elementor-872 .elementor-element-c2fcb3c .elementor-element-465ae93.zaid-grey-content-block strong,
+    .elementor-872 .elementor-element-c2fcb3c .elementor-element-465ae93.zaid-grey-content-block li {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
 </style>
 <div data-rocket-location-hash="297bd02e67ba46f5744bb08dc73631e6" data-elementor-type="wp-page" data-elementor-id="872" class="elementor elementor-872" data-elementor-post-type="page">
 				<div class="elementor-element elementor-element-fc58b73 e-flex e-con-boxed e-con e-parent" data-id="fc58b73" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_bottom&quot;:&quot;tilt&quot;}">
@@ -363,11 +385,11 @@
 					</div>
 				</div>
 		<div class="elementor-element elementor-element-c2fcb3c e-con-full e-flex e-con e-parent" data-id="c2fcb3c" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-12d8676 elementor-widget elementor-widget-heading" data-id="12d8676" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-12d8676 zaid-grey-content-block elementor-widget elementor-widget-heading" data-id="12d8676" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">Ihr kompetenter Partner für jede Art von Reinigung</h2>				</div>
 				</div>
-				<div class="elementor-element elementor-element-465ae93 elementor-widget elementor-widget-text-editor" data-id="465ae93" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-465ae93 zaid-grey-content-block elementor-widget elementor-widget-text-editor" data-id="465ae93" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<p><span style="font-weight: 400;">Unser Ziel ist es, die </span><b>Sauberkeit</b><span style="font-weight: 400;"> und </span><b>Hygiene</b><span style="font-weight: 400;"> in Ihrem </span><b>Büro</b><span style="font-weight: 400;">, Ihrer </span><b>Wohnung</b><span style="font-weight: 400;"> oder Ihrem </span><b>Unternehmen</b><span style="font-weight: 400;"> zu gewährleisten. Wir sind nicht nur eine </span><b>Putzfirma</b><span style="font-weight: 400;"> – wir sind Ihr verlässlicher </span><b>Partner</b><span style="font-weight: 400;"> für professionelle </span><b>Reinigungsdienstleistungen</b><span style="font-weight: 400;"> in 1010 </span><b>Wien</b><span style="font-weight: 400;">. Mit unserem erfahrenen </span><b>Team</b><span style="font-weight: 400;"> und einer fundierten </span><b>Erfahrung</b><span style="font-weight: 400;"> in der Reinigungsbranche setzen wir auf Qualität und </span><b>Zuverlässigkeit</b><span style="font-weight: 400;">. Unser Service umfasst die folgenden </span><b>Bereiche</b><span style="font-weight: 400;">:</span></p>								</div>
 				</div>
@@ -476,11 +498,11 @@
 				</div>
 		<div class="elementor-element elementor-element-b47cd99 e-flex e-con-boxed e-con e-parent" data-id="b47cd99" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-43f68f4 elementor-widget elementor-widget-heading" data-id="43f68f4" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-43f68f4 zaid-grey-contact-copy elementor-widget elementor-widget-heading" data-id="43f68f4" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">Kontaktieren Sie Ihre Reinigungsfirma in Wien</h2>				</div>
 				</div>
-				<div class="elementor-element elementor-element-d70ace8 elementor-widget elementor-widget-text-editor" data-id="d70ace8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-d70ace8 zaid-grey-contact-copy elementor-widget elementor-widget-text-editor" data-id="d70ace8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<p><span style="font-weight: 400;">Ob regelmäßige </span><b>Büroreinigung</b><span style="font-weight: 400;"> oder einmalige </span><b>Gebäudereinigung</b><span style="font-weight: 400;"> – unser </span><b>Unternehmen</b><span style="font-weight: 400;"> bietet alle nötigen </span><b>Leistungen</b><span style="font-weight: 400;">. Sie haben </span><b>Fragen</b><span style="font-weight: 400;"> oder wünschen weitere </span><b>Informationen</b><span style="font-weight: 400;">? Unser </span><b>Team</b><span style="font-weight: 400;"> freut sich, Ihnen die passenden </span><b>Reinigungen</b><span style="font-weight: 400;"> für Ihren </span><b>Ort</b><span style="font-weight: 400;"> und </span><b>Bezirk</b><span style="font-weight: 400;"> anzubieten. </span><b>Kontaktieren</b><span style="font-weight: 400;"> Sie uns gerne für eine Beratung – wir stehen Ihnen jederzeit zur Verfügung, um Ihre </span><b>Reinigungsbedürfnisse</b><span style="font-weight: 400;"> zu erfüllen.</span></p>								</div>
 				</div>

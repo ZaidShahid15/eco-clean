@@ -30,9 +30,10 @@
     .elementor-1210 .elementor-widget-text-editor h4,
     .elementor-1210 .elementor-widget-text-editor h5,
     .elementor-1210 .elementor-widget-text-editor h6 {
-        color: #6b6b6b !important;
-        -webkit-text-fill-color: #6b6b6b !important;
+        /* color: #6b6b6b !important; */
+        /* -webkit-text-fill-color: #6b6b6b !important; */
     }
+
     .elementor-1210 .elementor-element-de56b37 .elementor-heading-title,
     .elementor-1210 .elementor-element-de56b37 .elementor-widget-text-editor,
     .elementor-1210 .elementor-element-de56b37 .elementor-widget-text-editor p,
@@ -207,10 +208,10 @@
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-70fb267 elementor-widget elementor-widget-twinkle_btn" data-id="70fb267" data-element_type="widget" data-e-type="widget" data-widget_type="twinkle_btn.default">
 				<div class="elementor-widget-container">
-					
+
                             <a href="{{ route('contact') }}" target="_blank" rel="nofollow" class="thm-btn service-details__btn">
                     KONTAKT                </a>
-            
+
         				</div>
 				</div>
 					</div>
@@ -244,10 +245,10 @@
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-70fb267 elementor-widget elementor-widget-twinkle_btn" data-id="70fb267" data-element_type="widget" data-e-type="widget" data-widget_type="twinkle_btn.default">
 				<div class="elementor-widget-container">
-					
+
                             <a href="{{ route('contact') }}" target="_blank" rel="nofollow" class="thm-btn service-details__btn">
                     KONTAKT                </a>
-            
+
         				</div>
 				</div>
 					</div>
@@ -287,10 +288,10 @@
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-70fb267 elementor-widget elementor-widget-twinkle_btn" data-id="70fb267" data-element_type="widget" data-e-type="widget" data-widget_type="twinkle_btn.default">
 				<div class="elementor-widget-container">
-					
+
                             <a href="{{ route('contact') }}" target="_blank" rel="nofollow" class="thm-btn service-details__btn">
                     KONTAKT                </a>
-            
+
         				</div>
 				</div>
 					</div>
@@ -318,10 +319,10 @@
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-70fb267 elementor-widget elementor-widget-twinkle_btn" data-id="70fb267" data-element_type="widget" data-e-type="widget" data-widget_type="twinkle_btn.default">
 				<div class="elementor-widget-container">
-					
+
                             <a href="{{ route('contact') }}" target="_blank" rel="nofollow" class="thm-btn service-details__btn">
                     KONTAKT                </a>
-            
+
         				</div>
 				</div>
 					</div>
@@ -359,10 +360,10 @@
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-70fb267 elementor-widget elementor-widget-twinkle_btn" data-id="70fb267" data-element_type="widget" data-e-type="widget" data-widget_type="twinkle_btn.default">
 				<div class="elementor-widget-container">
-					
+
                             <a href="{{ route('contact') }}" target="_blank" rel="nofollow" class="thm-btn service-details__btn">
                     KONTAKT                </a>
-            
+
         				</div>
 				</div>
 					</div>
@@ -538,7 +539,7 @@ Closed</p>				</div>
 		<div class="elementor-element elementor-element-d876fe8 e-con-full e-flex e-con e-child" data-id="d876fe8" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-a53f5da elementor-widget elementor-widget-heading" data-id="a53f5da" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<p class="elementor-heading-title elementor-size-default">Tel: 0699 17700002 
+					<p class="elementor-heading-title elementor-size-default">Tel: 0699 17700002
 Email: office@eco-clean.at</p>				</div>
 				</div>
 				</div>

@@ -292,6 +292,37 @@
         color: #6b6b6b !important;
         -webkit-text-fill-color: #6b6b6b !important;
     }
+
+    body.elementor-page-1139 .zaid-blue-white-text,
+    body.elementor-page-1139 .zaid-blue-white-text .elementor-widget-container,
+    body.elementor-page-1139 .zaid-blue-white-text .elementor-heading-title,
+    body.elementor-page-1139 .zaid-blue-white-text .elementor-widget-text-editor,
+    body.elementor-page-1139 .zaid-blue-white-text p,
+    body.elementor-page-1139 .zaid-blue-white-text span,
+    body.elementor-page-1139 .zaid-blue-white-text li,
+    body.elementor-page-1139 .zaid-blue-white-text b,
+    body.elementor-page-1139 .zaid-blue-white-text strong,
+    body.elementor-page-1139 .zaid-blue-white-text i,
+    body.elementor-page-1139 .zaid-blue-white-text h1,
+    body.elementor-page-1139 .zaid-blue-white-text h2,
+    body.elementor-page-1139 .zaid-blue-white-text h3,
+    body.elementor-page-1139 .zaid-blue-white-text h4,
+    body.elementor-page-1139 .zaid-blue-white-text h5,
+    body.elementor-page-1139 .zaid-blue-white-text h6,
+    body.elementor-page-1139 .zaid-blue-white-text .elementor-icon-list-text,
+    body.elementor-page-1139 .zaid-blue-white-text .elementor-icon-list-icon i,
+    body.elementor-page-1139 .zaid-blue-white-text .elementor-icon-list-icon svg {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    body.elementor-page-1139 .zaid-blue-white-text * {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+        opacity: 1 !important;
+    }
 </style>
 <div data-rocket-location-hash="44f11bb36beec1aee66d889974aeb8cd" class="tp-page-area page-padding">
     <div data-rocket-location-hash="0841f15ebf099eeaba6f2c7f735d0671" class="container">
@@ -676,7 +707,7 @@
 				</div>
 					</div>
 				</div>
-		<div class="elementor-element elementor-element-c4cfd25 e-flex e-con-boxed e-con e-parent" data-id="c4cfd25" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-c4cfd25 zaid-blue-white-text e-flex e-con-boxed e-con e-parent" data-id="c4cfd25" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-c9b3b19 e-con-full e-flex e-con e-child" data-id="c9b3b19" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-51a6401 elementor-widget elementor-widget-heading" data-id="51a6401" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -798,7 +829,7 @@
 				</div>
 					</div>
 				</div>
-		<div class="elementor-element elementor-element-7be8d90 e-flex e-con-boxed e-con e-parent" data-id="7be8d90" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-7be8d90 zaid-blue-white-text e-flex e-con-boxed e-con e-parent" data-id="7be8d90" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-4514faf elementor-widget elementor-widget-heading" data-id="4514faf" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">

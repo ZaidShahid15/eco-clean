@@ -90,6 +90,11 @@
         color: #5f5f5f !important;
         -webkit-text-fill-color: #5f5f5f !important;
     }
+
+    .elementor-1179 .zaid-contact-white-heading .elementor-heading-title {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
 </style>
 <div data-rocket-location-hash="cae3e4c708e80e148cc97f672762a85f" data-elementor-type="wp-page" data-elementor-id="1179" class="elementor elementor-1179" data-elementor-post-type="page">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-0d6748a elementor-section-full_width elementor-section-stretched elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle" data-id="0d6748a" data-element_type="section" data-e-type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
@@ -587,7 +592,7 @@ Closed</p>				</div>
 				</div>
 		<div class="elementor-element elementor-element-41f8d2a e-con-full e-flex e-con e-child" data-id="41f8d2a" data-element_type="container" data-e-type="container">
 		<div class="elementor-element elementor-element-64f058b e-con-full e-flex e-con e-child" data-id="64f058b" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-6ca7c69 elementor-widget elementor-widget-heading" data-id="6ca7c69" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-6ca7c69 zaid-contact-white-heading elementor-widget elementor-widget-heading" data-id="6ca7c69" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">Unser Standort
 </h2>				</div>
@@ -603,7 +608,7 @@ Closed</p>				</div>
 						</ul>
 						</div>
 				</div>
-				<div class="elementor-element elementor-element-fe47d6e elementor-widget elementor-widget-heading" data-id="fe47d6e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-fe47d6e zaid-contact-white-heading elementor-widget elementor-widget-heading" data-id="fe47d6e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">Schneller Kontakt
 </h2>				</div>
