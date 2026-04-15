@@ -55,7 +55,7 @@
                             <li id="comment-1">
                 <div class="comments-box comment-one__single">
                     <div class="comments-avatar comment-one__image">
-                        <img alt='' src='https://secure.gravatar.com/avatar/8e1606e6fba450a9362af43874c1b2dfad34c782e33d0a51e1b46c18a2a567dd?s=102&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/8e1606e6fba450a9362af43874c1b2dfad34c782e33d0a51e1b46c18a2a567dd?s=204&#038;d=mm&#038;r=g 2x' class='avatar avatar-102 photo' height='102' width='102' decoding='async'/>                    </div>
+                        <img alt='' src="{{ asset('assets/img/wordpress-commenter-avatar.jpg') }}" srcset="{{ asset('assets/img/wordpress-commenter-avatar.jpg') }} 2x" class='avatar avatar-102 photo' height='102' width='102' decoding='async'/>                    </div>
                     <div class="comments-text comment-one__content">
                         <h3><a href="https://wordpress.org/" class="url" rel="ugc external nofollow">A WordPress Commenter</a></h3>
                         <p>Hi, this is a comment.<br />

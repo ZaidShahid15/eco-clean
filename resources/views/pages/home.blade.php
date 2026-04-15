@@ -226,21 +226,29 @@
         background: #f7fbff !important;
         border-color: #9ebff2 !important;
     }
+
+    .elementor-532 .home-cta-number-german-clean {
+        display: block !important;
+    }
+
+    .elementor-532 .elementor-element-8dc9af5 .cta-one__inner .title .number p:not(.home-cta-number-german-clean) {
+        display: none !important;
+    }
 </style>
 <div data-rocket-location-hash="dc4bf842212fcf52ccf95f51116249f2" data-elementor-type="wp-page" data-elementor-id="532" class="elementor elementor-532" data-elementor-post-type="page">
 				<div data-rocket-location-hash="4ca90ffd32e76df212c0618981202236" class="elementor-element elementor-element-a8b848d e-con-full e-flex e-con e-parent" data-id="a8b848d" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-337953b elementor--h-position-center elementor--v-position-middle elementor-arrows-position-inside elementor-widget elementor-widget-slides" data-id="337953b" data-element_type="widget" data-e-type="widget" data-settings="{&quot;navigation&quot;:&quot;arrows&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;transition&quot;:&quot;slide&quot;,&quot;transition_speed&quot;:500}" data-widget_type="slides.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-swiper">
-					<div class="elementor-slides-wrapper elementor-main-swiper swiper" role="region" aria-roledescription="carousel" aria-label="Slides" dir="ltr" data-animation="fadeInUp">
+					<div class="elementor-slides-wrapper elementor-main-swiper swiper" role="region" aria-roledescription="Karussell" aria-label="Folien" dir="ltr" data-animation="fadeInUp">
 				<div class="swiper-wrapper elementor-slides">
 										<div class="elementor-repeater-item-ef6474e swiper-slide" role="group" aria-roledescription="slide"><div class="swiper-slide-bg" role="img" aria-label="main-slider-v1-img1"></div><div class="elementor-background-overlay"></div><a class="swiper-slide-inner" href="tel:+43%201%204420281"><div class="swiper-slide-contents"><div class="elementor-slide-heading"><h5>Ihre zuverlässige Reinigungsfirma in Wien</5> <br> <h1>Willkommen bei Ihrer Reinigungsfirma in Wien!</1></div><div class="elementor-slide-description">Wir sind stolz darauf, als Full-Reinigungsdienstleister eine breite Palette von Reinigungsdiensten anzubieten, die auf die spezifischen Bedürfnisse unserer Kunden zugeschnitten sind. Egal, ob Sie eine gründliche Hausreinigung, Büroreinigung oder eine umfassende Gebäudereinigung benötigen – unser engagiertes Team steht Ihnen mit Fachwissen und Erfahrung zur Seite.
 </div><div  class="elementor-button elementor-slide-button elementor-size-md">Jetzt Anrufen!</div></div></a></div><div class="elementor-repeater-item-71d4e74 swiper-slide" role="group" aria-roledescription="slide"><div class="swiper-slide-bg" role="img" aria-label="main-slider-v1-img2"></div><div class="elementor-background-overlay"></div><a class="swiper-slide-inner" href="tel:+43%201%204420281"><div class="swiper-slide-contents"><div class="elementor-slide-heading"><h5>Ihre zuverlässige Reinigungsfirma in Wien</5> <br> <h1>Willkommen bei Ihrer Reinigungsfirma in Wien! </1></div><div class="elementor-slide-description">Wir sind stolz darauf, als Full-Reinigungsdienstleister eine breite Palette von Reinigungsdiensten anzubieten, die auf die spezifischen Bedürfnisse unserer Kunden zugeschnitten sind. Egal, ob Sie eine gründliche Hausreinigung, Büroreinigung oder eine umfassende Gebäudereinigung benötigen – unser engagiertes Team steht Ihnen mit Fachwissen und Erfahrung zur Seite.
 </div><div  class="elementor-button elementor-slide-button elementor-size-md">Jetzt anrufen!</div></div></a></div><div class="elementor-repeater-item-69d1b12 swiper-slide" role="group" aria-roledescription="slide"><div class="swiper-slide-bg" role="img" aria-label="main-slider-v1-img3"></div><div class="elementor-background-overlay"></div><a class="swiper-slide-inner" href="tel:+43%201%204420281"><div class="swiper-slide-contents"><div class="elementor-slide-heading"><h5>Ihre zuverlässige Reinigungsfirma in Wien</5> <br> <h1>Willkommen bei Ihrer Reinigungsfirma in Wien! </1></div><div class="elementor-slide-description">Wir sind stolz darauf, als Full-Reinigungsdienstleister eine breite Palette von Reinigungsdiensten anzubieten, die auf die spezifischen Bedürfnisse unserer Kunden zugeschnitten sind. Egal, ob Sie eine gründliche Hausreinigung, Büroreinigung oder eine umfassende Gebäudereinigung benötigen – unser engagiertes Team steht Ihnen mit Fachwissen und Erfahrung zur Seite.
 </div><div  class="elementor-button elementor-slide-button elementor-size-md">Jetzt anrufen!</div></div></a></div>				</div>
-															<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0" aria-label="Previous slide">
+															<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0" aria-label="Vorherige Folie">
 							<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-left" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z"></path></svg>						</div>
-						<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0" aria-label="Next slide">
+						<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0" aria-label="Nächste Folie">
 							<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-right" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M696 533C708 521 713 504 713 487 713 471 708 454 696 446L400 146C388 133 375 125 354 125 338 125 325 129 313 142 300 154 292 171 292 187 292 204 296 221 308 233L563 492 304 771C292 783 288 800 288 817 288 833 296 850 308 863 321 871 338 875 354 875 371 875 388 867 400 854L696 533Z"></path></svg>						</div>
 																	</div>
 				</div>
@@ -276,7 +284,7 @@
 							<div class="e-rating" itemtype="https://schema.org/Rating" itemscope="" itemprop="reviewRating">
 			<meta itemprop="worstRating" content="0">
 			<meta itemprop="bestRating" content="5">
-			<div class="e-rating-wrapper" itemprop="ratingValue" content="5" role="img" aria-label="Rated 5 out of 5">
+			<div class="e-rating-wrapper" itemprop="ratingValue" content="5" role="img" aria-label="Mit 5 von 5 bewertet">
 							<div class="e-icon">
 				<div class="e-icon-wrapper e-icon-marked">
 					<svg aria-hidden="true" class="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				</div>
@@ -409,7 +417,7 @@
                                                 <p>Gebäudereinigung: Unser Reinigungsdienst gewährleistet die Pflege aller Arten von Immobilien.</p>
                                             </li>
                                                                                     <li>
-                                                <p>Service Title</p>
+                                                <p>Sonderreinigung: Individuelle Lösungen für besondere Reinigungsanforderungen.</p>
                                             </li>
                                                                             </ul>
                                 </div>
@@ -2144,7 +2152,7 @@
                                                                                 <div class="text">
                                              
                                                 <h2>Amili</h2>
-                                                                                                                                        <p>Manager</p>
+                                                                                                                                        <p>Leitung</p>
                                                                                     </div>
                                     </div>
                                 </div>
@@ -2162,7 +2170,7 @@
                                                                                 <div class="text">
                                              
                                                 <h2>Rashal Khan</h2>
-                                                                                                                                        <p>Founder</p>
+                                                                                                                                        <p>Gründer</p>
                                                                                     </div>
                                     </div>
                                 </div>
@@ -2180,7 +2188,7 @@
                                                                                 <div class="text">
                                              
                                                 <h2>Emma</h2>
-                                                                                                                                        <p>Manager</p>
+                                                                                                                                        <p>Leitung</p>
                                                                                     </div>
                                     </div>
                                 </div>
@@ -2198,7 +2206,7 @@
                                                                                 <div class="text">
                                              
                                                 <h2>Robin</h2>
-                                                                                                                                        <p>Founder</p>
+                                                                                                                                        <p>Gründer</p>
                                                                                     </div>
                                     </div>
                                 </div>
@@ -2232,6 +2240,8 @@
                                         <h2 >Rufen Sie uns an, um einen außergewöhnlichen Service in Anspruch zu nehmen! </h2> 
                                     </h2>
                                     <div class="number">
+                                        <p class="home-cta-number-german-clean">Anruf: <a href="tel:+43%201%204420281">Wir sind nur einen Anruf entfernt</a></p>
+                                        <p class="home-cta-number-german">Anruf: <a href="tel:+43%201%204420281">Wir sind nur einen Anruf entfernt 🙂</a></p>
                                         <p>Call: <a href="tel:+Wir sind nur einen Anruf entfernt :-)">Wir sind nur einen Anruf entfernt 🙂</a></p>
                                     </div>
                                 </div>

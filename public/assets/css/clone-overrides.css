@@ -1521,4 +1521,26 @@ body.elementor-page-1139 .elementor-1139 .elementor-section > .elementor-contain
     margin: auto !important;
 }
 
+/* Homepage CTA: tighten the gap between the text block and call button. */
+.home.elementor-page-532 .elementor-element.elementor-element-8dc9af5 .cta-one__inner {
+    align-items: flex-start !important;
+    row-gap: 6px !important;
+}
 
+.home.elementor-page-532 .elementor-element.elementor-element-8dc9af5 .cta-one__inner .title h2 {
+    margin-bottom: 4px !important;
+}
+
+.home.elementor-page-532 .elementor-element.elementor-element-8dc9af5 .cta-one__inner .title .number {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.home.elementor-page-532 .elementor-element.elementor-element-8dc9af5 .cta-one__inner .title .number p {
+    margin-bottom: 0 !important;
+}
+
+.home.elementor-page-532 .elementor-element.elementor-element-8dc9af5 .cta-one__inner .button-box {
+    margin-top: 20px !important;
+    padding-top: 0 !important;
+}

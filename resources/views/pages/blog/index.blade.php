@@ -23,7 +23,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-4a58f70 elementor-widget elementor-widget-heading" data-id="4a58f70" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Blogs</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">Blog</h2>				</div>
 				</div>
 					</div>
 		</div>
@@ -54,7 +54,7 @@
 							<div class="e-rating" itemtype="https://schema.org/Rating" itemscope="" itemprop="reviewRating">
 			<meta itemprop="worstRating" content="0">
 			<meta itemprop="bestRating" content="5">
-			<div class="e-rating-wrapper" itemprop="ratingValue" content="5" role="img" aria-label="Rated 5 out of 5">
+			<div class="e-rating-wrapper" itemprop="ratingValue" content="5" role="img" aria-label="Mit 5 von 5 bewertet">
 							<div class="e-icon">
 				<div class="e-icon-wrapper e-icon-marked">
 					<svg aria-hidden="true" class="e-font-icon-svg e-eicon-star" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg>				</div>
@@ -158,10 +158,10 @@
                                             </div>
                                         </div>
                                         <div class="blog-one__content">
-                                            <h2><a href="{{ url('/the-standard-chunk-of-lorem-ipsum/') }}">The standard chunk of Lorem Ipsum</a></h2>
-                                                                                            <p>Top tips for kitchen cleaning Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                                            <h2><a href="{{ url('/the-standard-chunk-of-lorem-ipsum/') }}">Der Standardabschnitt von Lorem Ipsum</a></h2>
+                                                                                            <p>Praktische Tipps für die Küchenreinigung und hilfreiche Hinweise für einen sauberen Alltag.</p>
                                                                                                                                         <div class="btn-box">
-                                                    <a href="{{ url('/the-standard-chunk-of-lorem-ipsum/') }}">Read More <span class="icon-plus"></span></a>
+                                                    <a href="{{ url('/the-standard-chunk-of-lorem-ipsum/') }}">Mehr lesen <span class="icon-plus"></span></a>
                                                 </div>
                                                                                     </div>
                                     </div>
@@ -174,10 +174,10 @@
                                             </div>
                                         </div>
                                         <div class="blog-one__content">
-                                            <h2><a href="{{ url('/contrary-to-popular-belief-lorem-ipsum/') }}">Contrary to popular belief, Lorem Ipsum</a></h2>
-                                                                                            <p>Top tips for kitchen cleaning Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                                            <h2><a href="{{ url('/contrary-to-popular-belief-lorem-ipsum/') }}">Entgegen der weitverbreiteten Annahme: Lorem Ipsum</a></h2>
+                                                                                            <p>Praktische Tipps für die Küchenreinigung und hilfreiche Hinweise für einen sauberen Alltag.</p>
                                                                                                                                         <div class="btn-box">
-                                                    <a href="{{ url('/contrary-to-popular-belief-lorem-ipsum/') }}">Read More <span class="icon-plus"></span></a>
+                                                    <a href="{{ url('/contrary-to-popular-belief-lorem-ipsum/') }}">Mehr lesen <span class="icon-plus"></span></a>
                                                 </div>
                                                                                     </div>
                                     </div>
@@ -190,10 +190,10 @@
                                             </div>
                                         </div>
                                         <div class="blog-one__content">
-                                            <h2><a href="{{ url('/there-are-many-variations-of-passages/') }}">There are many variations of passages</a></h2>
-                                                                                            <p>Top tips for kitchen cleaning Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                                            <h2><a href="{{ url('/there-are-many-variations-of-passages/') }}">Es gibt viele Variationen von Textpassagen</a></h2>
+                                                                                            <p>Praktische Tipps für die Küchenreinigung und hilfreiche Hinweise für einen sauberen Alltag.</p>
                                                                                                                                         <div class="btn-box">
-                                                    <a href="{{ url('/there-are-many-variations-of-passages/') }}">Read More <span class="icon-plus"></span></a>
+                                                    <a href="{{ url('/there-are-many-variations-of-passages/') }}">Mehr lesen <span class="icon-plus"></span></a>
                                                 </div>
                                                                                     </div>
                                     </div>
@@ -206,10 +206,10 @@
                                             </div>
                                         </div>
                                         <div class="blog-one__content">
-                                            <h2><a href="{{ url('/it-is-a-long-established-fact-that/') }}">It is a long established fact</a></h2>
-                                                                                            <p>Top tips for kitchen cleaning Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                                            <h2><a href="{{ url('/it-is-a-long-established-fact-that/') }}">Es ist seit Langem eine bekannte Tatsache</a></h2>
+                                                                                            <p>Praktische Tipps für die Küchenreinigung und hilfreiche Hinweise für einen sauberen Alltag.</p>
                                                                                                                                         <div class="btn-box">
-                                                    <a href="{{ url('/it-is-a-long-established-fact-that/') }}">Read More <span class="icon-plus"></span></a>
+                                                    <a href="{{ url('/it-is-a-long-established-fact-that/') }}">Mehr lesen <span class="icon-plus"></span></a>
                                                 </div>
                                                                                     </div>
                                     </div>
@@ -222,10 +222,10 @@
                                             </div>
                                         </div>
                                         <div class="blog-one__content">
-                                            <h2><a href="{{ url('/simple-cleaning-tips-you-can-use-everyday/') }}">Simple cleaning tips you can use</a></h2>
-                                                                                            <p>Top tips for kitchen cleaning Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                                            <h2><a href="{{ url('/simple-cleaning-tips-you-can-use-everyday/') }}">Einfache Reinigungstipps für jeden Tag</a></h2>
+                                                                                            <p>Praktische Tipps für die Küchenreinigung und hilfreiche Hinweise für einen sauberen Alltag.</p>
                                                                                                                                         <div class="btn-box">
-                                                    <a href="{{ url('/simple-cleaning-tips-you-can-use-everyday/') }}">Read More <span class="icon-plus"></span></a>
+                                                    <a href="{{ url('/simple-cleaning-tips-you-can-use-everyday/') }}">Mehr lesen <span class="icon-plus"></span></a>
                                                 </div>
                                                                                     </div>
                                     </div>
@@ -239,10 +239,10 @@
                                             </div>
                                         </div>
                                         <div class="blog-one__content">
-                                            <h2><a href="{{ url('/hello-world/') }}">Hello world!</a></h2>
-                                                                                            <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+                                            <h2><a href="{{ url('/hello-world/') }}">Hallo Welt!</a></h2>
+                                                                                            <p>Willkommen bei WordPress. Dies ist Ihr erster Beitrag. Bearbeiten oder löschen Sie ihn und beginnen Sie dann mit dem Schreiben.</p>
                                                                                                                                         <div class="btn-box">
-                                                    <a href="{{ url('/hello-world/') }}">Read More <span class="icon-plus"></span></a>
+                                                    <a href="{{ url('/hello-world/') }}">Mehr lesen <span class="icon-plus"></span></a>
                                                 </div>
                                                                                     </div>
                                     </div>

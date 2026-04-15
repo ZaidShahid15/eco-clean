@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
-@section('title', 'Gallery - ECO Clean')
-@section('meta_description', 'Gallery Archive - ECO Clean')
+@section('title', 'Galerie - ECO Clean')
+@section('meta_description', 'Galerie-Archiv - ECO Clean')
 @section('canonical', '/gallery/')
 @section('robots', 'index, follow')
-@section('og_title', 'Gallery - ECO Clean')
-@section('og_description', 'Gallery Archive - ECO Clean')
+@section('og_title', 'Galerie - ECO Clean')
+@section('og_description', 'Galerie-Archiv - ECO Clean')
 @section('og_image', '')
-@section('twitter_title', 'Gallery - ECO Clean')
-@section('twitter_description', 'Gallery Archive - ECO Clean')
+@section('twitter_title', 'Galerie - ECO Clean')
+@section('twitter_description', 'Galerie-Archiv - ECO Clean')
 @section('body_class', 'archive post-type-archive post-type-archive-gallery custom-background wp-custom-logo wp-embed-responsive wp-theme-washup ehf-header ehf-footer ehf-template-washup ehf-stylesheet-washup hfeed no-sidebar elementor-default elementor-kit-10')
 @section('page_styles')
 <link rel="stylesheet" href="{{ asset('assets/mirror/eco-clean.at/wp-content/uploads/elementor/css/post-10.css') }}">
@@ -19,7 +19,7 @@
 @section('schema')
 @verbatim
 <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://eco-clean.at/#person","name":"ECO Clean","image":{"@type":"ImageObject","@id":"https://eco-clean.at/#logo","url":"https://eco-clean.at/wp-content/uploads/2024/11/ecoclean_logo-1-removebg-preview-120x120.png","contentUrl":"https://eco-clean.at/wp-content/uploads/2024/11/ecoclean_logo-1-removebg-preview-120x120.png","caption":"ECO Clean","inLanguage":"en-US"}},{"@type":"WebSite","@id":"https://eco-clean.at/#website","url":"https://eco-clean.at","name":"ECO Clean","publisher":{"@id":"https://eco-clean.at/#person"},"inLanguage":"en-US"},{"@type":"CollectionPage","@id":"https://eco-clean.at/gallery/#webpage","url":"https://eco-clean.at/gallery/","name":"Gallery - ECO Clean","isPartOf":{"@id":"https://eco-clean.at/#website"},"inLanguage":"en-US"}]}
+{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://eco-clean.at/#person","name":"ECO Clean","image":{"@type":"ImageObject","@id":"https://eco-clean.at/#logo","url":"https://eco-clean.at/wp-content/uploads/2024/11/ecoclean_logo-1-removebg-preview-120x120.png","contentUrl":"https://eco-clean.at/wp-content/uploads/2024/11/ecoclean_logo-1-removebg-preview-120x120.png","caption":"ECO Clean","inLanguage":"de-AT"}},{"@type":"WebSite","@id":"https://eco-clean.at/#website","url":"https://eco-clean.at","name":"ECO Clean","publisher":{"@id":"https://eco-clean.at/#person"},"inLanguage":"de-AT"},{"@type":"CollectionPage","@id":"https://eco-clean.at/gallery/#webpage","url":"https://eco-clean.at/gallery/","name":"Galerie - ECO Clean","isPartOf":{"@id":"https://eco-clean.at/#website"},"inLanguage":"de-AT"}]}
 </script>
 @endverbatim
 @endsection
@@ -45,15 +45,15 @@
     
                 
     
-            <li><a href="{{ url('{{ url('/gallery/gallery-6/') }}') }}"><i class="far fa-comments"></i>No Comments</a></li>
+            <li><a href="{{ url('{{ url('/gallery/gallery-6/') }}') }}"><i class="far fa-comments"></i>Keine Kommentare</a></li>
     </ul>
 
-            <h2><a href="{{ url('{{ url('/gallery/gallery-6/') }}') }}">Gallery 6</a></h2>
+            <h2><a href="{{ url('{{ url('/gallery/gallery-6/') }}') }}">Galerie 6</a></h2>
             <div class="postbox__text">
                             </div>
             
 <div class="btn-box postbox__read-more">
-    <a href="{{ url('{{ url('/gallery/gallery-6/') }}') }}" class="tp-btn postbox__more-btn">Read More <span class="icon-plus"></span></a>
+    <a href="{{ url('{{ url('/gallery/gallery-6/') }}') }}" class="tp-btn postbox__more-btn">Mehr lesen <span class="icon-plus"></span></a>
 </div>
         </div>
     </article>
@@ -75,15 +75,15 @@
     
                 
     
-            <li><a href="{{ url('{{ url('/gallery/gallery-5/') }}') }}"><i class="far fa-comments"></i>No Comments</a></li>
+            <li><a href="{{ url('{{ url('/gallery/gallery-5/') }}') }}"><i class="far fa-comments"></i>Keine Kommentare</a></li>
     </ul>
 
-            <h2><a href="{{ url('{{ url('/gallery/gallery-5/') }}') }}">Gallery 5</a></h2>
+            <h2><a href="{{ url('{{ url('/gallery/gallery-5/') }}') }}">Galerie 5</a></h2>
             <div class="postbox__text">
                             </div>
             
 <div class="btn-box postbox__read-more">
-    <a href="{{ url('{{ url('/gallery/gallery-5/') }}') }}" class="tp-btn postbox__more-btn">Read More <span class="icon-plus"></span></a>
+    <a href="{{ url('{{ url('/gallery/gallery-5/') }}') }}" class="tp-btn postbox__more-btn">Mehr lesen <span class="icon-plus"></span></a>
 </div>
         </div>
     </article>
@@ -105,15 +105,15 @@
     
                 
     
-            <li><a href="{{ url('{{ url('/gallery/gallery-4/') }}') }}"><i class="far fa-comments"></i>No Comments</a></li>
+            <li><a href="{{ url('{{ url('/gallery/gallery-4/') }}') }}"><i class="far fa-comments"></i>Keine Kommentare</a></li>
     </ul>
 
-            <h2><a href="{{ url('{{ url('/gallery/gallery-4/') }}') }}">Gallery 4</a></h2>
+            <h2><a href="{{ url('{{ url('/gallery/gallery-4/') }}') }}">Galerie 4</a></h2>
             <div class="postbox__text">
                             </div>
             
 <div class="btn-box postbox__read-more">
-    <a href="{{ url('{{ url('/gallery/gallery-4/') }}') }}" class="tp-btn postbox__more-btn">Read More <span class="icon-plus"></span></a>
+    <a href="{{ url('{{ url('/gallery/gallery-4/') }}') }}" class="tp-btn postbox__more-btn">Mehr lesen <span class="icon-plus"></span></a>
 </div>
         </div>
     </article>
@@ -135,15 +135,15 @@
     
                 
     
-            <li><a href="{{ url('{{ url('/gallery/gallery-3/') }}') }}"><i class="far fa-comments"></i>No Comments</a></li>
+            <li><a href="{{ url('{{ url('/gallery/gallery-3/') }}') }}"><i class="far fa-comments"></i>Keine Kommentare</a></li>
     </ul>
 
-            <h2><a href="{{ url('{{ url('/gallery/gallery-3/') }}') }}">Gallery 3</a></h2>
+            <h2><a href="{{ url('{{ url('/gallery/gallery-3/') }}') }}">Galerie 3</a></h2>
             <div class="postbox__text">
                             </div>
             
 <div class="btn-box postbox__read-more">
-    <a href="{{ url('{{ url('/gallery/gallery-3/') }}') }}" class="tp-btn postbox__more-btn">Read More <span class="icon-plus"></span></a>
+    <a href="{{ url('{{ url('/gallery/gallery-3/') }}') }}" class="tp-btn postbox__more-btn">Mehr lesen <span class="icon-plus"></span></a>
 </div>
         </div>
     </article>
@@ -165,15 +165,15 @@
     
                 
     
-            <li><a href="{{ url('{{ url('/gallery/gallery-2/') }}') }}"><i class="far fa-comments"></i>No Comments</a></li>
+            <li><a href="{{ url('{{ url('/gallery/gallery-2/') }}') }}"><i class="far fa-comments"></i>Keine Kommentare</a></li>
     </ul>
 
-            <h2><a href="{{ url('{{ url('/gallery/gallery-2/') }}') }}">Gallery 2</a></h2>
+            <h2><a href="{{ url('{{ url('/gallery/gallery-2/') }}') }}">Galerie 2</a></h2>
             <div class="postbox__text">
                             </div>
             
 <div class="btn-box postbox__read-more">
-    <a href="{{ url('{{ url('/gallery/gallery-2/') }}') }}" class="tp-btn postbox__more-btn">Read More <span class="icon-plus"></span></a>
+    <a href="{{ url('{{ url('/gallery/gallery-2/') }}') }}" class="tp-btn postbox__more-btn">Mehr lesen <span class="icon-plus"></span></a>
 </div>
         </div>
     </article>
@@ -195,15 +195,15 @@
     
                 
     
-            <li><a href="{{ url('{{ url('/gallery/gallery-1/') }}') }}"><i class="far fa-comments"></i>No Comments</a></li>
+            <li><a href="{{ url('{{ url('/gallery/gallery-1/') }}') }}"><i class="far fa-comments"></i>Keine Kommentare</a></li>
     </ul>
 
-            <h2><a href="{{ url('{{ url('/gallery/gallery-1/') }}') }}">Gallery 1</a></h2>
+            <h2><a href="{{ url('{{ url('/gallery/gallery-1/') }}') }}">Galerie 1</a></h2>
             <div class="postbox__text">
                             </div>
             
 <div class="btn-box postbox__read-more">
-    <a href="{{ url('{{ url('/gallery/gallery-1/') }}') }}" class="tp-btn postbox__more-btn">Read More <span class="icon-plus"></span></a>
+    <a href="{{ url('{{ url('/gallery/gallery-1/') }}') }}" class="tp-btn postbox__more-btn">Mehr lesen <span class="icon-plus"></span></a>
 </div>
         </div>
     </article>
@@ -221,19 +221,19 @@
 		        	<div class="blog__sidebar pl-70">
 						
 <div id="search-1" class="sidebar__single widget_search"><div class="sidebar__search"><form class="sidebar__search-form" action="{{ url('{{ url('/') }}') }}" method="get">
-      	<input type="search" value="" required name="s" placeholder="Search here">
+      	<input type="search" value="" required name="s" placeholder="Hier suchen">
       	<button type="submit"> <i class="fa fa-search"></i>  </button>
-		</form></div></div><div id="categories-1" class="sidebar__single widget_categories"><div class="sidebar__widget-head mb-35"><h3 class="sidebar__title">Categories</h3></div>
+		</form></div></div><div id="categories-1" class="sidebar__single widget_categories"><div class="sidebar__widget-head mb-35"><h3 class="sidebar__title">Kategorien</h3></div>
 			<ul>
-					<li class="cat-item cat-item-4"><a href="{{ url('{{ url('/category/apartment-cleaning/') }}') }}">Apartment Cleaning</a> <span>(1)</span>
+					<li class="cat-item cat-item-4"><a href="{{ url('{{ url('/category/apartment-cleaning/') }}') }}">Wohnungsreinigung</a> <span>(1)</span>
 </li>
-	<li class="cat-item cat-item-6"><a href="{{ url('{{ url('/category/carpet-cleaning/') }}') }}">Carpet Cleaning</a> <span>(1)</span>
+	<li class="cat-item cat-item-6"><a href="{{ url('{{ url('/category/carpet-cleaning/') }}') }}">Teppichreinigung</a> <span>(1)</span>
 </li>
-	<li class="cat-item cat-item-8"><a href="{{ url('{{ url('/category/commercial-cleaning/') }}') }}">Commercial Cleaning</a> <span>(2)</span>
+	<li class="cat-item cat-item-8"><a href="{{ url('{{ url('/category/commercial-cleaning/') }}') }}">Gewerbereinigung</a> <span>(2)</span>
 </li>
-	<li class="cat-item cat-item-10"><a href="{{ url('{{ url('/category/house-cleaning/') }}') }}">House Cleaning</a> <span>(1)</span>
+	<li class="cat-item cat-item-10"><a href="{{ url('{{ url('/category/house-cleaning/') }}') }}">Hausreinigung</a> <span>(1)</span>
 </li>
-	<li class="cat-item cat-item-1"><a href="{{ url('{{ url('/category/uncategorized/') }}') }}">Uncategorized</a> <span>(1)</span>
+	<li class="cat-item cat-item-1"><a href="{{ url('{{ url('/category/uncategorized/') }}') }}">Allgemein</a> <span>(1)</span>
 </li>
 			</ul>
 
