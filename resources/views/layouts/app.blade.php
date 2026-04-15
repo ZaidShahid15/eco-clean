@@ -20,15 +20,51 @@
   .elementor-element.elementor-element-28a5c95:not(.elementor-motion-effects-element-type-background), .elementor-1179 .elementor-element.elementor-element-28a5c95 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
     background-color: #ffffff !important;
     border: 1px solid #808080;
-}
+  }
 
-.elementor-element:not(.elementor-element-fc58b73):not(.elementor-element-7604e8f):not(.elementor-element-d89969f) .elementor-heading-title {
-    color: white !important;
-}
-
-.elementor-element:not(.elementor-element-fc58b73):not(.elementor-element-7604e8f):not(.elementor-element-d89969f) .elementor-widget-text-editor b {
-    color: white !important;
-}
+  .elementor-element.elementor-element-6910057 .elementor-widget-heading .elementor-heading-title,
+  .elementor-element.elementor-element-6910057 .elementor-widget-text-editor,
+  .elementor-element.elementor-element-6910057 .elementor-widget-text-editor p,
+  .elementor-element.elementor-element-6910057 .elementor-widget-text-editor span,
+  .elementor-element.elementor-element-6910057 .elementor-widget-text-editor li,
+  .elementor-element.elementor-element-6910057 .elementor-widget-text-editor b,
+  .elementor-element.elementor-element-6910057 .elementor-widget-text-editor strong,
+  .elementor-element.elementor-element-6910057 .elementor-icon-list-text,
+  .elementor-element.elementor-element-6910057 .elementor-icon-list-icon i,
+  .elementor-element.elementor-element-6910057 .elementor-icon-list-icon svg,
+  .elementor-element.elementor-element-6910057 .e-rating,
+  .elementor-element.elementor-element-6910057 .e-rating-wrapper,
+  .elementor-element.elementor-element-6910057 .e-icon-wrapper,
+  .elementor-element.elementor-element-8b56591 .elementor-widget-heading .elementor-heading-title,
+  .elementor-element.elementor-element-8b56591 .elementor-widget-text-editor,
+  .elementor-element.elementor-element-8b56591 .elementor-widget-text-editor p,
+  .elementor-element.elementor-element-8b56591 .elementor-widget-text-editor span,
+  .elementor-element.elementor-element-8b56591 .elementor-widget-text-editor li,
+  .elementor-element.elementor-element-8b56591 .elementor-widget-text-editor b,
+  .elementor-element.elementor-element-8b56591 .elementor-widget-text-editor strong,
+  .elementor-element.elementor-element-8b56591 .elementor-icon-list-text,
+  .elementor-element.elementor-element-8b56591 .elementor-icon-list-icon i,
+  .elementor-element.elementor-element-8b56591 .elementor-icon-list-icon svg,
+  .elementor-element.elementor-element-8b56591 .e-rating,
+  .elementor-element.elementor-element-8b56591 .e-rating-wrapper,
+  .elementor-element.elementor-element-8b56591 .e-icon-wrapper,
+  .elementor-element.elementor-element-de56b37 .elementor-widget-heading .elementor-heading-title,
+  .elementor-element.elementor-element-de56b37 .elementor-widget-text-editor,
+  .elementor-element.elementor-element-de56b37 .elementor-widget-text-editor p,
+  .elementor-element.elementor-element-de56b37 .elementor-widget-text-editor span,
+  .elementor-element.elementor-element-de56b37 .elementor-widget-text-editor li,
+  .elementor-element.elementor-element-de56b37 .elementor-widget-text-editor b,
+  .elementor-element.elementor-element-de56b37 .elementor-widget-text-editor strong,
+  .elementor-element.elementor-element-de56b37 .elementor-icon-list-text,
+  .elementor-element.elementor-element-de56b37 .elementor-icon-list-icon i,
+  .elementor-element.elementor-element-de56b37 .elementor-icon-list-icon svg,
+  .elementor-element.elementor-element-de56b37 .e-rating,
+  .elementor-element.elementor-element-de56b37 .e-rating-wrapper,
+  .elementor-element.elementor-element-de56b37 .e-icon-wrapper {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+  }
 </style>
 <body class="{{ trim($bodyClass) }}">
     <div id="page" class="hfeed site">

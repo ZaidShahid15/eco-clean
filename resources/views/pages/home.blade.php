@@ -28,6 +28,167 @@
         color: #6b6b6b !important;
         -webkit-text-fill-color: #6b6b6b !important;
     }
+
+    .elementor-532 .elementor-element-bdea079 .elementor-heading-title,
+    .elementor-532 .elementor-element-bdea079 .elementor-widget-text-editor,
+    .elementor-532 .elementor-element-bdea079 .elementor-widget-text-editor p,
+    .elementor-532 .elementor-element-bdea079 .elementor-widget-text-editor span,
+    .elementor-532 .elementor-element-bdea079 .elementor-widget-text-editor li,
+    .elementor-532 .elementor-element-bdea079 .elementor-widget-text-editor b,
+    .elementor-532 .elementor-element-bdea079 .elementor-widget-text-editor strong,
+    .elementor-532 .elementor-element-bdea079 .elementor-widget-text-editor i,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-heading-title,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-widget-text-editor,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-widget-text-editor p,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-widget-text-editor span,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-widget-text-editor li,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-widget-text-editor b,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-widget-text-editor strong,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-widget-text-editor i,
+    .elementor-532 .elementor-element-a6de2eb .elementor-heading-title,
+    .elementor-532 .elementor-element-a6de2eb .elementor-widget-text-editor,
+    .elementor-532 .elementor-element-a6de2eb .elementor-widget-text-editor p,
+    .elementor-532 .elementor-element-a6de2eb .elementor-widget-text-editor span,
+    .elementor-532 .elementor-element-a6de2eb .elementor-widget-text-editor li,
+    .elementor-532 .elementor-element-a6de2eb .elementor-widget-text-editor b,
+    .elementor-532 .elementor-element-a6de2eb .elementor-widget-text-editor strong,
+    .elementor-532 .elementor-element-a6de2eb .elementor-widget-text-editor i,
+    .elementor-532 .elementor-element-bdea079 .elementor-heading-title,
+    .elementor-532 .elementor-element-bdea079 .elementor-widget-text-editor,
+    .elementor-532 .elementor-element-bdea079 .elementor-widget-text-editor p,
+    .elementor-532 .elementor-element-bdea079 .elementor-widget-text-editor span,
+    .elementor-532 .elementor-element-bdea079 .elementor-widget-text-editor li,
+    .elementor-532 .elementor-element-bdea079 .elementor-widget-text-editor b,
+    .elementor-532 .elementor-element-bdea079 .elementor-widget-text-editor strong,
+    .elementor-532 .elementor-element-bdea079 .elementor-widget-text-editor i,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-heading-title,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-widget-text-editor,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-widget-text-editor p,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-widget-text-editor span,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-widget-text-editor li,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-widget-text-editor b,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-widget-text-editor strong,
+    .elementor-532 .elementor-element-8b8efd6 .elementor-widget-text-editor i,
+    .elementor-532 .elementor-element-a6de2eb .elementor-heading-title,
+    .elementor-532 .elementor-element-a6de2eb .elementor-widget-text-editor,
+    .elementor-532 .elementor-element-a6de2eb .elementor-widget-text-editor p,
+    .elementor-532 .elementor-element-a6de2eb .elementor-widget-text-editor span,
+    .elementor-532 .elementor-element-a6de2eb .elementor-widget-text-editor li,
+    .elementor-532 .elementor-element-a6de2eb .elementor-widget-text-editor b,
+    .elementor-532 .elementor-element-a6de2eb .elementor-widget-text-editor strong,
+    .elementor-532 .elementor-element-a6de2eb .elementor-widget-text-editor i,
+    .elementor-532 .elementor-element-5bcdc63 .elementor-element-420d2ea .elementor-heading-title,
+    .elementor-532 .elementor-element-5bcdc63 .elementor-element-420d2ea .elementor-widget-text-editor,
+    .elementor-532 .elementor-element-5bcdc63 .elementor-element-420d2ea .elementor-widget-text-editor p,
+    .elementor-532 .elementor-element-5bcdc63 .elementor-element-420d2ea .elementor-widget-text-editor span,
+    .elementor-532 .elementor-element-5bcdc63 .elementor-element-420d2ea .elementor-widget-text-editor b,
+    .elementor-532 .elementor-element-5bcdc63 .elementor-element-420d2ea .elementor-widget-text-editor strong,
+    .elementor-532 .elementor-element-5bcdc63 .elementor-element-18dbd8f .elementor-heading-title,
+    .elementor-532 .elementor-element-5bcdc63 .elementor-element-18dbd8f .elementor-widget-text-editor,
+    .elementor-532 .elementor-element-5bcdc63 .elementor-element-18dbd8f .elementor-widget-text-editor p,
+    .elementor-532 .elementor-element-5bcdc63 .elementor-element-18dbd8f .elementor-widget-text-editor span,
+    .elementor-532 .elementor-element-5bcdc63 .elementor-element-18dbd8f .elementor-widget-text-editor b,
+    .elementor-532 .elementor-element-5bcdc63 .elementor-element-18dbd8f .elementor-widget-text-editor strong {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    .elementor-532 .elementor-element-8f2747c .elementor-heading-title,
+    .elementor-532 .elementor-element-70cb5ca,
+    .elementor-532 .elementor-element-70cb5ca p,
+    .elementor-532 .elementor-element-70cb5ca span,
+    .elementor-532 .elementor-element-70cb5ca b,
+    .elementor-532 .elementor-element-70cb5ca strong,
+    .elementor-532 .elementor-element-70cb5ca i,
+    .elementor-532 .elementor-element-300e1de .elementor-heading-title,
+    .elementor-532 .elementor-element-1d71cef,
+    .elementor-532 .elementor-element-1d71cef p,
+    .elementor-532 .elementor-element-1d71cef span,
+    .elementor-532 .elementor-element-1d71cef b,
+    .elementor-532 .elementor-element-1d71cef strong,
+    .elementor-532 .elementor-element-1d71cef i {
+        color: #6b6b6b !important;
+        fill: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
+
+    .elementor-532 .elementor-element-fa463e4 .elementor-icon-list-text,
+    .elementor-532 .elementor-element-fa463e4 .elementor-icon-list-text b,
+    .elementor-532 .elementor-element-fa463e4 .elementor-icon-list-icon i,
+    .elementor-532 .elementor-element-fa463e4 .elementor-icon-list-icon svg,
+    .elementor-532 .elementor-element-436c5d0 .elementor-icon-list-text,
+    .elementor-532 .elementor-element-436c5d0 .elementor-icon-list-text b,
+    .elementor-532 .elementor-element-436c5d0 .elementor-icon-list-icon i,
+    .elementor-532 .elementor-element-436c5d0 .elementor-icon-list-icon svg {
+        color: #6b6b6b !important;
+        fill: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
+
+    .elementor-532 .elementor-element-185292d .elementor-element-fa463e4 .elementor-icon-list-text,
+    .elementor-532 .elementor-element-185292d .elementor-element-fa463e4 .elementor-icon-list-text b,
+    .elementor-532 .elementor-element-185292d .elementor-element-fa463e4 .elementor-icon-list-icon i,
+    .elementor-532 .elementor-element-185292d .elementor-element-fa463e4 .elementor-icon-list-icon svg {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    .elementor-532 .elementor-element-70cb5ca.home-blue-desc-white,
+    .elementor-532 .elementor-element-70cb5ca.home-blue-desc-white p,
+    .elementor-532 .elementor-element-70cb5ca.home-blue-desc-white span,
+    .elementor-532 .elementor-element-70cb5ca.home-blue-desc-white b,
+    .elementor-532 .elementor-element-70cb5ca.home-blue-desc-white strong,
+    .elementor-532 .elementor-element-70cb5ca.home-blue-desc-white i {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    .elementor-532 .elementor-element-70cb5ca.home-blue-desc-white p.zaid-color,
+    .elementor-532 .elementor-element-70cb5ca.home-blue-desc-white p.zaid-color span,
+    .elementor-532 .elementor-element-70cb5ca.home-blue-desc-white p.zaid-color b,
+    .elementor-532 .elementor-element-70cb5ca.home-blue-desc-white p.zaid-color strong,
+    .elementor-532 .elementor-element-70cb5ca.home-blue-desc-white p.zaid-color i {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    .elementor-532 .eco-home-areas-head,
+    .elementor-532 .eco-home-areas-row {
+        background: #ffffff !important;
+    }
+
+    .elementor-532 .eco-home-areas-head {
+        padding-top: 36px !important;
+        padding-bottom: 18px !important;
+    }
+
+    .elementor-532 .eco-home-areas-row {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .elementor-532 .eco-home-areas-head .elementor-container,
+    .elementor-532 .eco-home-areas-row .elementor-container {
+        background: #ffffff !important;
+    }
+
+    .elementor-532 .eco-home-areas-row .elementor-widget-wrap {
+        background: transparent !important;
+    }
+
+    .elementor-532 .eco-home-areas-row .elementor-button {
+        background: #ffffff !important;
+        border: 1px solid #c8daf8 !important;
+        border-radius: 8px !important;
+        box-shadow: none !important;
+    }
+
+    .elementor-532 .eco-home-areas-row .elementor-button:hover {
+        background: #f7fbff !important;
+        border-color: #9ebff2 !important;
+    }
 </style>
 <div data-rocket-location-hash="dc4bf842212fcf52ccf95f51116249f2" data-elementor-type="wp-page" data-elementor-id="532" class="elementor elementor-532" data-elementor-post-type="page">
 				<div data-rocket-location-hash="4ca90ffd32e76df212c0618981202236" class="elementor-element elementor-element-a8b848d e-con-full e-flex e-con e-parent" data-id="a8b848d" data-element_type="container" data-e-type="container">
@@ -793,12 +954,12 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-8f2747c elementor-widget elementor-widget-heading" data-id="8f2747c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Maßgeschneiderte Lösungen für jede Immobilie
+					<h2 class="elementor-heading-title elementor-size-default" style="color: #ffffff !important; -webkit-text-fill-color: #ffffff !important;">Maßgeschneiderte Lösungen für jede Immobilie
 </h2>				</div>
 				</div>
-				<div class="elementor-element elementor-element-70cb5ca elementor-widget elementor-widget-text-editor" data-id="70cb5ca" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><span style="font-weight: 400;">Ob Sie Eigentümer einer großen Gewerbeimmobilie oder einer kleinen Wohnung sind, unser Ziel ist es, Ihnen einen </span><i><span style="font-weight: 400;">Reinigungsservice</span></i><span style="font-weight: 400;"> anzubieten, der auf Ihre speziellen Bedürfnisse zugeschnitten ist. Wir verstehen, dass jede </span><i><span style="font-weight: 400;">Immobilie</span></i><span style="font-weight: 400;"> unterschiedliche Anforderungen hat, und deshalb erstellen wir individuelle </span><i><span style="font-weight: 400;">Reinigungskonzepte</span></i><span style="font-weight: 400;">. Unsere </span><i><span style="font-weight: 400;">Reinigungsdienstleistungen</span></i><span style="font-weight: 400;"> umfassen:</span></p>								</div>
+				<div class="elementor-element elementor-element-70cb5ca elementor-widget elementor-widget-text-editor home-blue-desc-white" data-id="70cb5ca" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container" style="color: #ffffff !important; -webkit-text-fill-color: #ffffff !important;">
+									<p class="zaid-color" style="color: #ffffff !important; -webkit-text-fill-color: #ffffff !important;"><span style="font-weight: 400; color: #ffffff !important;">Ob Sie Eigentümer einer großen Gewerbeimmobilie oder einer kleinen Wohnung sind, unser Ziel ist es, Ihnen einen </span><i><span style="font-weight: 400; color: #ffffff !important;">Reinigungsservice</span></i><span style="font-weight: 400; color: #ffffff !important;"> anzubieten, der auf Ihre speziellen Bedürfnisse zugeschnitten ist. Wir verstehen, dass jede </span><i><span style="font-weight: 400; color: #ffffff !important;">Immobilie</span></i><span style="font-weight: 400; color: #ffffff !important;"> unterschiedliche Anforderungen hat, und deshalb erstellen wir individuelle </span><i><span style="font-weight: 400; color: #ffffff !important;">Reinigungskonzepte</span></i><span style="font-weight: 400; color: #ffffff !important;">. Unsere </span><i><span style="font-weight: 400; color: #ffffff !important;">Reinigungsdienstleistungen</span></i><span style="font-weight: 400; color: #ffffff !important;"> umfassen:</span></p>								</div>
 				</div>
 					</div>
 		</div>
@@ -937,7 +1098,7 @@
 				</div>
 				<div class="elementor-element elementor-element-1d71cef elementor-widget elementor-widget-text-editor" data-id="1d71cef" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><span style="font-weight: 400;">Ob Sie Eigentümer einer großen Gewerbeimmobilie oder einer kleinen Wohnung sind, unser Ziel ist es, Ihnen einen </span><i><span style="font-weight: 400;">Reinigungsservice</span></i><span style="font-weight: 400;"> anzubieten, der auf Ihre speziellen Bedürfnisse zugeschnitten ist. Wir verstehen, dass jede </span><i><span style="font-weight: 400;">Immobilie</span></i><span style="font-weight: 400;"> unterschiedliche Anforderungen hat, und deshalb erstellen wir individuelle </span><i><span style="font-weight: 400;">Reinigungskonzepte</span></i><span style="font-weight: 400;">. Unsere </span><i><span style="font-weight: 400;">Reinigungsdienstleistungen</span></i><span style="font-weight: 400;"> umfassen:</span></p>								</div>
+									<p style="color: #ffffff !important; -webkit-text-fill-color: #ffffff !important;"><span style="font-weight: 400; color: #ffffff !important;">Ob Sie Eigentümer einer großen Gewerbeimmobilie oder einer kleinen Wohnung sind, unser Ziel ist es, Ihnen einen </span><i><span style="font-weight: 400; color: #ffffff !important;">Reinigungsservice</span></i><span style="font-weight: 400; color: #ffffff !important;"> anzubieten, der auf Ihre speziellen Bedürfnisse zugeschnitten ist. Wir verstehen, dass jede </span><i><span style="font-weight: 400; color: #ffffff !important;">Immobilie</span></i><span style="font-weight: 400; color: #ffffff !important;"> unterschiedliche Anforderungen hat, und deshalb erstellen wir individuelle </span><i><span style="font-weight: 400; color: #ffffff !important;">Reinigungskonzepte</span></i><span style="font-weight: 400; color: #ffffff !important;">. Unsere </span><i><span style="font-weight: 400; color: #ffffff !important;">Reinigungsdienstleistungen</span></i><span style="font-weight: 400; color: #ffffff !important;"> umfassen:</span></p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-436c5d0 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="436c5d0" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
 				<div class="elementor-widget-container">
