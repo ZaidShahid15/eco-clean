@@ -154,6 +154,43 @@
         -webkit-text-fill-color: #ffffff !important;
     }
 
+    .elementor-532 .zaid-p-color,
+    .elementor-532 .zaid-p-color p,
+    .elementor-532 .zaid-p-color span,
+    .elementor-532 .zaid-p-color b,
+    .elementor-532 .zaid-p-color strong,
+    .elementor-532 .zaid-p-color i {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
+
+    .elementor-532 .zaid-grey-block .elementor-heading-title,
+    .elementor-532 .zaid-grey-block,
+    .elementor-532 .zaid-grey-block p,
+    .elementor-532 .zaid-grey-block span,
+    .elementor-532 .zaid-grey-block b,
+    .elementor-532 .zaid-grey-block strong,
+    .elementor-532 .zaid-grey-block i {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
+
+    .elementor-532 .elementor-element-eb3d82f.zaid-grey-block,
+    .elementor-532 .elementor-element-eb3d82f.zaid-grey-block .elementor-widget-container,
+    .elementor-532 .elementor-element-eb3d82f.zaid-grey-block p,
+    .elementor-532 .elementor-element-eb3d82f.zaid-grey-block span,
+    .elementor-532 .elementor-element-eb3d82f.zaid-grey-block b,
+    .elementor-532 .elementor-element-eb3d82f.zaid-grey-block strong,
+    .elementor-532 .elementor-element-eb3d82f.zaid-grey-block i {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
+
+    .elementor-532 .elementor-element-32e0c6d .elementor-heading-title {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
+
     .elementor-532 .eco-home-areas-head,
     .elementor-532 .eco-home-areas-row {
         background: #ffffff !important;
@@ -756,12 +793,12 @@
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bf16631" data-id="bf16631" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-d842c4c elementor-widget elementor-widget-heading" data-id="d842c4c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+						<div class="elementor-element elementor-element-d842c4c elementor-widget elementor-widget-heading zaid-grey-block" data-id="d842c4c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">Warum  eine  Reinigungsfirma  in  Wien  beauftragen?
  </h2>				</div>
 				</div>
-				<div class="elementor-element elementor-element-eb3d82f elementor-widget elementor-widget-text-editor" data-id="eb3d82f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-eb3d82f elementor-widget elementor-widget-text-editor zaid-p-color zaid-grey-block" data-id="eb3d82f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<p><span style="font-weight: 400;">Die Entscheidung, eine professionelle </span><i><span style="font-weight: 400;">Reinigungsfirma</span></i><span style="font-weight: 400;"> zu beauftragen, bringt viele Vorteile mit sich. Unser Ziel ist es, Ihnen eine erstklassige </span><i><span style="font-weight: 400;">Reinigung</span></i><span style="font-weight: 400;"> zu bieten, die für </span><i><span style="font-weight: 400;">Sauberkeit</span></i><span style="font-weight: 400;"> und Hygiene in Ihren </span><i><span style="font-weight: 400;">Räumlichkeiten</span></i><span style="font-weight: 400;"> sorgt. Mit einem erfahrenen </span><i><span style="font-weight: 400;">Reinigungspersonal</span></i><span style="font-weight: 400;"> und modernen </span><i><span style="font-weight: 400;">Reinigungsmitteln</span></i><span style="font-weight: 400;"> garantieren wir, dass Sie stets auf unsere Dienstleistungen vertrauen können. Ihre Zufriedenheit hat für uns höchste Priorität.</span></p>								</div>
 				</div>
