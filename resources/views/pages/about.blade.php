@@ -15,13 +15,41 @@
 @endsection
 
 @section('content')
+<style>
+    .zaid-white-copy .elementor-heading-title,
+    .zaid-white-copy .elementor-widget-text-editor,
+    .zaid-white-copy .elementor-widget-text-editor p,
+    .zaid-white-copy .elementor-widget-text-editor span,
+    .zaid-white-copy .elementor-widget-text-editor strong,
+    .zaid-white-copy .elementor-widget-text-editor b,
+    .zaid-white-copy .elementor-widget-text-editor h1,
+    .zaid-white-copy .elementor-widget-text-editor h2,
+    .zaid-white-copy .elementor-widget-text-editor h3,
+    .zaid-white-copy .elementor-widget-text-editor h4,
+    .zaid-white-copy .elementor-widget-text-editor h5,
+    .zaid-white-copy .elementor-widget-text-editor h6,
+    .zaid-white-copy .elementor-icon-list-text,
+    .zaid-white-copy .elementor-icon-list-icon i,
+    .zaid-white-copy .elementor-icon-list-icon svg,
+    .zaid-white-copy .thm-btn,
+    .zaid-white-copy .service-details__btn {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    .zaid-white-copy .thm-btn,
+    .zaid-white-copy .service-details__btn {
+        border-color: #ffffff !important;
+    }
+</style>
 <div  data-elementor-type="wp-page" data-elementor-id="535" class="elementor elementor-535" data-elementor-post-type="page">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-ff6fa2f elementor-section-full_width elementor-section-stretched elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle" data-id="ff6fa2f" data-element_type="section" data-e-type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 							<div class="elementor-background-overlay"></div>
 							<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f4df31a" data-id="f4df31a" data-element_type="column" data-e-type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-ef0091c elementor-widget elementor-widget-heading" data-id="ef0091c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+						<div class="elementor-element elementor-element-ef0091c zaid-white-copy elementor-widget elementor-widget-heading" data-id="ef0091c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">Über uns</h2>				</div>
 				</div>
@@ -39,13 +67,13 @@
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-6eab7ae e-con-full e-flex e-con e-child" data-id="6eab7ae" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-f24a037 elementor-widget elementor-widget-heading" data-id="f24a037" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-f24a037 zaid-white-copy elementor-widget elementor-widget-heading" data-id="f24a037" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<p class="elementor-heading-title elementor-size-default">eco-clean.at</p>				</div>
 				</div>
 		<div class="elementor-element elementor-element-99b8820 e-con-full e-flex e-con e-child" data-id="99b8820" data-element_type="container" data-e-type="container">
 		<div class="elementor-element elementor-element-9cbc97e e-con-full e-flex e-con e-child" data-id="9cbc97e" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-59e3d5c elementor-widget elementor-widget-heading" data-id="59e3d5c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-59e3d5c zaid-white-copy elementor-widget elementor-widget-heading" data-id="59e3d5c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h5 class="elementor-heading-title elementor-size-default">Ausgezeichnet</h5>				</div>
 				</div>
@@ -91,14 +119,14 @@
 				</div>
 				</div>
 				</div>
-				<div class="elementor-element elementor-element-84be6f4 elementor-widget elementor-widget-heading" data-id="84be6f4" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-84be6f4 zaid-white-copy elementor-widget elementor-widget-heading" data-id="84be6f4" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<p class="elementor-heading-title elementor-size-default">4,9 von 5,0 aus 452 Bewertungen</p>				</div>
 				</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-5ad0114 e-con-full e-flex e-con e-child" data-id="5ad0114" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-a803b0e elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="a803b0e" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-element elementor-element-a803b0e zaid-white-copy elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="a803b0e" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
 				<div class="elementor-widget-container">
 							<ul class="elementor-icon-list-items">
 							<li class="elementor-icon-list-item">
@@ -114,7 +142,7 @@
 						</ul>
 						</div>
 				</div>
-				<div class="elementor-element elementor-element-f5f8b80 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="f5f8b80" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-element elementor-element-f5f8b80 zaid-white-copy elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="f5f8b80" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
 				<div class="elementor-widget-container">
 							<ul class="elementor-icon-list-items">
 							<li class="elementor-icon-list-item">
@@ -218,15 +246,15 @@
 		</div>
 				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-19a155e" data-id="19a155e" data-element_type="column" data-e-type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-9348d3c elementor-widget elementor-widget-heading" data-id="9348d3c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-9348d3c zaid-white-copy elementor-widget elementor-widget-heading" data-id="9348d3c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h3 class="elementor-heading-title elementor-size-default">MITARBEITER UND KUNDENZUFRIEDENHEIT</h3>				</div>
 				</div>
-				<div class="elementor-element elementor-element-00ea37a elementor-widget elementor-widget-text-editor" data-id="00ea37a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-00ea37a zaid-white-copy elementor-widget elementor-widget-text-editor" data-id="00ea37a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<p>Eco-Clean legt großen Wert auf ein eingespieltes Team und geschulte Fachkräfte, die durch regelmäßige Weiterbildungen immer auf dem neuesten Stand der Reinigungsbranche sind. Für uns bedeutet Reinigung mehr als nur Sauberkeit – es ist eine Aufgabe, die zu einem produktiven und gesunden Umfeld beiträgt. Unsere Mitarbeiter sorgen dafür, dass Ihr Zuhause und Ihre Arbeitsumgebung sauber und hygienisch sind.</p><p> </p><p>Wir beraten Sie bei der Auswahl der richtigen Reinigungsprodukte für Ihre individuellen Anforderungen und bieten eine breite Palette an Lösungen, die sich bewährt haben – von speziellen Reinigungsmitteln für hartnäckigen Schmutz bis hin zu umweltfreundlichen Alternativen.</p><p> </p><p> </p><h3><strong>KONTAKTIEREN SIE UNS</strong></h3><p>Egal, ob Sie Unterstützung bei alltäglichen Reinigungsaufgaben oder spezielle Pflege in verschiedenen Bereichen wie Garten, Küche oder WC benötigen, Eco-Clean steht Ihnen zur Seite. Wir freuen uns darauf, Ihnen mit Rat und Tat zur Seite zu stehen und jedes Reinigungsproblem zu lösen.</p><p> </p>								</div>
 				</div>
-				<div class="elementor-element elementor-element-1510a86 elementor-widget__width-auto elementor-widget elementor-widget-shortcode" data-id="1510a86" data-element_type="widget" data-e-type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-element elementor-element-1510a86 zaid-white-copy elementor-widget__width-auto elementor-widget elementor-widget-shortcode" data-id="1510a86" data-element_type="widget" data-e-type="widget" data-widget_type="shortcode.default">
 				<div class="elementor-widget-container">
 							<div class="elementor-shortcode">		<div data-elementor-type="container" data-elementor-id="1953" class="elementor elementor-1953" data-elementor-post-type="elementor_library">
 				<div class="elementor-element elementor-element-d8acbcb e-flex e-con-boxed e-con e-parent" data-id="d8acbcb" data-element_type="container" data-e-type="container">
