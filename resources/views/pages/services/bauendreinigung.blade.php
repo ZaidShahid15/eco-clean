@@ -54,6 +54,11 @@
         fill: #ffffff !important;
         -webkit-text-fill-color: #ffffff !important;
     }
+
+    .elementor-1174 .elementor-element-d8059cb .elementor-element-7bc6dd9.zaid-black-heading .elementor-heading-title {
+        color: #000000 !important;
+        -webkit-text-fill-color: #000000 !important;
+    }
 </style>
 <div  data-elementor-type="wp-page" data-elementor-id="1174" class="elementor elementor-1174" data-elementor-post-type="page">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-0d6748a elementor-section-full_width elementor-section-stretched elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle" data-id="0d6748a" data-element_type="section" data-e-type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
@@ -621,7 +626,7 @@ Closed</p>				</div>
 		<div class="elementor-element elementor-element-d8059cb e-flex e-con-boxed e-con e-parent" data-id="d8059cb" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-6cb7b86 e-con-full e-flex e-con e-child" data-id="6cb7b86" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-7bc6dd9 elementor-widget elementor-widget-heading" data-id="7bc6dd9" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-7bc6dd9 zaid-black-heading elementor-widget elementor-widget-heading" data-id="7bc6dd9" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">Kontaktdaten</h2>				</div>
 				</div>

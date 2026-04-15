@@ -91,6 +91,8 @@
         -webkit-text-fill-color: #5f5f5f !important;
     }
 
+    .elementor-1179 .elementor-element-d8059cb .elementor-element-6ca7c69.zaid-contact-white-heading .elementor-heading-title,
+    .elementor-1179 .elementor-element-d8059cb .elementor-element-fe47d6e.zaid-contact-white-heading .elementor-heading-title,
     .elementor-1179 .zaid-contact-white-heading .elementor-heading-title {
         color: #ffffff !important;
         -webkit-text-fill-color: #ffffff !important;

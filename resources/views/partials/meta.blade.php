@@ -360,7 +360,7 @@
         color: #ffffff !important;
         font-size: 45px !important;
         font-weight: 900 !important;
-        line-height: 1 !important;
+        line-height: 1.2 !important;
         letter-spacing: 0 !important;
         text-wrap: balance;
         text-shadow: 0 4px 0 rgba(249, 146, 92, 0.95);

@@ -15,6 +15,23 @@
 @endsection
 
 @section('content')
+<style>
+    .elementor-2853 .zaid-impressum-white-headings h1,
+    .elementor-2853 .zaid-impressum-white-headings h2,
+    .elementor-2853 .zaid-impressum-white-headings h3,
+    .elementor-2853 .zaid-impressum-white-headings h4,
+    .elementor-2853 .zaid-impressum-white-headings h5,
+    .elementor-2853 .zaid-impressum-white-headings h6,
+    .elementor-2853 .zaid-impressum-white-headings h1 strong,
+    .elementor-2853 .zaid-impressum-white-headings h2 strong,
+    .elementor-2853 .zaid-impressum-white-headings h3 strong,
+    .elementor-2853 .zaid-impressum-white-headings h4 strong,
+    .elementor-2853 .zaid-impressum-white-headings h5 strong,
+    .elementor-2853 .zaid-impressum-white-headings h6 strong {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+</style>
 <div  class="tp-page-area page-padding">
     <div  class="container">
 		<div class="row">
@@ -28,7 +45,7 @@
 				</div>
 		<div class="elementor-element elementor-element-30b6aff e-flex e-con-boxed e-con e-parent" data-id="30b6aff" data-element_type="container" data-e-type="container">
 					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-61bbe4e elementor-widget elementor-widget-text-editor" data-id="61bbe4e" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-61bbe4e zaid-impressum-white-headings elementor-widget elementor-widget-text-editor" data-id="61bbe4e" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<h1 data-start="193" data-end="263"><strong data-start="195" data-end="263">Impressum&nbsp;</strong></h1>
 <h3 data-start="193" data-end="263"><strong data-start="195" data-end="263"> Eco Clean (betrieben von ENS Reinigungsservice e.U.)</strong></h3>
