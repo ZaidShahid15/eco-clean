@@ -15,6 +15,39 @@
 @endsection
 
 @section('content')
+<style>
+    .elementor-926 > .elementor-element:not(.elementor-element-0d6748a) .elementor-widget-heading .elementor-heading-title,
+    .elementor-926 .elementor-widget-text-editor,
+    .elementor-926 .elementor-widget-text-editor p,
+    .elementor-926 .elementor-widget-text-editor span,
+    .elementor-926 .elementor-widget-text-editor li,
+    .elementor-926 .elementor-widget-text-editor b,
+    .elementor-926 .elementor-widget-text-editor strong,
+    .elementor-926 .elementor-widget-text-editor i,
+    .elementor-926 .elementor-widget-text-editor h1,
+    .elementor-926 .elementor-widget-text-editor h2,
+    .elementor-926 .elementor-widget-text-editor h3,
+    .elementor-926 .elementor-widget-text-editor h4,
+    .elementor-926 .elementor-widget-text-editor h5,
+    .elementor-926 .elementor-widget-text-editor h6 {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
+    .elementor-926 .elementor-element-d8059cb .elementor-heading-title,
+    .elementor-926 .elementor-element-d8059cb .elementor-widget-text-editor,
+    .elementor-926 .elementor-element-d8059cb .elementor-widget-text-editor p,
+    .elementor-926 .elementor-element-d8059cb .elementor-widget-text-editor span,
+    .elementor-926 .elementor-element-d8059cb .elementor-widget-text-editor li,
+    .elementor-926 .elementor-element-d8059cb .elementor-widget-text-editor b,
+    .elementor-926 .elementor-element-d8059cb .elementor-widget-text-editor strong,
+    .elementor-926 .elementor-element-d8059cb .elementor-icon-list-text,
+    .elementor-926 .elementor-element-d8059cb .elementor-icon-list-icon i,
+    .elementor-926 .elementor-element-d8059cb .elementor-icon-list-icon svg {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+</style>
 <div data-rocket-location-hash="a1229c02383e5f6d45899e8299229975" data-elementor-type="wp-page" data-elementor-id="926" class="elementor elementor-926" data-elementor-post-type="page">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-0d6748a elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="0d6748a" data-element_type="section" data-e-type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 							<div class="elementor-background-overlay"></div>
@@ -644,4 +677,3 @@ Closed</p>				</div>
 				</div>
 				</div>
 @endsection
-

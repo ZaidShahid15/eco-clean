@@ -43,6 +43,48 @@
         background: #ffffff !important;
         border-color: #d7dce3 !important;
     }
+    .elementor-1802 .elementor-widget-text-editor,
+    .elementor-1802 .elementor-widget-text-editor p,
+    .elementor-1802 .elementor-widget-text-editor span,
+    .elementor-1802 .elementor-widget-text-editor li,
+    .elementor-1802 .elementor-widget-text-editor b,
+    .elementor-1802 .elementor-widget-text-editor strong {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
+    .elementor-1802 .elementor-element-79e8872 .elementor-heading-title,
+    .elementor-1802 .elementor-element-79e8872 .elementor-widget-text-editor,
+    .elementor-1802 .elementor-element-79e8872 .elementor-widget-text-editor p,
+    .elementor-1802 .elementor-element-79e8872 .elementor-widget-text-editor span,
+    .elementor-1802 .elementor-element-79e8872 .elementor-widget-text-editor strong,
+    .elementor-1802 .elementor-element-79e8872 .elementor-widget-text-editor b,
+    .elementor-1802 .elementor-element-79e8872 .elementor-widget-text-editor li,
+    .elementor-1802 .elementor-element-79e8872 .elementor-icon-list-text,
+    .elementor-1802 .elementor-element-79e8872 .elementor-icon-list-icon i,
+    .elementor-1802 .elementor-element-79e8872 .elementor-icon-list-icon svg,
+    .elementor-1802 .elementor-element-d21ad8c .elementor-heading-title,
+    .elementor-1802 .elementor-element-d21ad8c .elementor-widget-text-editor,
+    .elementor-1802 .elementor-element-d21ad8c .elementor-widget-text-editor p,
+    .elementor-1802 .elementor-element-d21ad8c .elementor-widget-text-editor span,
+    .elementor-1802 .elementor-element-d21ad8c .elementor-widget-text-editor strong,
+    .elementor-1802 .elementor-element-d21ad8c .elementor-widget-text-editor b,
+    .elementor-1802 .elementor-element-d21ad8c .elementor-widget-text-editor li,
+    .elementor-1802 .elementor-element-d21ad8c .elementor-icon-list-text,
+    .elementor-1802 .elementor-element-d21ad8c .elementor-icon-list-icon i,
+    .elementor-1802 .elementor-element-d21ad8c .elementor-icon-list-icon svg {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+    .elementor-1802 .elementor-element-d21ad8c .elementor-element-40248b1,
+    .elementor-1802 .elementor-element-d21ad8c .elementor-element-40248b1 p,
+    .elementor-1802 .elementor-element-d21ad8c .elementor-element-40248b1 span,
+    .elementor-1802 .elementor-element-d21ad8c .elementor-element-40248b1 b,
+    .elementor-1802 .elementor-element-d21ad8c .elementor-element-40248b1 strong,
+    .elementor-1802 .elementor-element-d21ad8c .elementor-element-40248b1 li {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
 </style>
 <div data-rocket-location-hash="9fa3e6362b79c970d872af36ee28bf88" data-elementor-type="wp-page" data-elementor-id="1802" class="elementor elementor-1802" data-elementor-post-type="page">
 				<div class="elementor-element elementor-element-fc58b73 e-flex e-con-boxed e-con e-parent" data-id="fc58b73" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_bottom&quot;:&quot;tilt&quot;}">
@@ -381,4 +423,3 @@
 				</div>
 				</div>
 @endsection
-

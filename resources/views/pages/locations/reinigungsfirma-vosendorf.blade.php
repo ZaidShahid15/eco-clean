@@ -42,6 +42,16 @@
         color: #6b6b6b !important;
         -webkit-text-fill-color: #6b6b6b !important;
     }
+    .elementor-1703 .elementor-element-6b39d72 .elementor-heading-title,
+    .elementor-1703 .elementor-element-6b39d72 .elementor-widget-text-editor,
+    .elementor-1703 .elementor-element-6b39d72 .elementor-widget-text-editor p,
+    .elementor-1703 .elementor-element-6b39d72 .elementor-widget-text-editor span,
+    .elementor-1703 .elementor-element-6b39d72 .elementor-widget-text-editor strong,
+    .elementor-1703 .elementor-element-6b39d72 .elementor-widget-text-editor b,
+    .elementor-1703 .elementor-element-6b39d72 .elementor-widget-text-editor li,
+    .elementor-1703 .elementor-element-6b39d72 .elementor-icon-list-text,
+    .elementor-1703 .elementor-element-6b39d72 .elementor-icon-list-icon i,
+    .elementor-1703 .elementor-element-6b39d72 .elementor-icon-list-icon svg,
     .elementor-1703 .elementor-element-d21ad8c .elementor-heading-title,
     .elementor-1703 .elementor-element-d21ad8c .elementor-widget-text-editor,
     .elementor-1703 .elementor-element-d21ad8c .elementor-widget-text-editor p,
@@ -54,6 +64,15 @@
     .elementor-1703 .elementor-element-d21ad8c .elementor-icon-list-icon svg {
         color: #ffffff !important;
         fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+    .elementor-1703 .elementor-element-d21ad8c .elementor-element-40248b1,
+    .elementor-1703 .elementor-element-d21ad8c .elementor-element-40248b1 p,
+    .elementor-1703 .elementor-element-d21ad8c .elementor-element-40248b1 span,
+    .elementor-1703 .elementor-element-d21ad8c .elementor-element-40248b1 b,
+    .elementor-1703 .elementor-element-d21ad8c .elementor-element-40248b1 strong,
+    .elementor-1703 .elementor-element-d21ad8c .elementor-element-40248b1 li {
+        color: #ffffff !important;
         -webkit-text-fill-color: #ffffff !important;
     }
 
@@ -70,6 +89,15 @@
     .elementor-1703 .fluentform_wrapper_4 textarea.ff-el-form-control {
         background: #ffffff !important;
         border-color: #d7dce3 !important;
+    }
+    .elementor-1703 .elementor-widget-text-editor,
+    .elementor-1703 .elementor-widget-text-editor p,
+    .elementor-1703 .elementor-widget-text-editor span,
+    .elementor-1703 .elementor-widget-text-editor li,
+    .elementor-1703 .elementor-widget-text-editor b,
+    .elementor-1703 .elementor-widget-text-editor strong {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
     }
 </style>
 <div data-rocket-location-hash="c887440c74e1e67aa528653b9e9d2e66" data-elementor-type="wp-page" data-elementor-id="1703" class="elementor elementor-1703" data-elementor-post-type="page">

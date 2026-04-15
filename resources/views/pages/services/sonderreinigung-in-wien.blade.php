@@ -15,6 +15,82 @@
 @endsection
 
 @section('content')
+<style>
+    .elementor-1179 > .elementor-element:not(.elementor-element-0d6748a) .elementor-widget-heading .elementor-heading-title,
+    .elementor-1179 .elementor-widget-text-editor,
+    .elementor-1179 .elementor-widget-text-editor p,
+    .elementor-1179 .elementor-widget-text-editor span,
+    .elementor-1179 .elementor-widget-text-editor li,
+    .elementor-1179 .elementor-widget-text-editor b,
+    .elementor-1179 .elementor-widget-text-editor strong,
+    .elementor-1179 .elementor-widget-text-editor i,
+    .elementor-1179 .elementor-widget-text-editor h1,
+    .elementor-1179 .elementor-widget-text-editor h2,
+    .elementor-1179 .elementor-widget-text-editor h3,
+    .elementor-1179 .elementor-widget-text-editor h4,
+    .elementor-1179 .elementor-widget-text-editor h5,
+    .elementor-1179 .elementor-widget-text-editor h6 {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
+    .elementor-1179 .elementor-element-6910057 .elementor-heading-title,
+    .elementor-1179 .elementor-element-6910057 .elementor-widget-text-editor,
+    .elementor-1179 .elementor-element-6910057 .elementor-widget-text-editor p,
+    .elementor-1179 .elementor-element-6910057 .elementor-widget-text-editor span,
+    .elementor-1179 .elementor-element-6910057 .elementor-widget-text-editor li,
+    .elementor-1179 .elementor-element-6910057 .elementor-widget-text-editor b,
+    .elementor-1179 .elementor-element-6910057 .elementor-widget-text-editor strong,
+    .elementor-1179 .elementor-element-6910057 .elementor-element-ac24fac.elementor-widget-heading .elementor-heading-title,
+    .elementor-1179 .elementor-element-6910057 .elementor-element-cf0cd2d.elementor-widget-heading .elementor-heading-title,
+    .elementor-1179 .elementor-element-6910057 .elementor-element-6d4c65c.elementor-widget-heading .elementor-heading-title,
+    .elementor-1179 .elementor-element-6910057 .elementor-icon-list-text,
+    .elementor-1179 .elementor-element-6910057 .elementor-icon-list-icon i,
+    .elementor-1179 .elementor-element-6910057 .elementor-icon-list-icon svg,
+    .elementor-1179 .elementor-element-6910057 .elementor-element-41286ea .e-rating,
+    .elementor-1179 .elementor-element-6910057 .elementor-element-41286ea .e-rating-wrapper,
+    .elementor-1179 .elementor-element-6910057 .elementor-element-41286ea .e-icon-wrapper,
+    .elementor-1179 .elementor-element-03b4e20 .elementor-element-ff59033.elementor-widget-heading .elementor-heading-title,
+    .elementor-1179 .elementor-element-03b4e20 .elementor-element-ff59033 .elementor-heading-title,
+    .elementor-1179 .elementor-element-fdb5aba,
+    .elementor-1179 .elementor-element-fdb5aba p,
+    .elementor-1179 .elementor-element-fdb5aba span,
+    .elementor-1179 .elementor-element-fdb5aba li,
+    .elementor-1179 .elementor-element-fdb5aba b,
+    .elementor-1179 .elementor-element-fdb5aba strong,
+    .elementor-1179 .elementor-element-03b4e20 .elementor-element-3f18b06.elementor-widget-heading .elementor-heading-title,
+    .elementor-1179 .elementor-element-03b4e20 .elementor-element-3f18b06 .elementor-heading-title,
+    .elementor-1179 .elementor-element-f28d2c2,
+    .elementor-1179 .elementor-element-f28d2c2 p,
+    .elementor-1179 .elementor-element-f28d2c2 span,
+    .elementor-1179 .elementor-element-f28d2c2 li,
+    .elementor-1179 .elementor-element-f28d2c2 b,
+    .elementor-1179 .elementor-element-f28d2c2 strong,
+    .elementor-1179 .elementor-element-c4cfd25 .elementor-element-ec8af24.elementor-widget-heading .elementor-heading-title,
+    .elementor-1179 .elementor-element-c4cfd25 .elementor-element-ec8af24 .elementor-heading-title,
+    .elementor-1179 .elementor-element-d8059cb .elementor-heading-title,
+    .elementor-1179 .elementor-element-d8059cb .elementor-widget-text-editor,
+    .elementor-1179 .elementor-element-d8059cb .elementor-widget-text-editor p,
+    .elementor-1179 .elementor-element-d8059cb .elementor-widget-text-editor span,
+    .elementor-1179 .elementor-element-d8059cb .elementor-widget-text-editor li,
+    .elementor-1179 .elementor-element-d8059cb .elementor-widget-text-editor b,
+    .elementor-1179 .elementor-element-d8059cb .elementor-widget-text-editor strong,
+    .elementor-1179 .elementor-element-d8059cb .elementor-icon-list-text,
+    .elementor-1179 .elementor-element-d8059cb .elementor-icon-list-icon i,
+    .elementor-1179 .elementor-element-d8059cb .elementor-icon-list-icon svg {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    .elementor-1179 .elementor-element-6f587a1 .elementor-heading-title,
+    .elementor-1179 .elementor-element-676f17b .elementor-heading-title,
+    .elementor-1179 .elementor-element-7fa14f9 .elementor-heading-title,
+    .elementor-1179 .elementor-element-92bb13f .elementor-heading-title,
+    .elementor-1179 .elementor-element-5592992 .elementor-heading-title {
+        color: #5f5f5f !important;
+        -webkit-text-fill-color: #5f5f5f !important;
+    }
+</style>
 <div data-rocket-location-hash="cae3e4c708e80e148cc97f672762a85f" data-elementor-type="wp-page" data-elementor-id="1179" class="elementor elementor-1179" data-elementor-post-type="page">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-0d6748a elementor-section-full_width elementor-section-stretched elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle" data-id="0d6748a" data-element_type="section" data-e-type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 							<div class="elementor-background-overlay"></div>
@@ -566,4 +642,3 @@ Closed</p>				</div>
 				</div>
 				</div>
 @endsection
-

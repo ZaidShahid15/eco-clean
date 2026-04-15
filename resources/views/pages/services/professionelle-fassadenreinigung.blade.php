@@ -15,6 +15,49 @@
 @endsection
 
 @section('content')
+<style>
+    .elementor-1161 > .elementor-element:not(.elementor-element-0d6748a) .elementor-widget-heading .elementor-heading-title,
+    .elementor-1161 .elementor-widget-text-editor,
+    .elementor-1161 .elementor-widget-text-editor p,
+    .elementor-1161 .elementor-widget-text-editor span,
+    .elementor-1161 .elementor-widget-text-editor li,
+    .elementor-1161 .elementor-widget-text-editor b,
+    .elementor-1161 .elementor-widget-text-editor strong,
+    .elementor-1161 .elementor-widget-text-editor i,
+    .elementor-1161 .elementor-widget-text-editor h1,
+    .elementor-1161 .elementor-widget-text-editor h2,
+    .elementor-1161 .elementor-widget-text-editor h3,
+    .elementor-1161 .elementor-widget-text-editor h4,
+    .elementor-1161 .elementor-widget-text-editor h5,
+    .elementor-1161 .elementor-widget-text-editor h6 {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
+    .elementor-1161 .elementor-element-6910057 .elementor-heading-title,
+    .elementor-1161 .elementor-element-6910057 .elementor-widget-text-editor,
+    .elementor-1161 .elementor-element-6910057 .elementor-widget-text-editor p,
+    .elementor-1161 .elementor-element-6910057 .elementor-widget-text-editor span,
+    .elementor-1161 .elementor-element-6910057 .elementor-widget-text-editor li,
+    .elementor-1161 .elementor-element-6910057 .elementor-widget-text-editor b,
+    .elementor-1161 .elementor-element-6910057 .elementor-widget-text-editor strong,
+    .elementor-1161 .elementor-element-6910057 .elementor-icon-list-text,
+    .elementor-1161 .elementor-element-6910057 .elementor-icon-list-icon i,
+    .elementor-1161 .elementor-element-6910057 .elementor-icon-list-icon svg,
+    .elementor-1161 .elementor-element-d8059cb .elementor-heading-title,
+    .elementor-1161 .elementor-element-d8059cb .elementor-widget-text-editor,
+    .elementor-1161 .elementor-element-d8059cb .elementor-widget-text-editor p,
+    .elementor-1161 .elementor-element-d8059cb .elementor-widget-text-editor span,
+    .elementor-1161 .elementor-element-d8059cb .elementor-widget-text-editor li,
+    .elementor-1161 .elementor-element-d8059cb .elementor-widget-text-editor b,
+    .elementor-1161 .elementor-element-d8059cb .elementor-widget-text-editor strong,
+    .elementor-1161 .elementor-element-d8059cb .elementor-icon-list-text,
+    .elementor-1161 .elementor-element-d8059cb .elementor-icon-list-icon i,
+    .elementor-1161 .elementor-element-d8059cb .elementor-icon-list-icon svg {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+</style>
 <div data-rocket-location-hash="bcc5ecc39907dc0404e559d5fb14476b" data-elementor-type="wp-page" data-elementor-id="1161" class="elementor elementor-1161" data-elementor-post-type="page">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-0d6748a elementor-section-full_width elementor-section-stretched elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle" data-id="0d6748a" data-element_type="section" data-e-type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 							<div class="elementor-background-overlay"></div>
@@ -606,4 +649,3 @@ Closed</p>				</div>
 				</div>
 				</div>
 @endsection
-

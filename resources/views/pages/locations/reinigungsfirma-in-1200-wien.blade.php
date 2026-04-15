@@ -32,6 +32,16 @@
         -webkit-text-fill-color: #6b6b6b !important;
     }
 
+    .elementor-1310 .elementor-element-bd1cb84 .elementor-heading-title,
+    .elementor-1310 .elementor-element-bd1cb84 .elementor-widget-text-editor,
+    .elementor-1310 .elementor-element-bd1cb84 .elementor-widget-text-editor p,
+    .elementor-1310 .elementor-element-bd1cb84 .elementor-widget-text-editor span,
+    .elementor-1310 .elementor-element-bd1cb84 .elementor-widget-text-editor strong,
+    .elementor-1310 .elementor-element-bd1cb84 .elementor-widget-text-editor b,
+    .elementor-1310 .elementor-element-bd1cb84 .elementor-widget-text-editor li,
+    .elementor-1310 .elementor-element-bd1cb84 .elementor-icon-list-text,
+    .elementor-1310 .elementor-element-bd1cb84 .elementor-icon-list-icon i,
+    .elementor-1310 .elementor-element-bd1cb84 .elementor-icon-list-icon svg,
     .elementor-1310 .elementor-element-d21ad8c .elementor-heading-title,
     .elementor-1310 .elementor-element-d21ad8c .elementor-widget-text-editor,
     .elementor-1310 .elementor-element-d21ad8c .elementor-widget-text-editor p,
@@ -60,6 +70,24 @@
     .elementor-1310 .fluentform_wrapper_4 textarea.ff-el-form-control {
         background: #ffffff !important;
         border-color: #d7dce3 !important;
+    }
+    .elementor-1310 .elementor-widget-text-editor,
+    .elementor-1310 .elementor-widget-text-editor p,
+    .elementor-1310 .elementor-widget-text-editor span,
+    .elementor-1310 .elementor-widget-text-editor li,
+    .elementor-1310 .elementor-widget-text-editor b,
+    .elementor-1310 .elementor-widget-text-editor strong {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
+    .elementor-1310 .elementor-element-d21ad8c .elementor-element-40248b1,
+    .elementor-1310 .elementor-element-d21ad8c .elementor-element-40248b1 p,
+    .elementor-1310 .elementor-element-d21ad8c .elementor-element-40248b1 span,
+    .elementor-1310 .elementor-element-d21ad8c .elementor-element-40248b1 b,
+    .elementor-1310 .elementor-element-d21ad8c .elementor-element-40248b1 strong,
+    .elementor-1310 .elementor-element-d21ad8c .elementor-element-40248b1 li {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
     }
 </style>
 <div data-rocket-location-hash="497596a9b45b6704a8298c726bda7a5d" data-elementor-type="wp-page" data-elementor-id="1310" class="elementor elementor-1310" data-elementor-post-type="page">

@@ -208,6 +208,7 @@
     body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor strong,
     body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor b,
     body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor li,
+    body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-widget-text-editor i,
     body.elementor-page-1139 .elementor.elementor-1139 > .elementor-element:not(.elementor-element-0d6748a):not(.elementor-element-6910057):not(.elementor-element-d8059cb) .elementor-icon-list-text {
         color: #5f5f5f !important;
         -webkit-text-fill-color: #5f5f5f !important;
@@ -260,6 +261,16 @@
     body.elementor-page-1139 .elementor-element.elementor-element-28a5c95 .ff-el-form-check span {
         color: #5d6c82 !important;
         -webkit-text-fill-color: #5d6c82 !important;
+    }
+    body.elementor-page-1139 .elementor-1139 .elementor-widget-text-editor,
+    body.elementor-page-1139 .elementor-1139 .elementor-widget-text-editor p,
+    body.elementor-page-1139 .elementor-1139 .elementor-widget-text-editor span,
+    body.elementor-page-1139 .elementor-1139 .elementor-widget-text-editor li,
+    body.elementor-page-1139 .elementor-1139 .elementor-widget-text-editor b,
+    body.elementor-page-1139 .elementor-1139 .elementor-widget-text-editor strong,
+    body.elementor-page-1139 .elementor-1139 .elementor-widget-text-editor i {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
     }
 </style>
 <div data-rocket-location-hash="44f11bb36beec1aee66d889974aeb8cd" class="tp-page-area page-padding">

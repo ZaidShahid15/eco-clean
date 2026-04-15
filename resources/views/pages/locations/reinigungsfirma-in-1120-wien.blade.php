@@ -44,13 +44,47 @@
         border-color: #d7dce3 !important;
     }
 
+    .elementor-1917 .elementor-element-484a4f7 .elementor-heading-title,
+    .elementor-1917 .elementor-element-484a4f7 .elementor-widget-text-editor,
+    .elementor-1917 .elementor-element-484a4f7 .elementor-widget-text-editor p,
+    .elementor-1917 .elementor-element-484a4f7 .elementor-widget-text-editor span,
+    .elementor-1917 .elementor-element-484a4f7 .elementor-widget-text-editor b,
+    .elementor-1917 .elementor-element-484a4f7 .elementor-widget-text-editor strong,
+    .elementor-1917 .elementor-element-484a4f7 .elementor-widget-text-editor li,
+    .elementor-1917 .elementor-element-484a4f7 .elementor-icon-list-text,
+    .elementor-1917 .elementor-element-484a4f7 .elementor-icon-list-icon i,
+    .elementor-1917 .elementor-element-484a4f7 .elementor-icon-list-icon svg,
     .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-heading-title,
     .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-widget-text-editor,
     .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-widget-text-editor p,
     .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-widget-text-editor span,
     .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-widget-text-editor b,
-    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-widget-text-editor strong {
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-widget-text-editor strong,
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-widget-text-editor li,
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-icon-list-text,
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-icon-list-icon i,
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-icon-list-icon svg {
         color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-element-40248b1,
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-element-40248b1 p,
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-element-40248b1 span,
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-element-40248b1 b,
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-element-40248b1 strong,
+    .elementor-1917 .elementor-element.elementor-element-d21ad8c .elementor-element-40248b1 li {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+    .elementor-1917 .elementor-widget-text-editor,
+    .elementor-1917 .elementor-widget-text-editor p,
+    .elementor-1917 .elementor-widget-text-editor span,
+    .elementor-1917 .elementor-widget-text-editor li,
+    .elementor-1917 .elementor-widget-text-editor b,
+    .elementor-1917 .elementor-widget-text-editor strong {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
     }
 </style>
 <div data-rocket-location-hash="d69a8e6b9272bf16e4d9e3d35da7a996" data-elementor-type="wp-page" data-elementor-id="1917" class="elementor elementor-1917" data-elementor-post-type="page">

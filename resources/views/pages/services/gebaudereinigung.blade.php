@@ -71,6 +71,15 @@
         background: #ffffff !important;
         border-color: #d7dce3 !important;
     }
+    .elementor-1740 .elementor-widget-text-editor,
+    .elementor-1740 .elementor-widget-text-editor p,
+    .elementor-1740 .elementor-widget-text-editor span,
+    .elementor-1740 .elementor-widget-text-editor li,
+    .elementor-1740 .elementor-widget-text-editor b,
+    .elementor-1740 .elementor-widget-text-editor strong {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
 </style>
 <div data-rocket-location-hash="50cf346737c91d84eb9399bf07cd211e" data-elementor-type="wp-page" data-elementor-id="1740" class="elementor elementor-1740" data-elementor-post-type="page">
 				<div class="elementor-element elementor-element-fc58b73 e-flex e-con-boxed e-con e-parent" data-id="fc58b73" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_bottom&quot;:&quot;tilt&quot;}">

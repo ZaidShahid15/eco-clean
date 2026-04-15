@@ -17,6 +17,18 @@
 @endsection
 
 @section('content')
+<style>
+    .elementor-532 .elementor-widget-text-editor,
+    .elementor-532 .elementor-widget-text-editor p,
+    .elementor-532 .elementor-widget-text-editor span,
+    .elementor-532 .elementor-widget-text-editor li,
+    .elementor-532 .elementor-widget-text-editor b,
+    .elementor-532 .elementor-widget-text-editor strong,
+    .elementor-532 .elementor-widget-text-editor i {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
+</style>
 <div data-rocket-location-hash="dc4bf842212fcf52ccf95f51116249f2" data-elementor-type="wp-page" data-elementor-id="532" class="elementor elementor-532" data-elementor-post-type="page">
 				<div data-rocket-location-hash="4ca90ffd32e76df212c0618981202236" class="elementor-element elementor-element-a8b848d e-con-full e-flex e-con e-parent" data-id="a8b848d" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-337953b elementor--h-position-center elementor--v-position-middle elementor-arrows-position-inside elementor-widget elementor-widget-slides" data-id="337953b" data-element_type="widget" data-e-type="widget" data-settings="{&quot;navigation&quot;:&quot;arrows&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;transition&quot;:&quot;slide&quot;,&quot;transition_speed&quot;:500}" data-widget_type="slides.default">

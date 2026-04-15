@@ -42,6 +42,26 @@
         color: #6b6b6b !important;
         -webkit-text-fill-color: #6b6b6b !important;
     }
+    .elementor-1277 .elementor-element-2d734fb .elementor-heading-title,
+    .elementor-1277 .elementor-element-2d734fb .elementor-widget-text-editor,
+    .elementor-1277 .elementor-element-2d734fb .elementor-widget-text-editor p,
+    .elementor-1277 .elementor-element-2d734fb .elementor-widget-text-editor span,
+    .elementor-1277 .elementor-element-2d734fb .elementor-widget-text-editor strong,
+    .elementor-1277 .elementor-element-2d734fb .elementor-widget-text-editor b,
+    .elementor-1277 .elementor-element-2d734fb .elementor-widget-text-editor li,
+    .elementor-1277 .elementor-element-2d734fb .elementor-icon-list-text,
+    .elementor-1277 .elementor-element-2d734fb .elementor-icon-list-icon i,
+    .elementor-1277 .elementor-element-2d734fb .elementor-icon-list-icon svg,
+    .elementor-1277 .elementor-element-40fb328 .elementor-heading-title,
+    .elementor-1277 .elementor-element-40fb328 .elementor-widget-text-editor,
+    .elementor-1277 .elementor-element-40fb328 .elementor-widget-text-editor p,
+    .elementor-1277 .elementor-element-40fb328 .elementor-widget-text-editor span,
+    .elementor-1277 .elementor-element-40fb328 .elementor-widget-text-editor strong,
+    .elementor-1277 .elementor-element-40fb328 .elementor-widget-text-editor b,
+    .elementor-1277 .elementor-element-40fb328 .elementor-widget-text-editor li,
+    .elementor-1277 .elementor-element-40fb328 .elementor-icon-list-text,
+    .elementor-1277 .elementor-element-40fb328 .elementor-icon-list-icon i,
+    .elementor-1277 .elementor-element-40fb328 .elementor-icon-list-icon svg,
     .elementor-1277 .elementor-element-d21ad8c .elementor-heading-title,
     .elementor-1277 .elementor-element-d21ad8c .elementor-widget-text-editor,
     .elementor-1277 .elementor-element-d21ad8c .elementor-widget-text-editor p,
@@ -54,6 +74,15 @@
     .elementor-1277 .elementor-element-d21ad8c .elementor-icon-list-icon svg {
         color: #ffffff !important;
         fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+    .elementor-1277 .elementor-element-d21ad8c .elementor-element-40248b1,
+    .elementor-1277 .elementor-element-d21ad8c .elementor-element-40248b1 p,
+    .elementor-1277 .elementor-element-d21ad8c .elementor-element-40248b1 span,
+    .elementor-1277 .elementor-element-d21ad8c .elementor-element-40248b1 b,
+    .elementor-1277 .elementor-element-d21ad8c .elementor-element-40248b1 strong,
+    .elementor-1277 .elementor-element-d21ad8c .elementor-element-40248b1 li {
+        color: #ffffff !important;
         -webkit-text-fill-color: #ffffff !important;
     }
 
@@ -70,6 +99,15 @@
     .elementor-1277 .fluentform_wrapper_4 textarea.ff-el-form-control {
         background: #ffffff !important;
         border-color: #d7dce3 !important;
+    }
+    .elementor-1277 .elementor-widget-text-editor,
+    .elementor-1277 .elementor-widget-text-editor p,
+    .elementor-1277 .elementor-widget-text-editor span,
+    .elementor-1277 .elementor-widget-text-editor li,
+    .elementor-1277 .elementor-widget-text-editor b,
+    .elementor-1277 .elementor-widget-text-editor strong {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
     }
 </style>
 <div data-rocket-location-hash="976ae0d2e6c7e92d9e6ebc5c31ba4a95" data-elementor-type="wp-page" data-elementor-id="1277" class="elementor elementor-1277" data-elementor-post-type="page">

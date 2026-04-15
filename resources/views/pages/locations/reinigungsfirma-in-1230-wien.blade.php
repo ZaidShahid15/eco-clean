@@ -42,6 +42,16 @@
         color: #6b6b6b !important;
         -webkit-text-fill-color: #6b6b6b !important;
     }
+    .elementor-1827 .elementor-element-23887c9 .elementor-heading-title,
+    .elementor-1827 .elementor-element-23887c9 .elementor-widget-text-editor,
+    .elementor-1827 .elementor-element-23887c9 .elementor-widget-text-editor p,
+    .elementor-1827 .elementor-element-23887c9 .elementor-widget-text-editor span,
+    .elementor-1827 .elementor-element-23887c9 .elementor-widget-text-editor strong,
+    .elementor-1827 .elementor-element-23887c9 .elementor-widget-text-editor b,
+    .elementor-1827 .elementor-element-23887c9 .elementor-widget-text-editor li,
+    .elementor-1827 .elementor-element-23887c9 .elementor-icon-list-text,
+    .elementor-1827 .elementor-element-23887c9 .elementor-icon-list-icon i,
+    .elementor-1827 .elementor-element-23887c9 .elementor-icon-list-icon svg,
     .elementor-1827 .elementor-element-d21ad8c .elementor-heading-title,
     .elementor-1827 .elementor-element-d21ad8c .elementor-widget-text-editor,
     .elementor-1827 .elementor-element-d21ad8c .elementor-widget-text-editor p,
@@ -70,6 +80,24 @@
     .elementor-1827 .fluentform_wrapper_4 textarea.ff-el-form-control {
         background: #ffffff !important;
         border-color: #d7dce3 !important;
+    }
+    .elementor-1827 .elementor-widget-text-editor,
+    .elementor-1827 .elementor-widget-text-editor p,
+    .elementor-1827 .elementor-widget-text-editor span,
+    .elementor-1827 .elementor-widget-text-editor li,
+    .elementor-1827 .elementor-widget-text-editor b,
+    .elementor-1827 .elementor-widget-text-editor strong {
+        color: #6b6b6b !important;
+        -webkit-text-fill-color: #6b6b6b !important;
+    }
+    .elementor-1827 .elementor-element-d21ad8c .elementor-element-40248b1,
+    .elementor-1827 .elementor-element-d21ad8c .elementor-element-40248b1 p,
+    .elementor-1827 .elementor-element-d21ad8c .elementor-element-40248b1 span,
+    .elementor-1827 .elementor-element-d21ad8c .elementor-element-40248b1 b,
+    .elementor-1827 .elementor-element-d21ad8c .elementor-element-40248b1 strong,
+    .elementor-1827 .elementor-element-d21ad8c .elementor-element-40248b1 li {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
     }
 </style>
 <div data-rocket-location-hash="698315744c62d85a9a0d1a0d072a6f9c" data-elementor-type="wp-page" data-elementor-id="1827" class="elementor elementor-1827" data-elementor-post-type="page">

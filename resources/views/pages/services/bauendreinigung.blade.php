@@ -15,6 +15,46 @@
 @endsection
 
 @section('content')
+<style>
+    .elementor-1174 .elementor-widget-text-editor,
+    .elementor-1174 .elementor-widget-text-editor p,
+    .elementor-1174 .elementor-widget-text-editor span,
+    .elementor-1174 .elementor-widget-text-editor li,
+    .elementor-1174 .elementor-widget-text-editor b,
+    .elementor-1174 .elementor-widget-text-editor strong,
+    .elementor-1174 .elementor-widget-text-editor h3 b,
+    .elementor-1174 .elementor-widget-text-editor h3 strong,
+    .elementor-1174 .elementor-widget-text-editor h4 b,
+    .elementor-1174 .elementor-widget-text-editor h4 strong {
+        color: #000 !important;
+        -webkit-text-fill-color: #000 !important;
+    }
+
+    .elementor-1174 .elementor-element-daeba25 .elementor-heading-title,
+    .elementor-1174 .elementor-element-daeba25 .elementor-widget-text-editor,
+    .elementor-1174 .elementor-element-daeba25 .elementor-widget-text-editor p,
+    .elementor-1174 .elementor-element-daeba25 .elementor-widget-text-editor span,
+    .elementor-1174 .elementor-element-daeba25 .elementor-widget-text-editor li,
+    .elementor-1174 .elementor-element-daeba25 .elementor-widget-text-editor b,
+    .elementor-1174 .elementor-element-daeba25 .elementor-widget-text-editor strong,
+    .elementor-1174 .elementor-element-daeba25 .elementor-icon-list-text,
+    .elementor-1174 .elementor-element-daeba25 .elementor-icon-list-icon i,
+    .elementor-1174 .elementor-element-daeba25 .elementor-icon-list-icon svg,
+    .elementor-1174 .elementor-element-d8059cb .elementor-heading-title,
+    .elementor-1174 .elementor-element-d8059cb .elementor-widget-text-editor,
+    .elementor-1174 .elementor-element-d8059cb .elementor-widget-text-editor p,
+    .elementor-1174 .elementor-element-d8059cb .elementor-widget-text-editor span,
+    .elementor-1174 .elementor-element-d8059cb .elementor-widget-text-editor li,
+    .elementor-1174 .elementor-element-d8059cb .elementor-widget-text-editor b,
+    .elementor-1174 .elementor-element-d8059cb .elementor-widget-text-editor strong,
+    .elementor-1174 .elementor-element-d8059cb .elementor-icon-list-text,
+    .elementor-1174 .elementor-element-d8059cb .elementor-icon-list-icon i,
+    .elementor-1174 .elementor-element-d8059cb .elementor-icon-list-icon svg {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+</style>
 <div  data-elementor-type="wp-page" data-elementor-id="1174" class="elementor elementor-1174" data-elementor-post-type="page">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-0d6748a elementor-section-full_width elementor-section-stretched elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle" data-id="0d6748a" data-element_type="section" data-e-type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 							<div class="elementor-background-overlay"></div>
@@ -642,4 +682,3 @@ Closed</p>				</div>
 				</div>
 				</div>
 @endsection
-
