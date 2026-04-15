@@ -1469,6 +1469,62 @@ body .elementor .e-con-parent:has(img.wp-image-1116) .elementor-widget-icon-list
     height: 13px !important;
 }
 
+/* Services archive: keep all cards visually equal on /leistungen. */
+body.elementor-page-30 .elementor-element.elementor-element-99a8f71 > .elementor-container {
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+body.elementor-page-30 .elementor-element.elementor-element-99a8f71 > .elementor-container > .elementor-column {
+    display: flex !important;
+}
+
+body.elementor-page-30 .elementor-element.elementor-element-99a8f71 > .elementor-container > .elementor-column > .elementor-widget-wrap {
+    display: flex !important;
+    width: 100% !important;
+}
+
+body.elementor-page-30 .services-one__single {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 470px !important;
+    background: #ffffff !important;
+}
+
+body.elementor-page-30 .services-one__single-img {
+    flex: 0 0 190px !important;
+    height: 190px !important;
+    overflow: hidden !important;
+}
+
+body.elementor-page-30 .services-one__single-img-inner,
+body.elementor-page-30 .services-one__single-img-inner img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+body.elementor-page-30 .services-one__single-img-inner img {
+    object-fit: cover !important;
+}
+
+body.elementor-page-30 .services-one__single-content {
+    display: flex !important;
+    flex: 1 1 auto !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    min-height: 280px !important;
+}
+
+body.elementor-page-30 .services-one__single-content h2 {
+    min-height: 74px !important;
+}
+
+body.elementor-page-30 .services-one__single-content p {
+    min-height: 72px !important;
+}
+
 /* Shared table of contents: toggle icon on the right, no scrollbar, clipped long lines. */
 body .elementor-widget-table-of-contents .elementor-widget-container {
     overflow: hidden !important;
