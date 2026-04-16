@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>@yield('title', 'ECO Clean')</title>
 <meta name="description" content="@yield('meta_description', '')">
-<meta name="robots" content="noindex, follow">
+<meta name="robots" content="@yield('robots', 'index, follow')">
 @php
     $canonicalValue = trim($__env->yieldContent('canonical'));
     $canonicalUrl = $canonicalValue === '' ? url()->current() : (str_starts_with($canonicalValue, 'http') ? $canonicalValue : url($canonicalValue));

@@ -3,7 +3,7 @@
 @section('title', '')
 @section('meta_description', '')
 @section('canonical', '/gallery/gallery-3/')
-@section('robots', '')
+@section('robots', 'index, follow')
 @section('og_title', '')
 @section('og_description', '')
 @section('og_image', '')

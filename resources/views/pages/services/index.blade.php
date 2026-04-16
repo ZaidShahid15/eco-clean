@@ -3,7 +3,7 @@
 @section('title', 'Reinigungsfirma Wien – Professionelle Reinigungsdienste')
 @section('meta_description', 'Entdecken Sie unsere Reinigungsdienste in Wien: Fensterreinigung, Büroreinigung, Bauendreinigung, Teppichreinigung, Industriereinigung und mehr!')
 @section('canonical', '/leistungen/')
-@section('robots', 'follow, noindex')
+@section('robots', 'index, follow')
 @section('og_title', 'Reinigungsfirma Wien – Professionelle Reinigungsdienste')
 @section('og_description', 'Entdecken Sie unsere Reinigungsdienste in Wien: Fensterreinigung, Büroreinigung, Bauendreinigung, Teppichreinigung, Industriereinigung und mehr!')
 @section('og_image', '/assets/mirror/eco-clean.at/wp-content/uploads/2023/10/service-details-img1.jpg')
