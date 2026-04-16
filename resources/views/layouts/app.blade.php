@@ -365,7 +365,8 @@
   #cmplz-manage-consent {
     position: fixed;
     right: 18px;
-    bottom: 18px;
+    /* width: 400px !important; */
+    bottom: -2px !important;
     z-index: 999998;
   }
 
@@ -374,7 +375,7 @@
     border: 0;
     background: linear-gradient(90deg, #0d7ef1 0%, #79e1e7 100%);
     color: transparent;
-    width: 108px;
+    width: 148px;
     height: 26px;
     padding: 0;
     font-size: 0;
@@ -442,7 +443,7 @@
     }
 
     #cmplz-manage-consent {
-      right: 14px;
+      right: -2px;
       bottom: 14px;
     }
   }

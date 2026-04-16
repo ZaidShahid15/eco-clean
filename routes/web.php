@@ -1,8 +1,10 @@
 <?php
 
 use App\Http\Controllers\ContactFormController;
+use App\Http\Controllers\SitemapController;
 use Illuminate\Support\Facades\Route;
 
+Route::get('/sitemap.xml', SitemapController::class)->name('sitemap');
 Route::post('/contact-submit', ContactFormController::class)->name('contact.submit');
 
 Route::view('/', 'pages.home')->name('home');
