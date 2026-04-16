@@ -1,6 +1,159 @@
 <script src="{{ asset('assets/js/clone-app.js') }}"></script>
 <script>
 (() => {
+    const prefix = 'cmplz_';
+    const expiryDays = 365;
+    const categories = ['preferences', 'statistics', 'marketing'];
+
+    const setCookie = (name, value) => {
+        const expires = new Date(Date.now() + expiryDays * 864e5).toUTCString();
+        document.cookie = `${prefix}${name}=${encodeURIComponent(value)}; expires=${expires}; path=/; SameSite=Lax`;
+    };
+
+    const getCookie = (name) => {
+        const target = `${prefix}${name}=`;
+        return document.cookie
+            .split(';')
+            .map((item) => item.trim())
+            .find((item) => item.startsWith(target))
+            ?.slice(target.length) ?? '';
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const banner = document.querySelector('#cmplz-cookiebanner-container .cmplz-cookiebanner');
+        const manageButton = document.querySelector('#cmplz-manage-consent .cmplz-manage-consent');
+
+        if (!banner || !manageButton) return;
+
+        const optionalCheckboxes = Array.from(banner.querySelectorAll('.cmplz-consent-checkbox:not(.cmplz-functional)'));
+        const acceptButton = banner.querySelector('.cmplz-accept');
+        const denyButton = banner.querySelector('.cmplz-deny');
+        const saveButton = banner.querySelector('.cmplz-save-preferences');
+        const viewPreferencesButton = banner.querySelector('.cmplz-view-preferences');
+        const closeButton = banner.querySelector('.cmplz-close');
+        const details = Array.from(banner.querySelectorAll('.cmplz-category'));
+
+        const showBanner = () => {
+            banner.classList.remove('cmplz-hidden');
+            banner.classList.remove('cmplz-dismissed');
+            banner.classList.add('cmplz-show');
+            manageButton.classList.remove('cmplz-show');
+            manageButton.classList.add('cmplz-dismissed', 'cmplz-hidden');
+        };
+
+        const hideBanner = () => {
+            banner.classList.remove('cmplz-show');
+            banner.classList.add('cmplz-dismissed', 'cmplz-hidden');
+            manageButton.classList.remove('cmplz-hidden', 'cmplz-dismissed');
+            manageButton.classList.add('cmplz-show');
+        };
+
+        const setPreferencesVisibility = (visible) => {
+            banner.classList.toggle('cmplz-categories-visible', visible);
+
+            details.forEach((detail, index) => {
+                detail.open = index === 0 || visible;
+            });
+        };
+
+        const applyConsentToInputs = () => {
+            optionalCheckboxes.forEach((checkbox) => {
+                const category = checkbox.dataset.category?.replace('cmplz_', '');
+                checkbox.checked = getCookie(category) === 'allow';
+            });
+        };
+
+        const setBannerStatus = (status) => {
+            setCookie('banner-status', status);
+
+            if (status === 'dismissed') {
+                hideBanner();
+                return;
+            }
+
+            showBanner();
+        };
+
+        const setConsent = (category, allowed) => {
+            setCookie(category, allowed ? 'allow' : 'deny');
+        };
+
+        const acceptAll = () => {
+            categories.forEach((category) => setConsent(category, true));
+            applyConsentToInputs();
+            setBannerStatus('dismissed');
+        };
+
+        const denyAll = () => {
+            categories.forEach((category) => setConsent(category, false));
+            applyConsentToInputs();
+            setBannerStatus('dismissed');
+        };
+
+        const savePreferences = () => {
+            optionalCheckboxes.forEach((checkbox) => {
+                const category = checkbox.dataset.category?.replace('cmplz_', '');
+                setConsent(category, checkbox.checked);
+            });
+
+            hideBanner();
+        };
+
+        const resetLegacyConsent = () => {
+            try {
+                localStorage.removeItem('cmplz_cookie_consent');
+            } catch (error) {
+                // Ignore storage cleanup issues.
+            }
+        };
+
+        resetLegacyConsent();
+        applyConsentToInputs();
+        setPreferencesVisibility(false);
+
+        if (getCookie('banner-status') === 'dismissed') {
+            hideBanner();
+        } else {
+            showBanner();
+        }
+
+        acceptButton?.addEventListener('click', () => {
+            acceptAll();
+        });
+
+        denyButton?.addEventListener('click', () => {
+            denyAll();
+        });
+
+        saveButton?.addEventListener('click', () => {
+            savePreferences();
+            setBannerStatus('dismissed');
+        });
+
+        viewPreferencesButton?.addEventListener('click', () => {
+            setPreferencesVisibility(!banner.classList.contains('cmplz-categories-visible'));
+        });
+
+        manageButton?.addEventListener('click', () => {
+            setPreferencesVisibility(false);
+            setBannerStatus('show');
+        });
+
+        closeButton?.addEventListener('click', () => {
+            setBannerStatus('dismissed');
+        });
+
+        closeButton?.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                setBannerStatus('dismissed');
+            }
+        });
+    });
+})();
+</script>
+<script>
+(() => {
     const exactTextMap = new Map([
         ['First Name', 'Vorname'],
         ['Last Name', 'Nachname'],
