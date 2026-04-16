@@ -252,7 +252,7 @@
 				</div>
 				<div class="elementor-element elementor-element-00ea37a zaid-white-copy elementor-widget elementor-widget-text-editor" data-id="00ea37a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Eco-Clean legt großen Wert auf ein eingespieltes Team und geschulte Fachkräfte, die durch regelmäßige Weiterbildungen immer auf dem neuesten Stand der Reinigungsbranche sind. Für uns bedeutet Reinigung mehr als nur Sauberkeit – es ist eine Aufgabe, die zu einem produktiven und gesunden Umfeld beiträgt. Unsere Mitarbeiter sorgen dafür, dass Ihr Zuhause und Ihre Arbeitsumgebung sauber und hygienisch sind.</p><p> </p><p>Wir beraten Sie bei der Auswahl der richtigen Reinigungsprodukte für Ihre individuellen Anforderungen und bieten eine breite Palette an Lösungen, die sich bewährt haben – von speziellen Reinigungsmitteln für hartnäckigen Schmutz bis hin zu umweltfreundlichen Alternativen.</p><p> </p><p> </p><h3><strong>KONTAKTIEREN SIE UNS</strong></h3><p>Egal, ob Sie Unterstützung bei alltäglichen Reinigungsaufgaben oder spezielle Pflege in verschiedenen Bereichen wie Garten, Küche oder WC benötigen, Eco-Clean steht Ihnen zur Seite. Wir freuen uns darauf, Ihnen mit Rat und Tat zur Seite zu stehen und jedes Reinigungsproblem zu lösen.</p><p> </p>								</div>
+									<p>Eco-Clean legt großen Wert auf ein eingespieltes Team und geschulte Fachkräfte, die durch regelmäßige Weiterbildungen immer auf dem neuesten Stand der Reinigungsbranche sind. Für uns bedeutet Reinigung mehr als nur Sauberkeit – es ist eine Aufgabe, die zu einem produktiven und gesunden Umfeld beiträgt. Unsere Mitarbeiter sorgen dafür, dass Ihr Zuhause und Ihre Arbeitsumgebung sauber und hygienisch sind.</p><p> </p><p>Wir beraten Sie bei der Auswahl der richtigen Reinigungsprodukte für Ihre individuellen Anforderungen und bieten eine breite Palette an Lösungen, die sich bewährt haben – von speziellen Reinigungsmitteln für hartnäckigen Schmutz bis hin zu umweltfreundlichen Alternativen.</p><p> </p><p> </p><h3 class="zaid-contact-white-heading"><strong>KONTAKTIEREN SIE UNS</strong></h3><p>Egal, ob Sie Unterstützung bei alltäglichen Reinigungsaufgaben oder spezielle Pflege in verschiedenen Bereichen wie Garten, Küche oder WC benötigen, Eco-Clean steht Ihnen zur Seite. Wir freuen uns darauf, Ihnen mit Rat und Tat zur Seite zu stehen und jedes Reinigungsproblem zu lösen.</p><p> </p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-1510a86 zaid-white-copy elementor-widget__width-auto elementor-widget elementor-widget-shortcode" data-id="1510a86" data-element_type="widget" data-e-type="widget" data-widget_type="shortcode.default">
 				<div class="elementor-widget-container">
@@ -290,7 +290,7 @@
                                 <i aria-hidden="true" class=" icon-certificate"></i>                            </div>
                         
                                                     <div class="text-box">
-                                <h3 class="odometer" data-count="10">00</h3>
+                                <h3 class="odometer" data-count="10">10</h3>
                                 <span class="counter-one__letter">K</span>
                                 <p class="counter-one__text">Cleanings</p>
                             </div>
@@ -320,7 +320,7 @@
                                 <i aria-hidden="true" class="icon-certificate-1"></i>                            </div>
                         
                                                     <div class="text-box">
-                                <h3 class="odometer" data-count="80">00</h3>
+                                <h3 class="odometer" data-count="80">80</h3>
                                 <span class="counter-one__letter">+</span>
                                 <p class="counter-one__text">Happy Clients</p>
                             </div>

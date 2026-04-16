@@ -1525,6 +1525,76 @@ body.elementor-page-30 .services-one__single-content p {
     min-height: 72px !important;
 }
 
+/* About page: keep only the contact callout heading white. */
+body.elementor-page-535 .zaid-contact-white-heading,
+body.elementor-page-535 .zaid-contact-white-heading strong {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+/* About page counters: keep icon, number, and label close and readable. */
+body.elementor-page-535 .elementor-element.elementor-element-4dd77ef .counter-one__single-inner {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 12px !important;
+}
+
+body.elementor-page-535 .elementor-element.elementor-element-4dd77ef .counter-one__single .icon-box {
+    flex: 0 0 auto !important;
+    margin: 0 !important;
+}
+
+body.elementor-page-535 .elementor-element.elementor-element-4dd77ef .counter-one__single .text-box {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: flex-start !important;
+    align-content: center !important;
+    gap: 0 6px !important;
+    min-width: 0 !important;
+}
+
+body.elementor-page-535 .elementor-element.elementor-element-4dd77ef .counter-one__single .odometer,
+body.elementor-page-535 .elementor-element.elementor-element-4dd77ef .counter-one__single .counter-one__letter {
+    display: inline-block !important;
+    line-height: 1 !important;
+    margin: 0 !important;
+}
+
+body.elementor-page-535 .elementor-element.elementor-element-4dd77ef .counter-one__single .counter-one__text {
+    flex: 0 0 100% !important;
+    margin: 4px 0 0 !important;
+    line-height: 1.2 !important;
+}
+
+body.elementor-page-535 .elementor-element.elementor-element-ca5b56f > .elementor-container {
+    align-items: flex-start !important;
+}
+
+@media (min-width: 768px) {
+    body.elementor-page-535 .elementor-element.elementor-element-ca5b56f > .elementor-container {
+        padding-left: 32px !important;
+        padding-right: 32px !important;
+    }
+}
+
+body.elementor-page-535 .elementor-element.elementor-element-ca5b56f > .elementor-container > .elementor-column > .elementor-widget-wrap {
+    display: flex !important;
+    min-height: 100% !important;
+}
+
+body.elementor-page-535 .elementor-element.elementor-element-ca5b56f .elementor-element.elementor-element-d43429e > .elementor-widget-wrap {
+    justify-content: center !important;
+    align-items: flex-start !important;
+    padding-top: 18px !important;
+}
+
+body.elementor-page-535 .elementor-element.elementor-element-ca5b56f .elementor-element.elementor-element-87e885f > .elementor-widget-wrap,
+body.elementor-page-535 .elementor-element.elementor-element-ca5b56f .elementor-element.elementor-element-e95b56d > .elementor-widget-wrap {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
 /* Shared table of contents: toggle icon on the right, no scrollbar, clipped long lines. */
 body .elementor-widget-table-of-contents .elementor-widget-container {
     overflow: hidden !important;
