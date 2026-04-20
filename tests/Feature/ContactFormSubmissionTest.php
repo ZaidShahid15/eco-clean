@@ -29,7 +29,7 @@ class ContactFormSubmissionTest extends TestCase
 
         $response
             ->assertRedirect()
-            ->assertSessionHas('status', 'Your message has been sent successfully.');
+            ->assertSessionHas('status', 'Ihre Nachricht wurde erfolgreich gesendet.');
 
         Mail::assertSent(ContactFormSubmissionMail::class, function (ContactFormSubmissionMail $mail) {
             return $mail->hasTo('1zaidshaikh234@gmail.com')
