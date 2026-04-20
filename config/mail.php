@@ -116,7 +116,7 @@ return [
     'contact' => [
         'to' => [
             'address' => env('MAIL_TO_ADDRESS', 'Ast.mediainternational@gmail.com'),
-            'name' => env('MAIL_TO_NAME', 'Zaid Shaikh'),
+            'name' => env('MAIL_TO_NAME', 'Ast Media'),
         ],
     ],
 
