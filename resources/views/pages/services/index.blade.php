@@ -670,7 +670,8 @@ Rufen Sie an: +43 1 4420281</a></h2>				</div>
 						<div class="elementor-element elementor-element-5de9e2a elementor-widget elementor-widget-shortcode" data-id="5de9e2a" data-element_type="widget" data-e-type="widget" data-widget_type="shortcode.default">
 				<div class="elementor-widget-container">
 							<div class="elementor-shortcode">
-								<form class="fluentform frm-fluent-form fluent_form_3 ff-default ff-el-form-top fluentform_wrapper_3 ffs_custom_wrap ffs_custom" action="#" method="post">
+								<form class="fluentform eco-contact-form fluent_form_3 ff-default ff-el-form-top fluentform_wrapper_3 ffs_custom_wrap ffs_custom" action="#" method="post" action="{{ route('contact.submit') }}">
+@csrf
 									<fieldset style="border:none!important;margin:0!important;padding:0!important;background-color:transparent!important;box-shadow:none!important;outline:none!important;min-inline-size:100%;">
 										<div class="ff-t-container">
 											<div class="ff-t-cell">

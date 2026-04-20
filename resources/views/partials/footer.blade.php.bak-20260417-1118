@@ -335,7 +335,7 @@
                 </li>
                 <li>
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.55 18.2 3.8 12.45l1.4-1.4 4.35 4.34 9.25-9.24 1.4 1.4L9.55 18.2z"/></svg>
-                    <a href="{{ route('legal.privacy') }}">Datenschutz</a>
+                    <a href="{{ route('legal.impressum') }}">Datenschutz</a>
                 </li>
             </ul>
         </div>
@@ -349,7 +349,7 @@
                 </li>
                 <li class="eco-site-footer__contact-item">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16a1 1 0 0 1 1 1v.64l-9 6.75-9-6.75V6a1 1 0 0 1 1-1zm17 3.11-8.4 6.3a1 1 0 0 1-1.2 0L3 8.11V18a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V8.11z"/></svg>
-                    <a href="mailto:office@eco-clean.at">office@eco-clean.at</a>
+                    <a href="mailto:office@eco-clean.at">info@eco-clean.at</a>
                 </li>
                 <li class="eco-site-footer__contact-item">
                     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 1 7 7c0 4.82-5.02 10.39-6.42 11.86a.83.83 0 0 1-1.16 0C10.02 19.39 5 13.82 5 9a7 7 0 0 1 7-7zm0 9.5A2.5 2.5 0 1 0 12 6a2.5 2.5 0 0 0 0 5.5z"/></svg>
@@ -373,7 +373,7 @@
             <div class="eco-site-footer__bottom-links">
                 <a href="{{ route('legal.impressum') }}">Impressum</a>
                 <span>|</span>
-                <a href="{{ route('legal.privacy') }}">Datenschutz</a>
+                <a href="{{ route('legal.impressum') }}">Datenschutz</a>
             </div>
         </div>
     </div>

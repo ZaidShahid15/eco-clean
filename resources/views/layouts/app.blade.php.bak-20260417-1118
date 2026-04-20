@@ -454,6 +454,7 @@
         {!! $renderedContent !!}
         @include('partials.footer')
     </div>
+    @include('partials.cookie-banner')
     @include('partials.scripts')
 </body>
 </html>

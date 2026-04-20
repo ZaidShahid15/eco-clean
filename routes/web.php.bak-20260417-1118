@@ -10,7 +10,6 @@ Route::post('/contact-submit', ContactFormController::class)->name('contact.subm
 Route::view('/', 'pages.home')->name('home');
 Route::view('/leistungen/', 'pages.services.index')->name('services.index');
 Route::view('/impressum/', 'pages.legal.impressum')->name('legal.impressum');
-Route::view('/datenschutz/', 'pages.legal.datenschutz')->name('legal.privacy');
 Route::view('/uber-uns/', 'pages.about')->name('about');
 Route::view('/hausbetreuung/', 'pages.services.hausbetreuung')->name('services.hausbetreuung');
 Route::view('/reinigungsfirma-in-1190-wien/', 'pages.locations.reinigungsfirma-in-1190-wien')->name('locations.reinigungsfirma-in-1190-wien');
