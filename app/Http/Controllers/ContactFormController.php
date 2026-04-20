@@ -27,10 +27,10 @@ class ContactFormController extends Controller
             return back()
                 ->withInput()
                 ->withErrors([
-                    'contact_form' => 'We could not send your request right now. Please try again in a moment.',
+                    'contact_form' => 'Ihre Anfrage konnte derzeit nicht gesendet werden. Bitte versuchen Sie es in wenigen Augenblicken erneut.',
                 ]);
         }
 
-        return back()->with('status', 'Your message has been sent successfully.');
+        return back()->with('status', 'Ihre Nachricht wurde erfolgreich gesendet.');
     }
 }

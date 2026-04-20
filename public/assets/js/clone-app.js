@@ -181,7 +181,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     document.querySelectorAll('form').forEach((form) => {
-        const isLiveContactForm = form.classList.contains('frm-fluent-form');
+        const isLiveContactForm =
+            form.classList.contains('frm-fluent-form') ||
+            /^fluentform_\d+$/i.test(form.id) ||
+            Boolean(form.closest('.fluentform'));
         const isSearchForm =
             form.matches('[role="search"]') ||
             form.classList.contains('sidebar__search-form') ||
